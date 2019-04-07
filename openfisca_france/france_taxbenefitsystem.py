@@ -35,10 +35,3 @@ class FranceTaxBenefitSystem(TaxBenefitSystem):
             "parameter_example": "cotsoc.gen.smic_h_b",
             "simulation_example": couple,
             }
-
-    def prefill_cache(self):
-        # Compute one "zone APL" variable, to pre-load CSV of "code INSEE commune" to "Zone APL".
-        from .model.prestations import aides_logement
-        aides_logement.preload_zone_apl()
-        from .model.prelevements_obligatoires.prelevements_sociaux.contributions_sociales import versement_transport
-        versement_transport.preload_taux_versement_transport()
