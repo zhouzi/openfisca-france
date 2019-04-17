@@ -1,9 +1,23 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 
 from setuptools import setup, find_packages
 
+openfisca_core_version = " >= 23.1.2, < 24"
+local_requires = [
+    "OpenFisca-Core" + openfisca_core_version,
+    'requests >= 2.8',
+    ]
+server_requires = [
+    "OpenFisca-Core[web-api]" + openfisca_core_version,
+    "OpenFisca-Tracker >=0.4.0,<1.0.0",
+    'requests >= 2.8',
+    ]
+server = os.environ.get('SERVER', None)
+
+install_requires = server_requires if server else local_requires
 
 setup(
     name = 'OpenFisca-France',
@@ -43,16 +57,13 @@ setup(
         'test': [
             'nose',
             'flake8 == 3.4.1',
-            'scipy >= 0.17', # Only used to test de_net_a_brut reform
+            'scipy >= 0.17',  # Only used to test de_net_a_brut reform
             ],
         },
     include_package_data = True,  # Will read MANIFEST.in
-    install_requires = [
-        'OpenFisca-Core >= 23.1.2, < 24',
-        'requests >= 2.8',
-        ],
-    message_extractors = {'openfisca_france': [
-        ('**.py', 'python', None),
+    install_requires = install_requires,
+    message_extractors = {"openfisca_france": [
+        ("**.py", "python", None),
         ]},
     packages = find_packages(exclude=['openfisca_france.tests*']),
     test_suite = 'nose.collector',
