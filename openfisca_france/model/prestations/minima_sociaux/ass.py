@@ -21,28 +21,30 @@ class ass(Variable):
     set_input = set_input_divide_by_period
 
     def formula(individu, period, parameters):
-        ass_base_ressources = individu.famille('ass_base_ressources', period)
-        en_couple = individu.famille('en_couple', period)
-        residence_mayotte = individu.menage('residence_mayotte', period)
-        ass_params = parameters(period).prestations.minima_sociaux.ass
-
         elig = individu('ass_eligibilite_individu', period)
 
-        montant_journalier = where(residence_mayotte, ass_params.montant_plein_mayotte, ass_params.montant_plein)
-        montant_mensuel = 30 * montant_journalier
-        plafond_mensuel = montant_journalier * (
-            not_(en_couple) * ass_params.plaf_seul
-            + en_couple * ass_params.plaf_coup
-            )
-        revenus = ass_base_ressources / 12
+        def si_eligible(individu):
+            ass_base_ressources = individu.famille('ass_base_ressources', period)
+            en_couple = individu.famille('en_couple', period)
+            residence_mayotte = individu.menage('residence_mayotte', period)
+            ass_params = parameters(period).prestations.minima_sociaux.ass
 
-        ass = min_(montant_mensuel, plafond_mensuel - revenus)
-        ass = max_(ass, 0)
-        ass = ass * elig
-        # pas d'ASS si montant mensuel < montant journalier de base
-        ass = ass * not_(ass < ass_params.montant_plein)
 
-        return ass
+            montant_journalier = where(residence_mayotte, ass_params.montant_plein_mayotte, ass_params.montant_plein)
+            montant_mensuel = 30 * montant_journalier
+            plafond_mensuel = montant_journalier * (
+                not_(en_couple) * ass_params.plaf_seul
+                + en_couple * ass_params.plaf_coup
+                )
+            revenus = ass_base_ressources / 12
+
+            ass = min_(montant_mensuel, plafond_mensuel - revenus)
+            ass = max_(ass, 0)
+            # pas d'ASS si montant mensuel < montant journalier de base
+            ass = ass * not_(ass < ass_params.montant_plein)
+            return ass
+
+        return individu.if_(elig, si_eligible)
 
 
 class ass_base_ressources(Variable):

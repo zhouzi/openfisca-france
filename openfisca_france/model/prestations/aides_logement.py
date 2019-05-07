@@ -45,10 +45,12 @@ class apl(Variable):
     set_input = set_input_divide_by_period
 
     def formula(famille, period):
-        aide_logement_montant = famille('aide_logement_montant', period)
         logement_conventionne = famille.demandeur.menage('logement_conventionne', period)
 
-        return aide_logement_montant * logement_conventionne
+        def montant(famille):
+           return famille('aide_logement_montant', period)
+
+        return famille.if_(logement_conventionne, montant)
 
 
 class als(Variable):
@@ -61,12 +63,17 @@ class als(Variable):
     set_input = set_input_divide_by_period
 
     def formula(famille, period):
-        aide_logement_montant = famille('aide_logement_montant', period)
         al_nb_pac = famille('al_nb_personnes_a_charge', period)
         proprietaire_proche_famille = famille('proprietaire_proche_famille', period)
         logement_conventionne = famille.demandeur.menage('logement_conventionne', period)
 
-        return (al_nb_pac == 0) * not_(logement_conventionne) * not_(proprietaire_proche_famille) * aide_logement_montant
+        elig = (al_nb_pac == 0) * not_(logement_conventionne) * not_(proprietaire_proche_famille)
+
+        def montant(famille):
+           return famille('aide_logement_montant', period)
+
+        return famille.if_(elig, montant)
+
 
 
 class alf(Variable):
@@ -79,13 +86,16 @@ class alf(Variable):
     set_input = set_input_divide_by_period
 
     def formula(famille, period):
-        aide_logement_montant = famille('aide_logement_montant', period)
         al_nb_pac = famille('al_nb_personnes_a_charge', period)
         proprietaire_proche_famille = famille('proprietaire_proche_famille', period)
         logement_conventionne = famille.demandeur.menage('logement_conventionne', period)
 
-        return (al_nb_pac >= 1) * not_(logement_conventionne) * not_(proprietaire_proche_famille) * aide_logement_montant
+        elig = (al_nb_pac >= 1) * not_(logement_conventionne) * not_(proprietaire_proche_famille)
 
+        def montant(famille):
+           return famille('aide_logement_montant', period)
+
+        return famille.if_(elig, montant)
 
 class aide_logement_montant(Variable):
     value_type = float
@@ -572,10 +582,11 @@ class aide_logement_neutralisation_rsa(Variable):
         # We don't allow it, so default value of rsa will be returned if a recursion is detected.
         rsa_mois_dernier = famille('rsa', period.last_month)
 
-        revenus_a_neutraliser_i = famille.members('revenu_assimile_salaire_apres_abattements', period.n_2)
-        revenus_a_neutraliser = famille.sum(revenus_a_neutraliser_i)
+        def revenus_a_neutraliser(famille):
+            revenus_a_neutraliser_i = famille.members('revenu_assimile_salaire_apres_abattements', period.n_2)
+            return famille.sum(revenus_a_neutraliser_i)
 
-        return revenus_a_neutraliser * (rsa_mois_dernier > 0)
+        return famille.if_(rsa_mois_dernier > 0, revenus_a_neutraliser)
 
 
 class aide_logement_base_ressources_defaut(Variable):

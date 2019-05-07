@@ -921,46 +921,53 @@ class rsa_socle(Variable):
     definition_period = MONTH
 
     def formula_2009_06_01(famille, period, parameters):
-        nb_parents = famille('nb_parents', period)
         eligib = famille('rsa_eligibilite', period)
-        rsa_nb_enfants = famille('rsa_nb_enfants', period)
-        nb_personnes = nb_parents + rsa_nb_enfants
 
-        rsa = parameters(period).prestations.minima_sociaux.rsa
+        def si_eligible(famille):
+            nb_parents = famille('nb_parents', period)
+            rsa_nb_enfants = famille('rsa_nb_enfants', period)
+            nb_personnes = nb_parents + rsa_nb_enfants
 
-        taux = (
-            1
-            + (nb_personnes >= 2) * rsa.majoration_rsa.taux_deuxieme_personne
-            + (nb_personnes >= 3) * rsa.majoration_rsa.taux_troisieme_personne
-            + (nb_personnes >= 4) * where(nb_parents == 1, rsa.majoration_rsa.taux_personne_supp, rsa.majoration_rsa.taux_troisieme_personne)
-            # Si nb_parents == 1, pas de conjoint, la 4e personne est un enfant, donc le taux est de 40%.
-            + max_(nb_personnes - 4, 0) * rsa.majoration_rsa.taux_personne_supp
-            )
+            rsa = parameters(period).prestations.minima_sociaux.rsa
 
-        socle = rsa.montant_de_base_du_rsa
+            taux = (
+                1
+                + (nb_personnes >= 2) * rsa.majoration_rsa.taux_deuxieme_personne
+                + (nb_personnes >= 3) * rsa.majoration_rsa.taux_troisieme_personne
+                + (nb_personnes >= 4) * where(nb_parents == 1, rsa.majoration_rsa.taux_personne_supp, rsa.majoration_rsa.taux_troisieme_personne)
+                # Si nb_parents == 1, pas de conjoint, la 4e personne est un enfant, donc le taux est de 40%.
+                + max_(nb_personnes - 4, 0) * rsa.majoration_rsa.taux_personne_supp
+                )
 
-        return eligib * socle * taux
+            socle = rsa.montant_de_base_du_rsa
+            return socle * taux
+
+        return famille.if_(eligib, si_eligible)
 
     # RMI
     def formula(famille, period, parameters):
-        nb_parents = famille('nb_parents', period)
         eligib = famille('rsa_eligibilite', period)
-        rsa_nb_enfants = famille('rsa_nb_enfants', period)
-        nb_personnes = nb_parents + rsa_nb_enfants
 
-        rmi = parameters(period).prestations.minima_sociaux.rmi
-        taux = (
-            1
-            + (nb_personnes >= 2) * rmi.txp2
-            + (nb_personnes >= 3) * rmi.txp3
-            + (nb_personnes >= 4) * where(nb_parents == 1, rmi.txps, rmi.txp3)
-            # Si nb_parents == 1, pas de conjoint, la 4e personne est un enfant, donc le taux est de 40%.
-            + max_(nb_personnes - 4, 0) * rmi.txps
-            )
+        def si_eligible(famille):
+            nb_parents = famille('nb_parents', period)
+            rsa_nb_enfants = famille('rsa_nb_enfants', period)
+            nb_personnes = nb_parents + rsa_nb_enfants
 
-        socle = rmi.rmi
+            rmi = parameters(period).prestations.minima_sociaux.rmi
+            taux = (
+                1
+                + (nb_personnes >= 2) * rmi.txp2
+                + (nb_personnes >= 3) * rmi.txp3
+                + (nb_personnes >= 4) * where(nb_parents == 1, rmi.txps, rmi.txp3)
+                # Si nb_parents == 1, pas de conjoint, la 4e personne est un enfant, donc le taux est de 40%.
+                + max_(nb_personnes - 4, 0) * rmi.txps
+                )
 
-        return eligib * socle * taux
+            socle = rmi.rmi
+
+            return socle * taux
+
+        return famille.if_(eligib, si_eligible)
 
 
 class rsa_socle_majore(Variable):
