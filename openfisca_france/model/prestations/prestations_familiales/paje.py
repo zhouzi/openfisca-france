@@ -150,8 +150,8 @@ class paje_base(Variable):
         a_un_enfant_eligible = famille.any(famille.members('enfant_eligible_paje', period))
         date_plus_jeune = famille.reduce(famille.members('date_naissance', period), maximum, datetime64('1066-01-01'))
         # On veut obtenir *pour chaque individu* la date du plus jeune membre de la famille de cet individu
-        # on va donc "rétro-projeter" date_plus_jeune vers un array de la taille des individus
-        date_plus_jeune_i = date_plus_jeune[famille.members_entity_id]
+        # on va donc projeter date_plus_jeune vers un array de la taille des individus
+        date_plus_jeune_i = famille.project(date_plus_jeune)
         # Pour chaque individu, est-il né à la même date que l'enfant le plus jeune de sa famille ?
         ne_a_date_plus_jeune_i = np.equal(date_plus_jeune_i, famille.members('date_naissance', period))
         # Et donc famille.sum() de cette quantité nous donne le nombre de naissances à cette date
