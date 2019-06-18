@@ -786,7 +786,7 @@ class revenu_categoriel_capital(Variable):
         abattement_dividende = (f2fu + f2dc) * P.taux_abattement_capitaux_mobiliers
         abattement_assurance_vie = P.abat_assvie * (1 + maries_ou_pacses)
         rvcm_apres_abattement = (
-            f2fu + f2dc - abattement_dividende
+            max_(0, f2fu + f2dc - abattement_dividende)
             + f2ch - min_(f2ch, abattement_assurance_vie)
             + f2ts + f2tr + f2go * P.majoration_revenus_reputes_distribues
             )
@@ -814,7 +814,7 @@ class revenu_categoriel_capital(Variable):
         abattement_dividende = (f2fu + f2dc) * P.taux_abattement_capitaux_mobiliers
         abattement_assurance_vie = P.abat_assvie * (1 + maries_ou_pacses)
         rvcm_apres_abattement = (
-            f2fu + f2dc - abattement_dividende
+            max_(0, f2fu + f2dc - abattement_dividende)
             + f2ch - min_(f2ch, abattement_assurance_vie)
             + f2ts + f2tr + max_(0, f2tt_2016 - f2tu_2016) + f2go * P.majoration_revenus_reputes_distribues
             )
@@ -849,7 +849,7 @@ class revenu_categoriel_capital(Variable):
         abattement_dividende = (f2fu + f2dc) * P.taux_abattement_capitaux_mobiliers
         abattement_assurance_vie = P.abat_assvie * (1 + maries_ou_pacses)
         rvcm_apres_abattement = (
-            f2fu + f2dc - abattement_dividende
+            max_(0, f2fu + f2dc - abattement_dividende)
             + f2ch - min_(f2ch, abattement_assurance_vie)
             + f2ts + f2tr + f2tt + f2go * P.majoration_revenus_reputes_distribues
             )
