@@ -740,7 +740,7 @@ class revenu_categoriel_capital(Variable):
         DEF = deficit_rcm
         return max_(TOT1 + TOT2 + TOT3 - DEF, 0)
 
-    def formula_2013_01_01(foyer_fiscal, period, parameters):
+    def formula_2012_01_01(foyer_fiscal, period, parameters):
         """
         Revenus des valeurs et capitaux mobiliers
         """
