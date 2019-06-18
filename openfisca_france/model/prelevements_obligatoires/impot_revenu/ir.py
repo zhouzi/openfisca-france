@@ -740,6 +740,33 @@ class revenu_categoriel_capital(Variable):
         DEF = deficit_rcm
         return max_(TOT1 + TOT2 + TOT3 - DEF, 0)
 
+    def formula_2011_01_01(foyer_fiscal, period, parameters):
+        """
+        Revenus des valeurs et capitaux mobiliers
+        """
+        maries_ou_pacses = foyer_fiscal('maries_ou_pacses', period)
+        deficit_rcm = foyer_fiscal('deficit_rcm', period)
+        f2ca = foyer_fiscal('f2ca', period)
+        f2ch = foyer_fiscal('f2ch', period)
+        f2dc = foyer_fiscal('f2dc', period)
+        f2fu = foyer_fiscal('f2fu', period)
+        f2go = foyer_fiscal('f2go', period)
+        f2tr = foyer_fiscal('f2tr', period)
+        f2ts = foyer_fiscal('f2ts', period)
+        P = parameters(period).impot_revenu.rvcm
+
+        # Revenus après abatemment
+        abattement_dividende = (f2fu + f2dc) * P.taux_abattement_capitaux_mobiliers
+        abattement_dividende_fixe = P.abatmob * (1 + maries_ou_pacses)
+        abattement_assurance_vie = P.abat_assvie * (1 + maries_ou_pacses)
+        rvcm_apres_abattement = (
+            max_(0, f2fu + f2dc - abattement_dividende - abattement_dividende_fixe)
+            + f2ch - min_(f2ch, abattement_assurance_vie)
+            + f2ts + f2tr + f2go * P.majoration_revenus_reputes_distribues
+            )
+
+        return max_(0, rvcm_apres_abattement - f2ca - deficit_rcm)
+
     def formula_2012_01_01(foyer_fiscal, period, parameters):
         """
         Revenus des valeurs et capitaux mobiliers
