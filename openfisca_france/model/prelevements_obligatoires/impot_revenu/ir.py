@@ -399,8 +399,8 @@ class revenu_assimile_salaire(Variable):
     definition_period = YEAR
 
     def formula(individu, period, parameters):
-        salaire_imposable = individu('salaire_imposable', period, options = [ADD])
-        chomage_imposable = individu('chomage_imposable', period, options = [ADD])
+        salaire_imposable = individu('salaire_imposable', period) * 12
+        chomage_imposable = individu('chomage_imposable', period) * 12
         f1tt = individu('f1tt', period)
         f3vj = individu('f3vj', period)
 
