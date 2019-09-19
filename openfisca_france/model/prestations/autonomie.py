@@ -32,17 +32,17 @@ class apa_domicile_participation(Variable):
         # entre le 1er mars 2016 et le 28 février 2017
         base_ressources_apa = individu('base_ressources_apa', period)
         en_couple = individu.famille('en_couple', period)
-        parameters = parameters(period.start).autonomie
-        seuil_inf = parameters.apa_domicile.seuil_de_revenu_en_part_du_mtp.seuil_inferieur
-        seuil_sup = parameters.apa_domicile.seuil_de_revenu_en_part_du_mtp.seuil_superieur
-        majoration_tierce_personne = parameters.mtp.mtp
-        taux_min_participation = parameters.apa_domicile.taux_de_participation_minimum
-        taux_max_participation = parameters.apa_domicile.taux_de_participation_maximum
+        autonomie = parameters(period.start).autonomie
+        seuil_inf = autonomie.apa_domicile.seuil_de_revenu_en_part_du_mtp.seuil_inferieur
+        seuil_sup = autonomie.apa_domicile.seuil_de_revenu_en_part_du_mtp.seuil_superieur
+        majoration_tierce_personne = autonomie.mtp.mtp
+        taux_min_participation = autonomie.apa_domicile.taux_de_participation_minimum
+        taux_max_participation = autonomie.apa_domicile.taux_de_participation_maximum
 
         proratisation_couple = (
             1
             + en_couple
-            * (parameters.apa_domicile.divison_des_ressources_du_menage_pour_les_couples - 1)
+            * (autonomie.apa_domicile.divison_des_ressources_du_menage_pour_les_couples - 1)
             )
 
         dependance_plan_aide_domicile_accepte = individu('dependance_plan_aide_domicile_accepte', period)
@@ -313,7 +313,7 @@ class apa_urgence_institution(Variable):
     def formula(individu, period, parameters):
         period = period.start.offset('first-of', 'month').period('month')
         dependance_tarif_etablissement_gir_1_2 = individu('dependance_tarif_etablissement_gir_5_6', period)
-        part_urgence_institution = parameters.apa_institution.apa_d_urgence.part_du_tarif_dependance_gir_1_2_de_l_etablissement_d_accueil
+        part_urgence_institution = parameters(period.start).apa_institution.apa_d_urgence.part_du_tarif_dependance_gir_1_2_de_l_etablissement_d_accueil
         apa_urgence_institution = part_urgence_institution * dependance_tarif_etablissement_gir_1_2
         return apa_urgence_institution
 
