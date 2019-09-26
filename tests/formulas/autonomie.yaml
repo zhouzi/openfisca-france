@@ -283,3 +283,15 @@
     base_ressources_apa: 3000
   output:
     apa_domicile_taux_participation: 0.9
+
+
+- name: APA établissement - test situation d'urgence
+  description: Montant APA forfataire en cas d'urgence
+  input:
+    dependance_tarif_etablissement_gir_dependant:
+      2001-12: 600
+      2002-01: 600
+  output:
+    apa_urgence_institution:
+      2001-12: 0
+      2002-01: 300 # 600 * 0.5
