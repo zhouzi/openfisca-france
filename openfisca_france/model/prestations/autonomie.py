@@ -317,6 +317,7 @@ class dependance_tarif_etablissement_gir_dependant(Variable):
         dependance_tarif_etablissement_gir_dependant = select(gir_regroupe, dependance_tarif_etablissement_gir_regroupe)
         return dependance_tarif_etablissement_gir_dependant
 
+
 class apa_urgence_domicile(Variable):
     value_type = float
     label = "Allocation personalisée d'autonomie d'urgence à domicile"
