@@ -275,6 +275,20 @@ class dependance_plan_aide_domicile(Variable):
     definition_period = MONTH
 
 
+class dependance_tarif_etablissement_gir_1_2(Variable):
+    value_type = float
+    entity = Individu
+    label = "Tarif dépendance de l'établissement pour les GIR 1 et 2"
+    definition_period = MONTH
+
+
+class dependance_tarif_etablissement_gir_3_4(Variable):
+    value_type = float
+    entity = Individu
+    label = "Tarif dépendance de l'établissement pour les GIR 3 et 4"
+    definition_period = MONTH
+
+
 class dependance_tarif_etablissement_gir_5_6(Variable):
     value_type = float
     entity = Individu
@@ -288,6 +302,20 @@ class dependance_tarif_etablissement_gir_dependant(Variable):
     label = "Tarif dépendance de l'établissement pour le GIR de la personne dépendante"
     definition_period = MONTH
 
+    def formula_2002(individu, period):
+        gir = individu('gir', period)
+        dependance_tarif_etablissement_gir_1_2 = individu('dependance_tarif_etablissement_gir_1_2', period)
+        dependance_tarif_etablissement_gir_3_4 = individu('dependance_tarif_etablissement_gir_3_4', period)
+        gir_regroupe = [
+            (gir == TypesGir.gir_1) + (gir == TypesGir.gir_2),
+            (gir == TypesGir.gir_3) + (gir == TypesGir.gir_4),
+            ]
+        dependance_tarif_etablissement_gir_regroupe = [
+            dependance_tarif_etablissement_gir_1_2,
+            dependance_tarif_etablissement_gir_3_4,
+            ]
+        dependance_tarif_etablissement_gir_dependant = select(gir_regroupe, dependance_tarif_etablissement_gir_regroupe)
+        return dependance_tarif_etablissement_gir_dependant
 
 class apa_urgence_domicile(Variable):
     value_type = float
@@ -312,9 +340,9 @@ class apa_urgence_institution(Variable):
 
     def formula_2002(individu, period, parameters):
         period = period.start.offset('first-of', 'month').period('month')
-        dependance_tarif_etablissement_gir_dependant = individu('dependance_tarif_etablissement_gir_dependant', period)
+        dependance_tarif_etablissement_gir_1_2 = individu('dependance_tarif_etablissement_gir_1_2', period)
         part_urgence_institution = parameters(period).autonomie.apa_institution.apa_d_urgence.part_du_tarif_dependance_gir_1_2_de_l_etablissement_d_accueil
-        apa_urgence_institution = part_urgence_institution * dependance_tarif_etablissement_gir_dependant
+        apa_urgence_institution = part_urgence_institution * dependance_tarif_etablissement_gir_1_2
         return apa_urgence_institution
 
 
