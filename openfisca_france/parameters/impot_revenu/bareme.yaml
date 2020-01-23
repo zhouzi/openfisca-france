@@ -35,6 +35,11 @@ brackets:
       value: 0.055
     2014-01-01:
       value: 0.14
+    2020-01-01:
+      value: 0.11
+      metadata:
+        description: Loi n°2019-1479 du 28 décembre 2019 de finances pour 2020, Article 2, IV A.
+        reference: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039683923&categorieLien=id
   threshold:
     1945-01-01:
       value: 40000.0
@@ -150,6 +155,11 @@ brackets:
       value: 9807.0
     2018-01-01:
       value: 9964.0
+    2019-01-01:
+      value: 10064.0
+      metadata:
+        description: Loi n°2019-1479 du 28 décembre 2019 de finances pour 2020, Article 2, I 2° a)
+        reference: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000039683923&categorieLien=id
 - rate:
     1945-01-01:
       value: 0.3
