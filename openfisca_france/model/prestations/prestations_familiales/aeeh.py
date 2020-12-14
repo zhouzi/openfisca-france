@@ -1,4 +1,5 @@
 from openfisca_france.model.base import *
+from openfisca_france.model.caracteristiques_socio_demographiques.logement import TypesLieuResidence
 
 
 class aeeh_niveau_handicap(Variable):
@@ -55,7 +56,7 @@ class aeeh(Variable):
             + (niveau_handicap == 6) * majoration._children['6e_categorie'] * isole
             ) + (niveau_handicap == 6) * complement_d_allocation._children['6e_categorie_1']
 
-        montant_total = famille.sum(montant_par_enfant, role = Famille.ENFANT)
+        montant_total = famille.sum(montant_par_enfant, role=Famille.ENFANT)
 
         # L'attribution de l'AEEH de base et de ses compléments éventuels ne fait pas obstacle au
         # versement des prestations familiales.
@@ -68,6 +69,7 @@ class aeeh(Variable):
 
         # Ces allocations ne sont pas soumises à la CRDS
         return montant_total
+
 
 
 class aes(Variable):
@@ -104,3 +106,45 @@ class aes(Variable):
 
         montant_total = famille.sum(montant_par_enfant, role = Famille.ENFANT)
         return montant_total
+
+
+class besoin_educatif_particulier(Variable):
+    value_type = bool
+    entity = Individu
+    label = "Enfant possède une reconnaissance d’un besoin éducatif particulier"
+    definition_period = MONTH
+
+
+class aeeh_eligible(Variable):
+    value_type = bool
+    entity = Famille
+    label = "Éligilité à l'Allocation d'éducation de l'enfant handicapé"
+    reference = "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156691/#LEGIARTI000006750709"
+    documentation = """
+                    Art. L. 541-1 à 4 du Code de la sécurité sociale (CSS), art. R. 541-1 à 10 du CSS, art. D. 541-1
+                    à 4 du CSS, arrêté du 24 avril 2002 relatif aux conditions d’attribution des six catégories de
+                    complément d’allocation d’éducation spéciale.
+                    """
+    definition_period = MONTH
+    set_input = set_input_divide_by_period
+    calculate_output = calculate_output_add
+
+    def formula_2020_01(famille, period, parameters):
+        janvier = period.this_year.first_month
+        age = famille.members('age', janvier)
+        taux_incapacite = famille.members('taux_incapacite', janvier)
+        besoin_educatif_particulier = famille.members('besoin_educatif_particulier', janvier)
+
+        prestations_familiales = parameters(period).prestations.prestations_familiales
+        residence = famille.members.menage('residence', period)
+
+        condition_age = (age < prestations_familiales.aeeh.age)
+        condition_taux_incapacite = ((
+                                                 taux_incapacite >= prestations_familiales.aeeh.taux_incapacite_maximal.taux_incapacite_maximal_aeeh) + (
+                                             (
+                                                         taux_incapacite >= prestations_familiales.aeeh.taux_incapacite_minimal.taux_incapacite_minimal_aeeh) * (
+                                                     taux_incapacite < prestations_familiales.aeeh.taux_incapacite_maximal.taux_incapacite_maximal_aeeh) * besoin_educatif_particulier))
+
+        condition_residence_FR = False if residence == TypesLieuResidence.non_renseigne else True
+
+        return condition_age * condition_taux_incapacite * condition_residence_FR
