@@ -57,7 +57,7 @@ setup(
         },
     include_package_data = True,  # Will read MANIFEST.in
     install_requires = [
-        "OpenFisca-Core >=35.2.0,<36.0",
+        "OpenFisca-Core @ git+https://github.com/mes-aides/openfisca-core.git@m1#egg=Openfisca-Core[web-api]",
         ],
     message_extractors = {"openfisca_france": [
         ("**.py", "python", None),
