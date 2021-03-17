@@ -30,10 +30,10 @@ setup(
         ],
     extras_require = {
         "inversion_revenus": [
-            "scipy >= 0.17",
+            "scipy >= 1.6.1",
             ],
         "de_net_a_brut": [
-            "scipy >= 0.17",
+            "scipy >= 1.6.1",
             ],
         "taxipp": [
             "pandas >= 0.13",
@@ -43,7 +43,7 @@ setup(
             "flake8 >=3.8.0,<3.9.0",
             "flake8-print",
             "pytest >= 5.0.0, < 7.0.0",
-            "scipy >= 0.17",  # Only used to test de_net_a_brut reform
+            "scipy >= 1.6.1",  # Only used to test de_net_a_brut reform
             "requests >= 2.8",
             "yamllint >=1.11.1,<1.27"
             ],
@@ -52,7 +52,7 @@ setup(
             "autopep8 >=1.3.2",
             "pytest >= 5.0.0, < 7.0.0",
             "requests >= 2.8",
-            "scipy >= 0.17",  # Only used to test de_net_a_brut reform
+            "scipy >= 1.6.1",  # Only used to test de_net_a_brut reform
             ]
         },
     include_package_data = True,  # Will read MANIFEST.in
