@@ -70,19 +70,20 @@ class jours_travailles_chomage(Variable):
     default_value = 21.75
 
     def formula(individu, period) :
-      contrat_de_travail_debut = individu('contrat_de_travail_debut', period)
-      contrat_de_travail_fin = individu('contrat_de_travail_fin', period)
-      busday_count = partial(original_busday_count, weekmask = "1111100")
-      debut_mois = datetime64(period.start.offset('first-of', 'month'))
-      fin_mois = datetime64(period.start.offset('last-of', 'month'))
-      jours_travailles = max_(
-        busday_count(
-            max_(contrat_de_travail_debut, debut_mois),
-            min_(contrat_de_travail_fin, fin_mois) + timedelta64(1, 'D')
-            ),
-        0,
-        )
-      return jours_travailles
+    #   contrat_de_travail_debut = individu('contrat_de_travail_debut', period)
+    #   contrat_de_travail_fin = individu('contrat_de_travail_fin', period)
+    #   busday_count = partial(original_busday_count, weekmask = "1111100")
+    #   debut_mois = datetime64(period.start.offset('first-of', 'month'))
+    #   fin_mois = datetime64(period.start.offset('last-of', 'month'))
+    #   jours_travailles = max_(
+    #     busday_count(
+    #         max_(contrat_de_travail_debut, debut_mois),
+    #         min_(contrat_de_travail_fin, fin_mois) + timedelta64(1, 'D')
+    #         ),
+    #     0,
+    #     )
+    #   return jours_travailles
+        return individu.empty_array() + 21.75
 
 
 class salaire_de_reference(Variable):
@@ -158,6 +159,7 @@ class are(Variable):
     entity = Individu
     label = "Allocation chômage d'aide au retour à l'emploi (ARE)"
     definition_period = MONTH
+    set_input = set_input_divide_by_period
 
     def formula(individu, period, parameters):
         are_eligibilite_individu = individu('are_eligibilite_individu', period)
@@ -285,6 +287,7 @@ class duree_versement_are(Variable):
     entity = Individu
     label = "Nombre  de jours indemnisés par l'ARE"
     definition_period = MONTH
+    set_input = set_input_divide_by_period
 
     def formula(individu, period):
         are = individu('are', period)

@@ -115,40 +115,40 @@ class ass_base_ressources_individu(Variable):
         last_year = period.last_year
 
         salaire_imposable = calculateWithAbatement(individu, parameters, period, 'salaire_imposable')
-        revenus_stage_formation_pro = calculateWithAbatement(individu, parameters, period, 'revenus_stage_formation_pro')
-        aah = calculateWithAbatement(individu, parameters, period, 'aah')
-        retraite_nette = calculateWithAbatement(individu, parameters, period, 'retraite_nette')
-        pensions_alimentaires_percues = calculateWithAbatement(individu, parameters, period, 'pensions_alimentaires_percues')
-        indemnites_stage = calculateWithAbatement(individu, parameters, period, 'indemnites_stage')
+        # revenus_stage_formation_pro = calculateWithAbatement(individu, parameters, period, 'revenus_stage_formation_pro')
+        # aah = calculateWithAbatement(individu, parameters, period, 'aah')
+        # retraite_nette = calculateWithAbatement(individu, parameters, period, 'retraite_nette')
+        # pensions_alimentaires_percues = calculateWithAbatement(individu, parameters, period, 'pensions_alimentaires_percues')
+        # indemnites_stage = calculateWithAbatement(individu, parameters, period, 'indemnites_stage')
 
-        pensions_invalidite = individu('pensions_invalidite', previous_year, options=[ADD])
-        revenus_locatifs = individu('revenus_locatifs', previous_year, options=[ADD])
-        revenus_capital = individu('revenus_capital', period) * individu.has_role(FoyerFiscal.DECLARANT_PRINCIPAL)
+        # pensions_invalidite = individu('pensions_invalidite', previous_year, options=[ADD])
+        # revenus_locatifs = individu('revenus_locatifs', previous_year, options=[ADD])
+        # revenus_capital = individu('revenus_capital', period) * individu.has_role(FoyerFiscal.DECLARANT_PRINCIPAL)
 
-        def revenus_tns():
-            revenus_auto_entrepreneur = individu('tns_auto_entrepreneur_benefice', previous_year, options=[ADD])
+        # def revenus_tns():
+        #     revenus_auto_entrepreneur = individu('tns_auto_entrepreneur_benefice', previous_year, options=[ADD])
 
-            # Les revenus TNS hors AE sont estimés en se basant sur le revenu N-1
-            tns_micro_entreprise_benefice = individu('tns_micro_entreprise_benefice', last_year)
-            tns_benefice_exploitant_agricole = individu('tns_benefice_exploitant_agricole', last_year)
-            tns_autres_revenus = individu('tns_autres_revenus', last_year)
+        #     # Les revenus TNS hors AE sont estimés en se basant sur le revenu N-1
+        #     tns_micro_entreprise_benefice = individu('tns_micro_entreprise_benefice', last_year)
+        #     tns_benefice_exploitant_agricole = individu('tns_benefice_exploitant_agricole', last_year)
+        #     tns_autres_revenus = individu('tns_autres_revenus', last_year)
 
-            return revenus_auto_entrepreneur + tns_micro_entreprise_benefice + tns_benefice_exploitant_agricole + tns_autres_revenus
+        #     return revenus_auto_entrepreneur + tns_micro_entreprise_benefice + tns_benefice_exploitant_agricole + tns_autres_revenus
 
-        pensions_alimentaires_versees_individu = individu('pensions_alimentaires_versees_individu', previous_year, options=[ADD])
+        # pensions_alimentaires_versees_individu = individu('pensions_alimentaires_versees_individu', previous_year, options=[ADD])
 
         return (
             salaire_imposable
-            + retraite_nette
-            + pensions_invalidite
-            + pensions_alimentaires_percues
-            - abs_(pensions_alimentaires_versees_individu)
-            + aah
-            + indemnites_stage
-            + revenus_stage_formation_pro
-            + revenus_tns()
-            + revenus_locatifs
-            + revenus_capital
+            # + retraite_nette
+            # + pensions_invalidite
+            # + pensions_alimentaires_percues
+            # - abs_(pensions_alimentaires_versees_individu)
+            # + aah
+            # + indemnites_stage
+            # + revenus_stage_formation_pro
+            # + revenus_tns()
+            # + revenus_locatifs
+            # + revenus_capital
             )
 
 
@@ -167,12 +167,12 @@ class ass_base_ressources_conjoint(Variable):
         ass_base_ressources_individu = individu('ass_base_ressources_individu', period)
         chomage_net_interrompue = individu('chomage_net', last_month) == 0
         chomage_net = individu('chomage_net', previous_year, options=[ADD]) * (1 - chomage_net_interrompue)
-        indemnites_journalieres = calculateWithAbatement(individu, parameters, period, 'indemnites_journalieres')
+        # indemnites_journalieres = calculateWithAbatement(individu, parameters, period, 'indemnites_journalieres')
 
         return (
             ass_base_ressources_individu
             + chomage_net
-            + indemnites_journalieres
+            # + indemnites_journalieres
             )
 
 
@@ -223,7 +223,7 @@ class ass_eligibilite_cumul_individu(Variable):
             absence_ressources_activite = not_(presence_ressources_activite)
             ass_precondition_remplie = individu('ass_precondition_remplie', mois)
             chomeur = individu('activite', mois) == TypesActivite.chomeur
-            absence_aah = not_(individu('aah', mois) > 0)
+            # absence_aah = not_(individu('aah', mois) > 0)
 
             # reinitialisation du nombre de mois de cumul après 3 mois consécutif sans activité
             nb_mois_cumul = nb_mois_cumul * (nb_mois_consecutif_sans_activite < 3)
@@ -235,7 +235,7 @@ class ass_eligibilite_cumul_individu(Variable):
                 * presence_ressources_activite
                 * not_(chomeur)
                 * ass_precondition_remplie
-                * absence_aah
+                # * absence_aah
                 )
 
         # si 3 mois de cumul ou moins en comptant le mois courant, droit au cumul au moins courant
@@ -266,7 +266,7 @@ class ass_eligibilite_individu(Variable):
         age_max = parameters(period).prestations.minima_sociaux.ass.age_max
         sous_age_limite = individu('age_en_mois', period) <= age_max
 
-        aah_eligible = individu('aah', period) > 0
+        # aah_eligible = individu('aah', period) > 0
 
         eligible_cumul_ass = individu('ass_eligibilite_cumul_individu', period)
 
@@ -277,4 +277,5 @@ class ass_eligibilite_individu(Variable):
 
         ass_precondition_remplie = individu('ass_precondition_remplie', period)
 
-        return not_(aah_eligible) * demandeur_emploi_non_indemnise_et_cumul_accepte * ass_precondition_remplie * sous_age_limite
+        return demandeur_emploi_non_indemnise_et_cumul_accepte * ass_precondition_remplie * sous_age_limite
+        # return not_(aah_eligible) * demandeur_emploi_non_indemnise_et_cumul_accepte * ass_precondition_remplie * sous_age_limite
