@@ -1,0 +1,21 @@
+- name: test activite passing
+  period: 2014-01
+  input:
+    activite:
+      year:2014:4: actif
+  output:
+    activite:
+      2014-01: actif
+
+- name: test activite failing
+  period: 2014-01
+  input:
+    individus:
+      ind0:
+        activite:
+          year:2014:4: actif
+  output:
+    individus:
+      ind0:
+        activite:
+          2014-01: actif
