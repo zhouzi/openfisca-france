@@ -3,9 +3,13 @@
   input:
     activite:
       year:2014:4: actif
+      year:2018:4: chomeur
+
   output:
     activite:
       2014-01: actif
+      2017-12: actif
+      2018-01: chomeur
 
 - name: test activite failing
   period: 2014-01
