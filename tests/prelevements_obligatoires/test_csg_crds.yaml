@@ -57,3 +57,39 @@
     csg_deductible_salaire:
     csg: 0
     crds: 0
+
+### Salaires - Exonérations non traitées : 
+# Sommes perçues dans le cadre du volontariat ou de la coopération :
+# * Les revenus suivants sont exonérés de CSG et de CRDS :
+# * Indemnité mensuelle et indemnité supplémentaire versées dans le cadre de l'accomplissement
+# d'un volontariat international (en entreprise ou en administration)
+# * Allocation et prime versées dans le cadre du contrat de volontariat pour l'insertion
+# * Indemnité versée dans le cadre d'un contrat de volontariat de solidarité internationale (VSI)
+# * Indemnité versée dans le cadre d'un contrat de volontariat associatif et de l'engagement éducatif
+# * Prestations et indemnité forfaitaire d'entretien versées dans le cadre du service national actif 
+# effectué dans les services de la coopération ou de l'aide technique
+
+
+- name: 4 - Chômeur - Contributions sur revenus de remplacement
+  period: 2021
+  input:
+    # contributions prélevées sur montants bruts de revenus
+
+  output:
+    assiette_csg_non_abattue:
+    assiette_csg_abattue:
+    csg_imposable_chomage:
+    csg_deductible_chomage:
+    csg: 
+    crds:
+
+
+- name: 5 - Non salarié
+  period: 2021
+  input:
+  output:
+    assiette_csg_crds_non_salarie: 
+    csg_non_salarie:  # assiette
+    crds_non_salarie:  # assiette
+    csg: 
+    crds:
