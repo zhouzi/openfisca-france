@@ -93,7 +93,10 @@
 - name: 5 - Non salarié - Autres [que le salaire et les primes] revenus professionnels
   period: 2021
   input:
-    
+    # la CSG et la CRDS sont prélevées sur le montant brut des revenus (BIC/ric, BNC, BA)
+    ric:
+    rnc:  # !! BNC individuels
+    tns_benefice_exploitant_agricole:  # dernier bénéfice agricole
   output:
     assiette_csg_crds_non_salarie: 
     csg_non_salarie:  # assiette
