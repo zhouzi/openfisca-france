@@ -58,7 +58,13 @@
     csg: 0
     crds: 0
 
-### Salaires - Exonérations non traitées : 
+### Salaires - Exonérations non traitées :
+# Exonérations de frais professionnels :
+# Les revenus suivants sont exonérées de CSG et de CRDS :
+# * Contribution patronale aux tickets restaurant, dans certaines limites
+# * Contribution patronale au remboursement des frais de transport, dans certaines limites
+# * Chèque-repas bénévole
+# 
 # Sommes perçues dans le cadre du volontariat ou de la coopération :
 # * Les revenus suivants sont exonérés de CSG et de CRDS :
 # * Indemnité mensuelle et indemnité supplémentaire versées dans le cadre de l'accomplissement
@@ -84,9 +90,10 @@
     crds:
 
 
-- name: 5 - Non salarié
+- name: 5 - Non salarié - Autres [que le salaire et les primes] revenus professionnels
   period: 2021
   input:
+    
   output:
     assiette_csg_crds_non_salarie: 
     csg_non_salarie:  # assiette
