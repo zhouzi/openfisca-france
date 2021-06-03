@@ -1,0 +1,59 @@
+# Contribution Sociale Généralisée et Contribution au Remboursement de la Dette Sociale
+# https://www.service-public.fr/particuliers/vosdroits/N17580
+
+# Revenus d'activités et de remplacement 
+# https://www.service-public.fr/particuliers/vosdroits/F2971
+
+- name: 1 - Salarié du secteur privé - Contributions sur revenus d'activité
+  period: 2021
+  input:
+    # contributions prélevées sur montants bruts de revenus
+    salaire_de_base:
+      2020-12:
+    # + hsup ?
+    primes_salaires:
+      # !! inclut les avantages en espèces
+      2020-12:
+    avantage_en_nature:
+      # si la rémunération est exclusivement constituée d'avantages en nature, 
+      # elle est exonérée de CSG et de CRDS
+      2020-12:
+  output:
+    assiette_csg_non_abattue:
+      # inclut uniquement : prevoyance_obligatoire_cadre, complementaire_sante_employeur, prise_en_charge_employeur_prevoyance_complementaire
+    assiette_csg_abattue:
+    csg_imposable_salaire:
+    csg_deductible_salaire:
+    csg: 
+    crds:
+
+- name: 2 - Salarié du secteur public - Contributions sur revenus d'activité
+  period: 2021
+  input:
+    # contributions prélevées sur montants bruts de revenus
+    # + hsup ?
+    primes_fonction_publique:
+      2020-12: 
+  output:
+    assiette_csg_non_abattue:
+    assiette_csg_abattue:
+    csg_imposable_salaire:
+    csg_deductible_salaire:
+    csg: 
+    crds:
+
+- name: 3 - Apprenti (secteur privé ou public) - Contributions sur revenus d'activité
+  description: La rémunération d'un apprenti est exonérée de CSG et de CRDS.
+  period: 2021
+  input:
+    remuneration_apprenti:
+      2020-12:
+    prime_apprentissage:
+      2020:
+  output:
+    assiette_csg_non_abattue:
+    assiette_csg_abattue:
+    csg_imposable_salaire:
+    csg_deductible_salaire:
+    csg: 0
+    crds: 0
