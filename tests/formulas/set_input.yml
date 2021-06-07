@@ -23,15 +23,8 @@ input:
         year:2013:11: 11 * 1000
   menages:
     menage:
-      logement_conventionne:
-        year:2018:6: true
-      loyer:
-        year:2018:6: 6 * 12 * 500
       personne_de_reference: parent_1
-      statut_occupation_logement:
-        year:2018:6: locataire_vide
-      zone_apl:
-        year:2018:6: zone_2
+      conjoint: parent_2
 output:
  individus:
     parent_1:
