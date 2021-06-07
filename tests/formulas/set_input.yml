@@ -1,31 +1,77 @@
-name: fixme
-period: year:2018:3
-relative_error_margin: 0.01
-input:
-  familles:
-    famille:
-      parents:
-      - parent_1
-      - parent_2
-  foyers_fiscaux:
-    foyer_fiscal:
-      declarants:
-      - parent_1
-      - parent_2
-  individus:
-    parent_1:
-      salaire_de_base:
-        year:2013:5: 5 * 2000
-        year:2018:6: 0
-    parent_2:
-      activite:
-      salaire_de_base:
-        year:2013:11: 11 * 1000
-  menages:
-    menage:
-      personne_de_reference: parent_1
-      conjoint: parent_2
-output:
- individus:
-    parent_1:
-      salaire_de_base: 0
+- name: hack
+  period: year:2018:3
+  relative_error_margin: 0.01
+  input:
+    familles:
+      famille:
+        parents:
+        - parent_1
+        - parent_2
+    foyers_fiscaux:
+      foyer_fiscal:
+        declarants:
+        - parent_1
+        - parent_2
+    individus:
+      parent_1:
+        salaire_de_base:
+          year:2013:5: 5 * 12 * 2000
+          year:2018:6: 0
+      parent_2:
+        activite:
+        salaire_de_base:
+          year:2013:5: 5 * 12 * 1000
+          year:2018:6: 6 * 12 * 1000
+    menages:
+      menage:
+        personne_de_reference: parent_1
+        conjoint: parent_2
+  output:
+    individus:
+        parent_1:
+          salaire_de_base:
+            2013-01: 2000
+            2018-01: 0
+        parent_2:
+          salaire_de_base:
+            2013-01: 1000
+            2018-01: 1000
+
+
+- name: fixme
+  period: year:2018:3
+  relative_error_margin: 0.01
+  input:
+    familles:
+      famille:
+        parents:
+        - parent_1
+        - parent_2
+    foyers_fiscaux:
+      foyer_fiscal:
+        declarants:
+        - parent_1
+        - parent_2
+    individus:
+      parent_1:
+        salaire_de_base:
+          year:2013:5: 5 * 12 * 2000
+          year:2018:6: 0
+      parent_2:
+        activite:
+        salaire_de_base:
+          year:2013:11: 11 * 12 * 1000
+    menages:
+      menage:
+        personne_de_reference: parent_1
+        conjoint: parent_2
+  output:
+    individus:
+        parent_1:
+          salaire_de_base:
+            2013-01: 2000
+            2018-01: 0
+        parent_2:
+          salaire_de_base:
+            2013-01: 1000
+            2018-01: 1000
