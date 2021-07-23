@@ -137,7 +137,7 @@ class aeeh_eligible(Variable):
         aeeh_parameters = parameters(period).prestations.prestations_familiales.aeeh
         residence = famille.members.menage('residence', period)
 
-        condition_age = (age < aeeh_parameters.age)
+        condition_age = (age < aeeh_parameters.age_maximum_de_l_enfant)
         condition_taux_incapacite = (
             (
             taux_incapacite >= aeeh_parameters.taux_incapacite_maximal.taux_incapacite_maximal_aeeh
