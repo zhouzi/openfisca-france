@@ -120,9 +120,9 @@ class aeeh_eligible(Variable):
     label = "Éligilité à l'Allocation d'éducation de l'enfant handicapé"
     reference = "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156691/#LEGIARTI000006750709"
     documentation = """
-                    Art. L. 541-1 à 4 du Code de la sécurité sociale (CSS), art. R. 541-1 à 10 du CSS, art. D. 541-1
-                    à 4 du CSS, arrêté du 24 avril 2002 relatif aux conditions d’attribution des six catégories de
-                    complément d’allocation d’éducation spéciale.
+        L’Allocation d’éducation de l’enfant handicapé (AEEH) est une prestation familiale destinée, sous conditions, aux personnes qui ont à leur charge et à domicile un enfant de moins de 21 ans en situation de handicap.
+        L’attribution de cette aide fait l’objet d’une évaluation préalable.
+
                     """
     definition_period = MONTH
     set_input = set_input_divide_by_period
