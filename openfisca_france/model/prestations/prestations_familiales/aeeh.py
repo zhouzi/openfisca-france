@@ -131,7 +131,7 @@ class aeeh_eligible(Variable):
     set_input = set_input_divide_by_period
     calculate_output = calculate_output_add
 
-    def formula_2020_01(famille, period, parameters):
+    def formula_2005_12_20(famille, period, parameters):
         janvier = period.this_year.first_month
         age = famille.members('age', janvier)
         taux_incapacite = famille.members('taux_incapacite', janvier)
