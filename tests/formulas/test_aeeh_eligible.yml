@@ -4,8 +4,7 @@
     individus:
       p1:
         age: 19
-        taux_incapacite:
-          2020-01: 0.81
+        taux_incapacite: 0.81
     menage:
       residence: metropole
   output:
@@ -17,10 +16,9 @@
     individus:
       p1:
         age: 19
-        taux_incapacite:
-          2020-01: 0.70
+        taux_incapacite: 0.70
         besoin_educatif_particulier:
-          2020-01: True
+          2020-10: True
     menage:
       residence: metropole
   output:
@@ -32,8 +30,7 @@
     individus:
       p1:
         age: 19
-        taux_incapacite:
-          2020-01: 0.48
+        taux_incapacite: 0.48
         besoin_educatif_particulier:
           2020-01: False
     menage:
@@ -47,8 +44,7 @@
     individus:
       p1:
         age: 29
-        taux_incapacite:
-          2020-01: 0.81
+        taux_incapacite: 0.81
     menage:
       residence: metropole
   output:
@@ -60,8 +56,7 @@
     individus:
       p1:
         age: 19
-        taux_incapacite:
-          2020-01: 0.81
+        taux_incapacite: 0.81
     menage:
       residence: non_renseigne
   output:
@@ -73,8 +68,7 @@
     individus:
       p1:
         age: 19
-        taux_incapacite:
-          2020-01: 0.78
+        taux_incapacite: 0.78
         besoin_educatif_particulier:
           2020-01: False
     menage:
