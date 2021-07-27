@@ -118,7 +118,10 @@ class aeeh_eligible(Variable):
     value_type = bool
     entity = Famille
     label = "Éligilité à l'Allocation d'éducation de l'enfant handicapé"
-    reference = "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156691/#LEGIARTI000006750709"
+    reference = [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006743351/",
+        "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156691/"
+    ]
     documentation = """
         L’Allocation d’éducation de l’enfant handicapé (AEEH) est une prestation familiale destinée, sous conditions, aux personnes qui ont à leur charge et à domicile un enfant de moins de 21 ans en situation de handicap.
         L’attribution de cette aide fait l’objet d’une évaluation préalable.
