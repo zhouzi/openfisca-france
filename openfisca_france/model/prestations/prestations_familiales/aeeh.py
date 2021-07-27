@@ -121,7 +121,7 @@ class aeeh_eligible(Variable):
     reference = [
         "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006743351/",
         "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156691/"
-    ]
+        ]
     documentation = """
         L’Allocation d’éducation de l’enfant handicapé (AEEH) est une prestation familiale destinée, sous conditions, aux personnes qui ont à leur charge et à domicile un enfant de moins de 21 ans en situation de handicap.
         L’attribution de cette aide fait l’objet d’une évaluation préalable.
@@ -143,16 +143,16 @@ class aeeh_eligible(Variable):
         condition_age = (age < aeeh_parameters.age_maximum_de_l_enfant)
         condition_taux_incapacite = (
             (
-            taux_incapacite >= aeeh_parameters.taux_incapacite_maximal.taux_incapacite_maximal_aeeh
-            ) + (
+                taux_incapacite >= aeeh_parameters.taux_incapacite_maximal.taux_incapacite_maximal_aeeh
+                ) + (
                 (
                     taux_incapacite >= aeeh_parameters.taux_incapacite_minimal.taux_incapacite_minimal_aeeh
                     ) * (
                         taux_incapacite < aeeh_parameters.taux_incapacite_maximal.taux_incapacite_maximal_aeeh
                         ) * besoin_educatif_particulier
-                    )
+                )
             )
 
-        condition_residence_FR = False if residence ==TypesLieuResidence.non_renseigne else True
+        condition_residence_FR = False if residence == TypesLieuResidence.non_renseigne else True
 
         return condition_age * condition_taux_incapacite * condition_residence_FR
