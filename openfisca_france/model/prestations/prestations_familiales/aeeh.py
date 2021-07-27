@@ -117,7 +117,7 @@ class besoin_educatif_particulier(Variable):
 class aeeh_eligible(Variable):
     value_type = bool
     entity = Famille
-    label = "Éligilité à l'Allocation d'éducation de l'enfant handicapé"
+    label = "Éligibilité à l'allocation d'éducation de l'enfant handicapé (AEEH)"
     reference = [
         "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006743351/",
         "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156691/"
