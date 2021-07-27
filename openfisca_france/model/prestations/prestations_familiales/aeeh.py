@@ -132,10 +132,9 @@ class aeeh_eligible(Variable):
     calculate_output = calculate_output_add
 
     def formula_2005_12_20(famille, period, parameters):
-        janvier = period.this_year.first_month
-        age = famille.members('age', janvier)
-        taux_incapacite = famille.members('taux_incapacite', janvier)
-        besoin_educatif_particulier = famille.members('besoin_educatif_particulier', janvier)
+        age = famille.members('age', period)
+        taux_incapacite = famille.members('taux_incapacite', period)
+        besoin_educatif_particulier = famille.members('besoin_educatif_particulier', period)
 
         aeeh_parameters = parameters(period).prestations.prestations_familiales.aeeh
         residence = famille.members.menage('residence', period)
