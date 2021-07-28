@@ -2,7 +2,7 @@
 version: 2
 jobs:
   build:
-    parallelism: 2  # Speed up the tests, while letting two containers available for other builds.
+    parallelism: 4  # Speed up the tests, while letting two containers available for other builds.
     docker:
       - image: python:3.7
 
