@@ -331,7 +331,7 @@ class rsa_enfant_a_charge(Variable):
     label = "Enfant pris en compte dans le calcul du RSA"
     definition_period = MONTH
 
-    def formula(individu, period, parameters):
+    def formula_2009_06_01(individu, period, parameters):
         P_rsa = parameters(period).prestations.minima_sociaux.rsa
         P_rmi = parameters(period).prestations.minima_sociaux.rmi
 
@@ -346,16 +346,65 @@ class rsa_enfant_a_charge(Variable):
             )
 
         # Les parametres ont changé de nom au moment où le RMI est devenu le RSA
-        if period.start.date >= date(2009, 6, 1):
-            age_pac = P_rsa.age_pac
-            majo_rsa = P_rsa.majo_rsa
-            montant_base_rsa = P_rsa.montant_de_base_du_rsa
-            taux_personne_supp = P_rsa.majoration_rsa.taux_personne_supp
-        else:
-            age_pac = P_rmi.age_pac
-            majo_rsa = P_rmi.majo_rsa
-            montant_base_rsa = P_rmi.rmi
-            taux_personne_supp = P_rmi.txps
+        age_pac = P_rsa.age_pac
+        majo_rsa = P_rsa.majo_rsa
+        montant_base_rsa = P_rsa.montant_de_base_du_rsa
+        taux_personne_supp = P_rsa.majoration_rsa.taux_personne_supp
+
+        # Règle CAF: Si un enfant touche des ressources, et que son impact global
+        # (augmentation du montant forfaitaire - ressources prises en compte) fait baisser le montant du RSA, alors
+        # il doit être exclu du calcul du RSA.
+        # Cette règle est complexe, on applique donc l'approximation suivante:
+        #       - Cas général: enfant pris en compte si ressources <= augmentation du MF pour un enfant
+        #                      supplémentaire (taux marginal).
+        #       - Si la présence de l'enfant ouvre droit au RSA majoré, pris en compte si
+        #                      ressources <= majoration du RSA pour isolement avec un enfant.
+        def ouvre_droit_majoration():
+            famille = individu.famille
+            enceinte_fam = famille('enceinte_fam', period)
+            isole = not_(famille('en_couple', period))
+            isolement_recent = famille('rsa_isolement_recent', period)
+
+            presence_autres_enfants = famille.sum(enfant * not_(autonomie_financiere) * (age <= age_pac)) > 1
+
+            return (
+                not_(enceinte_fam)
+                * isole
+                * isolement_recent
+                * not_(presence_autres_enfants)
+                )
+
+        rsa_enf_charge = (
+            enfant
+            * not_(autonomie_financiere)
+            * (age <= age_pac)
+            * where(
+                ouvre_droit_majoration(),
+                ressources < (majo_rsa.pac0 - 1 + majo_rsa.pac_enf_sup) * montant_base_rsa,
+                ressources < taux_personne_supp * montant_base_rsa
+                )
+            )
+
+        return rsa_enf_charge
+
+    def formula_2002_01_01(individu, period, parameters):
+        P_rsa = parameters(period).prestations.minima_sociaux.rsa
+        P_rmi = parameters(period).prestations.minima_sociaux.rmi
+
+        enfant = individu('est_enfant_dans_famille', period)
+        age = individu('age', period)
+        autonomie_financiere = individu('autonomie_financiere', period)
+
+        ressources = (
+            individu('rsa_base_ressources_individu', period)
+            + (1 - P_rsa.pente)
+            * individu('rsa_revenu_activite_individu', period)
+            )
+
+        age_pac = P_rmi.age_pac
+        majo_rsa = P_rmi.majo_rsa
+        montant_base_rsa = P_rmi.rmi
+        taux_personne_supp = P_rmi.txps
 
         # Règle CAF: Si un enfant touche des ressources, et que son impact global
         # (augmentation du montant forfaitaire - ressources prises en compte) fait baisser le montant du RSA, alors
@@ -794,7 +843,7 @@ class rsa_forfait_logement(Variable):
     reference = "https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031694445&cidTexte=LEGITEXT000006074069&dateTexte=20171222&fastPos=2&fastReqId=1534790830&oldAction=rechCodeArticle"
     definition_period = MONTH
 
-    def formula(famille, period, parameters):
+    def formula_2009_06_01(famille, period, parameters):
         np_pers = famille('nb_parents', period) + famille('rsa_nb_enfants', period)
         aide_logement = famille('aide_logement', period)
         statut_occupation_logement = famille.demandeur.menage('statut_occupation_logement', period)
@@ -811,20 +860,47 @@ class rsa_forfait_logement(Variable):
         # Les parametres ont changé de nom au moment où le RMI est devenu le RSA
         # Pour le RSA, on utilise les taux des textes de lois, pour le RMI ils sont déjà aggrégés
         # Il faudrait uniformiser, mais les taux légaux pour le RMI commencent par "1", et ne passent pas en python
-        if period.start.date >= date(2009, 6, 1):
-            params = parameters(period).prestations.minima_sociaux.rsa
-            montant_base = params.montant_de_base_du_rsa
-            taux_2p = 1 + params.majoration_rsa.taux_deuxieme_personne
-            taux_3p = taux_2p + params.majoration_rsa.taux_troisieme_personne
-            forf_logement_taux_1p = params.forfait_logement.taux_1_personne
-            forf_logement_taux_2p = params.forfait_logement.taux_2_personnes * taux_2p
-            forf_logement_taux_3p = params.forfait_logement.taux_3_personnes_ou_plus * taux_3p
-        else:
-            params = parameters(period).prestations.minima_sociaux.rmi
-            montant_base = params.rmi
-            forf_logement_taux_1p = params.forfait_logement.taux1
-            forf_logement_taux_2p = params.forfait_logement.taux2
-            forf_logement_taux_3p = params.forfait_logement.taux3
+        params = parameters(period).prestations.minima_sociaux.rsa
+        montant_base = params.montant_de_base_du_rsa
+        taux_2p = 1 + params.majoration_rsa.taux_deuxieme_personne
+        taux_3p = taux_2p + params.majoration_rsa.taux_troisieme_personne
+        forf_logement_taux_1p = params.forfait_logement.taux_1_personne
+        forf_logement_taux_2p = params.forfait_logement.taux_2_personnes * taux_2p
+        forf_logement_taux_3p = params.forfait_logement.taux_3_personnes_ou_plus * taux_3p
+
+        montant_forfait = montant_base * (
+            (np_pers == 1) * forf_logement_taux_1p
+            + (np_pers == 2) * forf_logement_taux_2p
+            + (np_pers >= 3) * forf_logement_taux_3p
+            )
+
+        montant_al = avantage_al * min_(aide_logement, montant_forfait)
+        montant_nature = avantage_nature * montant_forfait
+
+        return max_(montant_al, montant_nature)
+
+    def formula_2002_01_01(famille, period, parameters):
+        np_pers = famille('nb_parents', period) + famille('rsa_nb_enfants', period)
+        aide_logement = famille('aide_logement', period)
+        statut_occupation_logement = famille.demandeur.menage('statut_occupation_logement', period)
+        participation_frais = famille.demandeur.menage('participation_frais', period)
+        loyer = famille.demandeur.menage('loyer', period)
+
+        avantage_nature = or_(
+            ((statut_occupation_logement == TypesStatutOccupationLogement.primo_accedant) + (statut_occupation_logement == TypesStatutOccupationLogement.proprietaire)) * not_(loyer),
+            (statut_occupation_logement == TypesStatutOccupationLogement.loge_gratuitement) * not_(participation_frais)
+            )
+
+        avantage_al = aide_logement > 0
+
+        # Les parametres ont changé de nom au moment où le RMI est devenu le RSA
+        # Pour le RSA, on utilise les taux des textes de lois, pour le RMI ils sont déjà aggrégés
+        # Il faudrait uniformiser, mais les taux légaux pour le RMI commencent par "1", et ne passent pas en python
+        params = parameters(period).prestations.minima_sociaux.rmi
+        montant_base = params.rmi
+        forf_logement_taux_1p = params.forfait_logement.taux1
+        forf_logement_taux_2p = params.forfait_logement.taux2
+        forf_logement_taux_3p = params.forfait_logement.taux3
 
         montant_forfait = montant_base * (
             (np_pers == 1) * forf_logement_taux_1p
