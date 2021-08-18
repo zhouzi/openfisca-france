@@ -75,7 +75,7 @@ class ir_pv_immo(Variable):
     reference = "http://www.impots.gouv.fr/portal/dgi/public/popup?espId=1&typePage=cpr02&docOid=documentstandard_2157"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2005_01_01(foyer_fiscal, period, parameters):
         """
         Impôt sur le revenu afférent à la plus-value immobilière (CGI, art. 150 U, 150 UC-I et 150 UD)
         """
