@@ -6,20 +6,25 @@ jobs:
       - image: python:3.7
     steps:
       - checkout
+
       - restore_cache:
           key: v1-py3-deps-{{ .Branch }}-{{ checksum "setup.py" }}
+
       - run:
           name: Create a virtualenv
           command: |
             mkdir -p /tmp/venv/openfisca_france
             python -m venv /tmp/venv/openfisca_france
             echo "source /tmp/venv/openfisca_france/bin/activate" >> $BASH_ENV
+
       - run:
           name: Install dependencies
           command: make install
+
     # - run:
       #    name: Use a specific branch of OpenFisca-Core for testing purposes
       #    command:  pip install --editable git+https://github.com/openfisca/openfisca-core.git@BRANCH_NAME#egg=OpenFisca-Core
+
       - save_cache:
           key: v1-py3-deps-{{ .Branch }}-{{ checksum "setup.py" }}
           paths:
@@ -30,8 +35,10 @@ jobs:
       - image: python:3.7
     steps:
       - checkout
+
       - restore_cache:
           key: v1-py3-deps-{{ .Branch }}-{{ checksum "setup.py" }}
+
       - run:
           name: Activate virtualenv
           command: echo "source /tmp/venv/openfisca_france/bin/activate" >> $BASH_ENV
@@ -49,25 +56,23 @@ jobs:
       - image: python:3.7
     steps:
       - checkout
+
       - restore_cache:
           key: v1-py3-deps-{{ .Branch }}-{{ checksum "setup.py" }}
 
       - run:
-          name: Create a virtualenv
-          command: |
-            mkdir -p /tmp/venv/openfisca_france
-            python -m venv /tmp/venv/openfisca_france
-            echo "source /tmp/venv/openfisca_france/bin/activate" >> $BASH_ENV
           name: Activate virtualenv
           command: echo "source /tmp/venv/openfisca_france/bin/activate" >> $BASH_ENV
 
       - run:
           name: Build package
           command: make build
+
       - save_cache:
           key: v1-py3-deps-{{ .Branch }}-{{ checksum "setup.py" }}
           paths:
             - /tmp/venv/openfisca_france
+
       - save_cache:
           key: v1-py3-build-{{ .Revision }}
           paths:
@@ -166,7 +171,6 @@ workflows:
       - lint_files:
           requires:
             - build
-            - install
       - build:
           requires:
             - install
@@ -175,13 +179,10 @@ workflows:
             - build
       - test_yaml:
           requires:
-             - build
             - build
       - test_api:
-           requires:
-             - build
           requires:
-            - build
+             - build
       - check_version_and_changelog:
           requires:
             - lint_files
