@@ -448,7 +448,7 @@ class revenu_assimile_pension_apres_abattements(Variable):
     label = "Pensions après abattements"
     definition_period = YEAR
 
-    def formula(individu, period, parameters):
+    def formula_2002_01_01(individu, period, parameters):
         revenu_assimile_pension = individu('revenu_assimile_pension', period)
         abatpen = parameters(period).impot_revenu.tspr.abatpen
 
