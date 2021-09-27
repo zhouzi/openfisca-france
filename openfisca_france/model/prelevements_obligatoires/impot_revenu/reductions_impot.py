@@ -4535,7 +4535,7 @@ class repsoc(Variable):
     label = "repsoc"
     definition_period = YEAR
 
-    def formula_2003_01_01(foyer_fiscal, period, parameters):
+    def formula_2004_01_01(foyer_fiscal, period, parameters):
         '''
         Intérèts d'emprunts pour reprises de société
         2003-
