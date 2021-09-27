@@ -45,7 +45,7 @@ class csg_deductible_chomage(Variable):
     reference = "http://vosdroits.service-public.fr/particuliers/F2329.xhtml"
     definition_period = MONTH
 
-    def formula(individu, period, parameters):
+    def formula_2002_01_01(individu, period, parameters):
         chomage_brut = individu("chomage_brut", period)
         csg_imposable_chomage = individu("csg_imposable_chomage", period)
         taux_csg_remplacement = individu("taux_csg_remplacement", period)
@@ -70,7 +70,7 @@ class csg_imposable_chomage(Variable):
     reference = "http://vosdroits.service-public.fr/particuliers/F2329.xhtml"
     definition_period = MONTH
 
-    def formula(individu, period, parameters):
+    def formula_2002_01_01(individu, period, parameters):
         chomage_brut = individu("chomage_brut", period)
         parameters = parameters(period)
 
