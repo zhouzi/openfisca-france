@@ -74,7 +74,7 @@ class contribution_exceptionnelle_solidarite(Variable):
     end = '2017-12-31'
     reference = "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006903878&dateTexte=&categorieLien=cid"
 
-    def formula(individu, period, parameters):
+    def formula_2002_01_01(individu, period, parameters):
         traitement_indiciaire_brut = individu('traitement_indiciaire_brut', period)
         hsup = individu('hsup', period)
         categorie_salarie = individu('categorie_salarie', period)
