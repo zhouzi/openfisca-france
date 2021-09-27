@@ -525,7 +525,7 @@ class rente_viagere_titre_onereux_net(Variable):
     reference = "http://www.lafinancepourtous.fr/Vie-professionnelle-et-retraite/Retraite/Epargne-retraite/La-rente-viagere/La-fiscalite-de-la-rente-viagere"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2002_01_01(foyer_fiscal, period, parameters):
         '''
         Selon la législation, le taux d'abattement appliqué dépend de l'âge du bénéficiaire lors du premier versement
         de la rente. Il y a quatre taux possibles. On suppoose que la case 1aw bénéficie du taux associé à l'âge le
