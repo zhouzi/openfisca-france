@@ -2480,7 +2480,7 @@ class defncn(Variable):
         return min_(
             f5ht + f5it + f5jt + f5kt + f5lt + f5mt,
             abat_rpns(mncn_impo, specialbnc.services) + mncn_pvct + cncn_aimp + (1 + cga) * cncn_bene
-            )  #  TODO check !
+            )  #  TODO check !
 
 
 class defmeu(Variable):
@@ -2847,7 +2847,7 @@ class rpns_imposables(Variable):
     label = "Revenus imposables des professions non salariées individuels"
     definition_period = YEAR
 
-    def formula(individu, period, parameters):
+    def formula_2002_01_01(individu, period, parameters):
         '''
         Revenus des professions non salariées individuels
         '''
@@ -3023,9 +3023,9 @@ class abat_spe(Variable):
 
     def formula(foyer_fiscal, period, parameters):
         """
-        Abattements spéciaux pour :
+        Abattements spéciaux pour :
 
-        - pour personnes âges ou invalides ;
+        - pour personnes âges ou invalides ;
         - pour enfants à charge ayant fondé un foyer distinct.
         """
 
