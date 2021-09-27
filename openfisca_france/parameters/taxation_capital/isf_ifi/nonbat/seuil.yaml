@@ -1,7 +1,13 @@
 description: Seuil biens ruraux
 unit: currency
 values:
-  2004-01-01:
+  1989-01-01:
+    value: 500000.0
+  2002-01-01:
     value: 76000.0
-  2011-01-01:
+  2009-01-01:
+    value: 100000.0
+  2010-01-01:
+    value: 100393.0
+  2011-01-01: #2015 aussi 
     value: 101897.0
