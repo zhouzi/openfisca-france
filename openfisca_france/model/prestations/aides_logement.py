@@ -357,7 +357,7 @@ class al_nb_personnes_a_charge(Variable):
     label = "Nombre de personne à charge au sens des allocations logement"
     definition_period = MONTH
 
-    def formula(famille, period, parameters):
+    def formula_2002_01_01(famille, period, parameters):
         '''
         site de la CAF en 2011:
         # Enfant à charge
