@@ -2350,7 +2350,7 @@ class rpns_exon(Variable):
     label = "Plus values de cession exonérées -Revenu des professions non salariées"
     definition_period = YEAR
 
-    def formula(individu, period, parameters):
+    def formula_2002_01_01(individu, period, parameters):
         '''
         Plus values de cession
         '''
