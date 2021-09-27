@@ -1,5 +1,93 @@
 # Changelog
 
+## 75.1.0 [#1641](https://github.com/openfisca/openfisca-france/pull/1641)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2021.
+* Zones impactées : 
+  - `model/prelevements_obligatoires/prestations/aide_permis_probtp.py`
+  - `parameters/prestations/aide_permis_probtp.yaml`.
+* Détails :
+  - Ajoute l'aide au permis : `aide_permis_probtp`.
+ 
+
+# 75.0.0 [#1636](https://github.com/openfisca/openfisca-france/pull/1636)
+
+* Évolution du système socio-fiscal.
+* Zones impactées :
+  - `openfisca-france/tests/formulas/bourses_superieur/aide_merite.yaml`
+  - `openfisca-france/openfisca_france/model/prestations/enseignement_superieur/aide_merite.py`
+* Détails :
+  - Change la période d'éligibilité pour l'aide au mérite.
+
+## 74.2.0 [#1682](https://github.com/openfisca/openfisca-france/pull/1682)
+
+* Évolution du système socio-fiscal
+* Périodes concernées : toutes.
+* Zones impactées : `openfisca_france/model/prestations/transport.py`.
+* Détails : Ajout de l'aide [carte SNCF élèves et apprentis](https://www.sncf.com/fr/offres-voyageurs/cartes-tarifs-grandes-lignes/eleves-apprentis)
+
+### 74.1.4 [#1681](https://github.com/openfisca/openfisca-france/pull/1681)
+
+* Changement mineur.
+* Périodes concernées : jusqu'au 31/12/2018 (inclus) à partir du 21/12/2018 (inclus)
+* Zones impactées : model/prelevements_obligatoires/prelevements_sociaux/travail_prive.py.
+* Détails :
+  - Erreur dans l'end_date de 8 cotisation sociales concernées par la fusion Agirc Arrco (agff, agirc, arrco, cet, employeur et salarié)
+
+### 74.1.3 [#1674](https://github.com/openfisca/openfisca-france/pull/1674)
+
+* Amélioration technique.
+* Zones impactées : configuration de l'intégration continue.
+  * Détails :
+  - Ajoute la vérification de la version du package de l'api web
+
+### 74.1.2 [#1673](https://github.com/openfisca/openfisca-france/pull/1673)
+
+* Évolution du système socio-fiscal
+* Périodes concernées : à partir de 2017.
+* Zones impactées : openfisca-france\parameters\prestations.
+* Détails :
+  - Mise à jour des montants, plafonds et taux de prestations sociales
+  - Corrige une date dans l'historique du complément à l'allocation adulte handicapé
+
+### 74.1.1 [#1663](https://github.com/openfisca/openfisca-france/pull/1663)
+
+* Amélioration technique.
+* Zones impactées : configuration de l'intégration continue.
+* Détails :
+  - Passage de CircleCI vers GitHub Actions
+
+## 74.1.0 [#1636](https://github.com/openfisca/openfisca-france/pull/1636)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2021.
+* Zones impactées :
+  - `model/prestations/alimentation.py`
+  - `parameters/crous_repas_un_euro.yaml`.
+  - `model/prestations/education.py`.
+* Détails :
+  - Ajoute une condition d'éligibilité pour les détenteurs d'une carte des métiers pour la variable `crous_repas_un_euro_eligibilite`.
+
+# 74.0.1 [#1668](https://github.com/openfisca/openfisca-france/pull/1668)
+
+* Changement mineur.
+* Périodes concernées : toutes.
+* Zones impactées : openfisca_france\parameters\prestations.
+* Détails :
+  - Mise à jour de plusieurs paramètres relatifs aux prestations familiales.
+  - Un fichier pour la majoration exceptionnelle de l'ARS en 2020 a été ajouté (ars_maj.yaml).
+
+# 74.0.0 [#1569](https://github.com/openfisca/openfisca-france/pull/1569)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2021 au 31/21/2021.
+* Zones impactées :
+  - `caracteristiques_socio_demographiques/demographie.py`.
+  - `covid19/jeunes.py`
+* Détails :
+  - `plus_haut_diplome_niveau`, `plus_haut_diplome_date_obtention`, `alternant` sont désormais des variables mensuelles (et non plus annuelles).
+
 ### 73.1.3 [#1658](https://github.com/openfisca/openfisca-france/pull/1658)
 
 * Évolution du système socio-fiscal.
