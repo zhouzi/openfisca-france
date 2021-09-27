@@ -947,7 +947,7 @@ class revenu_categoriel_non_salarial(Variable):
     reference = "http://www.insee.fr/fr/methodes/default.asp?page=definitions/revenus-categoriesl.htm"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2002_01_01(foyer_fiscal, period, parameters):
         nbnc_pvce_i = foyer_fiscal.members('nbnc_pvce', period)
         rpns_i = foyer_fiscal.members('rpns_imposables', period)
         nbnc_pvce = foyer_fiscal.sum(nbnc_pvce_i)
@@ -1021,7 +1021,7 @@ class rbg(Variable):
     reference = "http://www.documentissime.fr/dossiers-droit-pratique/dossier-19-l-impot-sur-le-revenu-les-modalites-generales-d-imposition/la-determination-du-revenu-imposable/le-revenu-brut-global.html"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2002_01_01(foyer_fiscal, period, parameters):
         '''Revenu brut global
         '''
         revenu_categoriel = foyer_fiscal('revenu_categoriel', period)
@@ -2389,7 +2389,7 @@ class defrag(Variable):
     label = "Déficit agricole des années antérieures"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2002_01_01(foyer_fiscal, period, parameters):
         f5qf = foyer_fiscal('f5qf', period)
         f5qg = foyer_fiscal('f5qg', period)
         f5qn = foyer_fiscal('f5qn', period)
@@ -2422,7 +2422,7 @@ class defacc(Variable):
     label = "Déficit industriels et commerciaux non professionnels des années antérieures"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2002_01_01(foyer_fiscal, period, parameters):
         f5rn = foyer_fiscal('f5rn', period)
         f5ro = foyer_fiscal('f5ro', period)
         f5rp = foyer_fiscal('f5rp', period)
@@ -2457,7 +2457,7 @@ class defncn(Variable):
     label = "Déficit non commerciaux non professionnels des années antérieures"
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula_2002_01_01(foyer_fiscal, period, parameters):
         f5ht = foyer_fiscal('f5ht', period)
         f5it = foyer_fiscal('f5it', period)
         f5jt = foyer_fiscal('f5jt', period)
