@@ -574,7 +574,7 @@ class isf_ifi_apres_plaf(Variable):
     label = "ISF-IFI après plafonnement"
     definition_period = YEAR
 
-    def formula_2002_01_01(foyer_fiscal, period, parameters):
+    def formula_2004_01_01(foyer_fiscal, period, parameters):
         total_impots_plafonnement_isf_ifi = foyer_fiscal('total_impots_plafonnement_isf_ifi', period)
         revenus_et_produits_plafonnement_isf_ifi = foyer_fiscal('revenus_et_produits_plafonnement_isf_ifi', period)
         isf_ifi_avant_plaf = foyer_fiscal('isf_ifi_avant_plaf', period)
