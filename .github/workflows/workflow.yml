@@ -12,14 +12,14 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.7.12
+      - name: Build package
+        run: make build
       - name: Cache build
         id: restore-build
         uses: actions/cache@v2
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ github.ref }}${{ env.pythonLocation }}-build-${{ hashFiles('setup.py') }} # Cache the entire build Python environment
-      - name: Build package
-        run: make build
       - name: Cache build release
         id: restore-build-release
         uses: actions/cache@v2
