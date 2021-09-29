@@ -68,6 +68,7 @@ jobs:
           key: ${{ github.ref }}${{ env.pythonLocation }}-build-${{ hashFiles('setup.py') }}
       - run: |
           shopt -s globstar
+          make build
           openfisca test tests/**/*.py
 
   test-yaml:
