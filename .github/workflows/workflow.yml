@@ -26,6 +26,8 @@ jobs:
         with:
           path: dist
           key: ${{ github.ref }}${{ env.pythonLocation }}-build-release-${{ hashFiles('setup.py') }}
+      - name: dirs
+        run: find /path/ -type d -print
 
   lint-files:
     runs-on: ubuntu-latest
