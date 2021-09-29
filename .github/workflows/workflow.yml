@@ -20,6 +20,7 @@ jobs:
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ github.ref }}${{ env.pythonLocation }}-build-${{ hashFiles('setup.py') }}-${{ github.sha }} # Cache the entire build Python environment
+          restore-keys: ${{ github.ref }}${{ env.pythonLocation }}-build-${{ hashFiles('setup.py') }}
       - name: Cache build release
         id: restore-build-release
         uses: actions/cache@v2
