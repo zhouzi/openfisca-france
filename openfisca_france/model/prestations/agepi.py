@@ -96,12 +96,12 @@ class TypesContrat(Enum):
     formation = "FORMATION"
 
 
-class types_activite_condition(Variable):
+class types_reprises_activite(Variable):
     value_type = Enum
     possible_values = TypesContrat
     default_value = TypesContrat.aucune_activite
     entity = Individu
-    label = "Les types d'activité éligibles à l'aide à la garde des enfants de parents isolés de Pôle Emploi - AGEPI "
+    label = "Les types de reprise d'activité pour l'aide à la garde des enfants de parents isolés de Pôle Emploi - AGEPI "
     definition_period = MONTH
 
 
@@ -219,7 +219,7 @@ class agepi_eligible(Variable):
         montants_are_eligibles = are_individu_inferieure_are_min + are_individu_egale_are_min
 
         #  8
-        reprises_types_activites = individu('types_activite_condition', period)
+        reprises_types_activites = individu('types_reprises_activite', period)
 
         reprises_types_activites_formation = reprises_types_activites == TypesContrat.formation
         reprises_types_activites_cdi = reprises_types_activites == TypesContrat.cdi
@@ -231,11 +231,11 @@ class agepi_eligible(Variable):
         periode_formation_eligible = duree_formation >= parameters(period).prestations.agepi.duree_de_formation_minimum
 
         #  Le durée de contrat de l'emploi doit être d'au moins 3 mois
-        periode_de_contrat_3_mois_minimum = individu('contrat_de_travail_duree', period) >= 3
+        duree_de_contrat_3_mois_minimum = individu('contrat_de_travail_duree', period) >= 3
 
         reprises_types_activites_formation_eligible = reprises_types_activites_formation * periode_formation_eligible
-        reprises_types_activites_cdd_eligible = reprises_types_activites_cdd * periode_de_contrat_3_mois_minimum
-        reprises_types_activites_ctt_eligible = reprises_types_activites_ctt * periode_de_contrat_3_mois_minimum
+        reprises_types_activites_cdd_eligible = reprises_types_activites_cdd * duree_de_contrat_3_mois_minimum
+        reprises_types_activites_ctt_eligible = reprises_types_activites_ctt * duree_de_contrat_3_mois_minimum
 
         types_et_duree_activite_eligible = (reprises_types_activites_formation_eligible
                                             + reprises_types_activites_cdi
