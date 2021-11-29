@@ -88,20 +88,20 @@ class en_contrat_aide(Variable):
 
 
 class TypesContrat(Enum):
-    __order__ = 'aucune_activite cdi cdd ctt formation'  # Needed to preserve the enum order in Python 2
-    aucune_activite = "AUCUNE ACTIVITE"
-    cdi = "CDI"
-    cdd = "CDD"
-    ctt = "CTT"
-    formation = "FORMATION"
+    __order__ = 'aucun cdi cdd ctt formation'  # Needed to preserve the enum order in Python 2
+    aucun = "Aucun contrat"
+    cdi = "Contrat à durée indéterminé (CDI)"
+    cdd = "Contrat à durée déterminé (CDD)"
+    ctt = "Contrat de travail temporaire (CTT)"
+    formation = "Formation"
 
 
-class types_activite_condition(Variable):
+class types_contrat(Variable):
     value_type = Enum
     possible_values = TypesContrat
-    default_value = TypesContrat.aucune_activite
+    default_value = TypesContrat.aucun
     entity = Individu
-    label = "Les types d'activité éligibles à l'aide à la garde des enfants de parents isolés de Pôle Emploi - AGEPI "
+    label = "Types de contrat"
     definition_period = MONTH
 
 
@@ -219,7 +219,7 @@ class agepi_eligible(Variable):
         montants_are_eligibles = are_individu_inferieure_are_min + are_individu_egale_are_min
 
         #  8
-        reprises_types_activites = individu('types_activite_condition', period)
+        reprises_types_activites = individu('types_contrat', period)
 
         reprises_types_activites_formation = reprises_types_activites == TypesContrat.formation
         reprises_types_activites_cdi = reprises_types_activites == TypesContrat.cdi
