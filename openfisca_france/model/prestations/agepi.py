@@ -192,13 +192,13 @@ class agepi_eligible(Variable):
         contrat_de_travail_debut = individu('contrat_de_travail_debut', period)  # numpy.datetime64
         contrat_de_travail_debut_en_mois = contrat_de_travail_debut.astype('M8[M]')
 
-        date_limite_eligibilite_contrat = min_(
+        date_demande_limite = min_(
             (contrat_de_travail_debut_en_mois + 1) + (contrat_de_travail_debut - contrat_de_travail_debut_en_mois),
             (contrat_de_travail_debut_en_mois + 2) - np.timedelta64(1, 'D')
             )
 
         agepi_date_de_demande = individu("agepi_date_demande", period)
-        dates_demandes_agepi_eligibles = agepi_date_de_demande <= date_limite_eligibilite_contrat
+        dates_demandes_agepi_eligibles = agepi_date_de_demande <= date_demande_limite
 
         #  7
         mayotte = individu.menage('residence_mayotte', period)
@@ -237,7 +237,7 @@ class agepi_eligible(Variable):
         reprises_types_activites_cdd_eligible = reprises_types_activites_cdd * periode_de_contrat_3_mois_minimum
         reprises_types_activites_ctt_eligible = reprises_types_activites_ctt * periode_de_contrat_3_mois_minimum
 
-        types_et_duree_activite_eligible = (reprises_types_activites_formation_eligible
+        types_et_duree_activite_eligibles = (reprises_types_activites_formation_eligible
                                             + reprises_types_activites_cdi
                                             + reprises_types_activites_cdd_eligible
                                             + reprises_types_activites_ctt_eligible)
@@ -249,7 +249,7 @@ class agepi_eligible(Variable):
             * lieux_activite_eligibles
             * dates_demandes_agepi_eligibles
             * montants_are_eligibles
-            * types_et_duree_activite_eligible)
+            * types_et_duree_activite_eligibles)
 
         return eligible_agepi
 
