@@ -12,7 +12,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -53,7 +53,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -95,7 +95,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -135,7 +135,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_6
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -175,7 +175,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_4
         stagiaire: True
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -215,7 +215,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_5
         stagiaire: False
         en_contrat_aide: True
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -255,7 +255,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: False
+        lieu_emploi_ou_formation: non_renseigne
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -295,7 +295,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-02-02'
         allocation_retour_emploi: 0
@@ -340,7 +340,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -395,7 +395,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -435,7 +435,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -475,7 +475,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -515,7 +515,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_4
         stagiaire: True
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
@@ -555,7 +555,7 @@
         pole_emploi_categorie_demandeur_emploi: categorie_1
         stagiaire: False
         en_contrat_aide: False
-        emploi_ou_formation_en_france: True
+        lieu_emploi_ou_formation: metropole
         contrat_de_travail_debut: '2021-01-01'
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
