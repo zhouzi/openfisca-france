@@ -17,10 +17,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -58,10 +57,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Paul:
         age: 30
       Jean:
@@ -100,10 +98,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -140,10 +137,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -180,10 +176,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -220,10 +215,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -260,10 +254,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -300,10 +293,9 @@
         agepi_date_demande: '2021-02-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -345,10 +337,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 3
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        agepi_temps_travail_en_heure: 10
       Jean:
         age: 12
       Marie:
@@ -400,10 +391,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: formation
-        heures_remunerees_volume: 63
         contrat_de_travail_duree: 3
-        types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 10
+        types_intensite_activite: mensuelle
+        agepi_temps_travail_en_heure: 63
       Jean:
         age: 12
       Marie:
@@ -440,10 +430,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 64
         contrat_de_travail_duree: 3
         types_intensite_activite: mensuelle
-        agepi_temps_travail_semaine: 0
+        agepi_temps_travail_en_heure: 64
       Jean:
         age: 9
       Marie:
@@ -480,10 +469,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdd
-        heures_remunerees_volume: 64
         contrat_de_travail_duree: 3
         types_intensite_activite: mensuelle
-        agepi_temps_travail_semaine: 0
+        agepi_temps_travail_en_heure: 64
       Jean:
         age: 9
       Marie:
@@ -501,7 +489,7 @@
     agepi: [230, 0, 0]
 
 
-- name: Test 13 - Individu eligible 2 enfants, reprise formation > 40h, < 15h/sem, catégorie 4, Mayotte
+- name: Test 13 - Individu eligible 2 enfants, reprise formation >= 40h, catégorie 4, Mayotte
   period: 2022-01
   input:
     menage:
@@ -520,10 +508,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: formation
-        heures_remunerees_volume: 40
         contrat_de_travail_duree: 0
-        types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 14
+        types_intensite_activite: mensuelle
+        agepi_temps_travail_en_heure: 40
       Jean:
         age: 9
       Marie:
@@ -560,10 +547,9 @@
         agepi_date_demande: '2021-01-02'
         allocation_retour_emploi: 0
         types_contrat: cdi
-        heures_remunerees_volume: 0
         contrat_de_travail_duree: 0
         types_intensite_activite: hebdomadaire
-        agepi_temps_travail_semaine: 15
+        agepi_temps_travail_en_heure: 15
       Jean:
         age: 12
       Marie:

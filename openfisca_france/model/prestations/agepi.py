@@ -25,16 +25,12 @@ class agepi_nbenf(Variable):
         return nb_enfants_eligibles
 
 
-class agepi_temps_travail_semaine(Variable):
+class agepi_temps_travail_en_heure(Variable):
     value_type = float
     entity = Individu
-    label = "Temps de travail par semaine pour le calcul de l'aide à la garde des enfants de parents isolés de Pôle Emploi - AGEPI"
+    label = "Temps de travail en heures pour le calcul de l'aide à la garde des enfants de parents isolés de Pôle Emploi - AGEPI"
     definition_period = MONTH
     set_input = set_input_divide_by_period
-
-    def formula_2014_01_20(individu, period):
-        heures_remunerees_volume = individu('heures_remunerees_volume', period)
-        return heures_remunerees_volume / 52 * 12  # Passage en heures par semaine
 
 
 class agepi_percue_12_derniers_mois(Variable):
@@ -68,20 +64,22 @@ class lieu_emploi_ou_formation(Variable):
     definition_period = MONTH
     set_input = set_input_dispatch_by_period
 
-    def formula(menage, period, parameters):
+    def formula(individu, period, parameters):
         return select(
             [
-                menage('lieu_emploi_formation_france_hors_dom_corse', period),
-                menage('lieu_emploi_formation_guadeloupe', period),
-                menage('lieu_emploi_formation_martinique', period),
-                menage('lieu_emploi_formation_guyane', period),
-                menage('lieu_emploi_formation_reunion', period),
-                menage('lieu_emploi_formation_saint_pierre_et_miquelon', period),
-                menage('lieu_emploi_formation_mayotte', period),
-                menage('lieu_emploi_formation_saint_bartelemy', period),
-                menage('lieu_emploi_formation_saint_martin', period)
+                individu('lieu_emploi_formation_metropole', period),
+                individu('lieu_emploi_formation_france_hors_dom_corse', period),
+                individu('lieu_emploi_formation_guadeloupe', period),
+                individu('lieu_emploi_formation_martinique', period),
+                individu('lieu_emploi_formation_guyane', period),
+                individu('lieu_emploi_formation_reunion', period),
+                individu('lieu_emploi_formation_saint_pierre_et_miquelon', period),
+                individu('lieu_emploi_formation_mayotte', period),
+                individu('lieu_emploi_formation_saint_bartelemy', period),
+                individu('lieu_emploi_formation_saint_martin', period)
                 ],
             [
+                TypesLieuEmploiFormation.metropole,
                 TypesLieuEmploiFormation.france_hors_dom_corse,
                 TypesLieuEmploiFormation.guadeloupe,
                 TypesLieuEmploiFormation.martinique,
@@ -92,7 +90,7 @@ class lieu_emploi_ou_formation(Variable):
                 TypesLieuEmploiFormation.saint_bartelemy,
                 TypesLieuEmploiFormation.saint_martin
                 ],
-            default=TypesLieuEmploiFormation.metropole
+            default=TypesLieuEmploiFormation.non_renseigne
             )
 
 
@@ -231,7 +229,7 @@ class agepi_eligible(Variable):
 
         #  5
         lieux_activite_eligibles = not_(individu('lieu_emploi_ou_formation', period) == TypesLieuEmploiFormation.non_renseigne)
-
+        print("lieux_activite : ", individu('lieu_emploi_ou_formation', period))
         #  6
         contrat_de_travail_debut = individu('contrat_de_travail_debut', period)  # numpy.datetime64
         contrat_de_travail_debut_en_mois = contrat_de_travail_debut.astype('M8[M]')
@@ -271,7 +269,7 @@ class agepi_eligible(Variable):
         reprises_types_activites_ctt = reprises_types_activites == TypesContrat.ctt
 
         #  La formation doit être supérieure ou égale à 40 heures
-        duree_formation = individu('heures_remunerees_volume', period)
+        duree_formation = individu('agepi_temps_travail_en_heure', period)
         periode_formation_eligible = duree_formation >= parameters(period).prestations.agepi.duree_de_formation_minimum
 
         #  Le durée de contrat de l'emploi doit être d'au moins 3 mois
@@ -313,8 +311,7 @@ class agepi_hors_mayotte(Variable):
     def formula_2014_01_20(individu, period, parameters):
         est_parent = individu.has_role(Famille.PARENT)
         intensite_activite = individu('types_intensite_activite', period)
-        nb_heures_semaine = individu('agepi_temps_travail_semaine', period)
-        nb_heures_mensuelles = individu('heures_remunerees_volume', period)
+        nb_heures = individu('agepi_temps_travail_en_heure', period)
         nb_enfants_eligibles = individu.famille('agepi_nbenf', period)
         eligibilite_agepi = individu('agepi_eligible', period)
 
@@ -332,8 +329,8 @@ class agepi_hors_mayotte(Variable):
         montants_min_intensite = montants_min_hors_mayotte * (intensite_hebdomadaire + intensite_mensuelle)
         montants_max_intensite = montants_max_hors_mayotte * (intensite_hebdomadaire + intensite_mensuelle)
 
-        condition_montants_min = ((nb_heures_semaine < intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures_mensuelles < intensite_mensuelle_seuil) * intensite_mensuelle)
-        condition_montants_max = ((nb_heures_semaine >= intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures_mensuelles >= intensite_mensuelle_seuil) * intensite_mensuelle)
+        condition_montants_min = ((nb_heures < intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures < intensite_mensuelle_seuil) * intensite_mensuelle)
+        condition_montants_max = ((nb_heures >= intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures >= intensite_mensuelle_seuil) * intensite_mensuelle)
 
         montant_avec_intensite = (condition_montants_min * montants_min_intensite) + (condition_montants_max * montants_max_intensite)
 
@@ -358,8 +355,7 @@ class agepi_mayotte(Variable):
     def formula_2014_01_20(individu, period, parameters):
         est_parent = individu.has_role(Famille.PARENT)
         intensite_activite = individu('types_intensite_activite', period)
-        nb_heures_semaine = individu('agepi_temps_travail_semaine', period)
-        nb_heures_mensuelles = individu('heures_remunerees_volume', period)
+        nb_heures = individu('agepi_temps_travail_en_heure', period)
         nb_enfants_eligibles = individu.famille('agepi_nbenf', period)
         eligibilite_agepi = individu('agepi_eligible', period)
 
@@ -377,15 +373,14 @@ class agepi_mayotte(Variable):
         montants_min_intensite = montants_min_mayotte * (intensite_hebdomadaire + intensite_mensuelle)
         montants_max_intensite = montants_max_mayotte * (intensite_hebdomadaire + intensite_mensuelle)
 
-        condition_montants_min = ((nb_heures_semaine < intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures_mensuelles < intensite_mensuelle_seuil) * intensite_mensuelle)
-        condition_montants_max = ((nb_heures_semaine >= intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures_mensuelles >= intensite_mensuelle_seuil) * intensite_mensuelle)
+        condition_montants_min = ((nb_heures < intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures < intensite_mensuelle_seuil) * intensite_mensuelle)
+        condition_montants_max = ((nb_heures >= intensite_hebdo_seuil) * intensite_hebdomadaire) + ((nb_heures >= intensite_mensuelle_seuil) * intensite_mensuelle)
 
         montant_avec_intensite = (condition_montants_min * montants_min_intensite) + (condition_montants_max * montants_max_intensite)
 
         montants = mayotte * (est_parent * montant_avec_intensite)
 
         return eligibilite_agepi * montants
-
 
 class agepi(Variable):
     value_type = float
