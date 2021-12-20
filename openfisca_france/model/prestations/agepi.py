@@ -33,10 +33,10 @@ class agepi_temps_travail_en_heure(Variable):
     set_input = set_input_divide_by_period
 
 
-class agepi_duree_formation(Variable):
+class duree_formation(Variable):
     value_type = float
     entity = Individu
-    label = "Durée de la formation en heures pour le calcul de l'aide à la garde des enfants de parents isolés de Pôle Emploi - AGEPI"
+    label = "Durée de la formation en heures"
     definition_period = MONTH
     set_input = set_input_divide_by_period
 
@@ -277,7 +277,7 @@ class agepi_eligible(Variable):
         reprises_types_activites_ctt = reprises_types_activites == TypesContrat.ctt
 
         #  La formation doit être supérieure ou égale à 40 heures
-        duree_formation = individu('agepi_duree_formation', period)
+        duree_formation = individu('duree_formation', period)
         periode_formation_eligible = duree_formation >= parameters(period).prestations.agepi.duree_de_formation_minimum
 
         #  Le durée de contrat de l'emploi doit être d'au moins 3 mois
