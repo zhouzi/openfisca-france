@@ -19,7 +19,7 @@ brackets:
     2005-01-01:
       value: 0.03
     2011-01-01:
-      value: null
+      value: 0.0
 metadata:
   ux_name: Abattement
   description_en: CSG - rates on work incomes
