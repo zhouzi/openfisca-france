@@ -1,0 +1,9 @@
+- name: IR - Crédit d'impôt salaires perçus de l'étranger
+  period: 2018
+  absolute_error_margin: 0.5
+  input:
+    salaire_imposable: 20000
+    f1af: 10000
+  output:
+    irpp_economique: -1181
+    creimp_salaire_etranger:

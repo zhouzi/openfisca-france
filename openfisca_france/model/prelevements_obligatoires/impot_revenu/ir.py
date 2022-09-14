@@ -402,8 +402,10 @@ class revenu_assimile_salaire(Variable):
         chomage_imposable = individu('chomage_imposable', period, options = [ADD])
         f1tt = individu('f1tt', period)
         f3vj = individu('f3vj', period)
+        f1ag = individu('f1ag', period)
+        f1ah = individu('f1ah', period)
 
-        return salaire_imposable + chomage_imposable + f1tt + f3vj
+        return salaire_imposable + chomage_imposable + f1tt + f3vj + f1ag + f1ah
 
 
 class revenu_assimile_salaire_apres_abattements(Variable):

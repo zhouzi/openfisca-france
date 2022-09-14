@@ -2287,3 +2287,53 @@ class saldom2(Variable):
         maxEffectif = maxNonInv * not_(isinvalid) + P.max3 * isinvalid
 
         return P.taux * min_(f7db, maxEffectif)
+
+class creimp_salaire_etranger(Variable):
+    value_type = float
+    entity = FoyerFiscal
+    label = 'Crédit d’impôt sur le revenu pour les salaires perçus à l’étranger'
+    definition_period = YEAR
+
+    def formula_2018_01_01(foyer_fiscal, period):
+        creimp_salaire_etranger_impot_francais = foyer_fiscal("creimp_salaire_etranger_impot_francais")
+        creimp_salaire_etranger_impot_etranger = foyer_fiscal("creimp_salaire_etranger_impot_etranger")
+
+        return creimp_salaire_etranger_impot_etranger + creimp_salaire_etranger_impot_francais
+
+class creimp_salaire_etranger_impot_francais(Variable):
+    value_type = float
+    entity = FoyerFiscal
+    label = 'Crédit d’impôt sur le revenu pour les salaires perçus à l’étranger ouvrant droit à un crédit d’impôt égal à l’impôt français'
+    definition_period = YEAR
+
+    def formula_2018_01_01(foyer_fiscal, period):
+        revenus_pays_cred_impot_francais_i = foyer_fiscal.members("f1af", period)
+        revenus_pays_cred_impot_francais = foyer_fiscal.sum(revenus_pays_cred_impot_francais_i)
+        rbg = foyer_fiscal("rbg", period)
+        ratio = revenus_pays_cred_impot_francais/rbg
+        impot_revenu = foyer_fiscal("ir", period)
+
+        return ratio * impot_revenu
+        
+class creimp_salaire_etranger_impot_etranger(Variable):
+    value_type = float
+    entity = FoyerFiscal
+    label = 'Crédit d’impôt sur le revenu pour les salaires perçus à l’étranger ouvrant droit à un crédit d’impôt égal à l’impôt étranger'
+    definition_period = YEAR
+
+    def formula_2018_01_01(foyer_fiscal, period):
+        revenus_pays_cred_impot_etranger_i = foyer_fiscal.members("f1ag", period)
+        revenus_pays_cred_impot_etranger = foyer_fiscal.sum(revenus_pays_cred_impot_etranger_i)
+        rbg = foyer_fiscal("rbg", period)
+        ratio = revenus_pays_cred_impot_etranger/rbg
+        impot_total = foyer_fiscal("ir", period)
+        credit_maximum = impot_total * ratio
+
+        impots_etrangers_payes_i = foyer_fiscal.members("f8vm", period)
+        impots_etrangers_payes = foyer_fiscal.sum(impots_etrangers_payes_i)
+        # Quand aucun impôt n'est payé à l'étranger, alors on se retrouve 
+        # soit dans le cas d'une double imposition (pas de convention fiscale), 
+        # soit dans le cas de frontalier. 
+        # Dans les deux cas, 1ag est bien la bonne case, et il faut bien intégrer les revenus au calcul de l'impôt.
+
+        return min_(credit_maximum, impots_etrangers_payes)

@@ -137,7 +137,7 @@ class f8vm(Variable):
     value_type = int
     unit = 'currency'
     entity = Individu
-    label = "Impôt payé à l'étranger sur revenus de capitaux mobiliers et plus-values ouvrant droit à un crédit d'impôt"
+    label = "Impôt payé à l'étranger sur autres revenus"
     # start_date = date(2016, 1, 1)
     definition_period = YEAR
 
