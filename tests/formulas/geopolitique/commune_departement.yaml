@@ -1,0 +1,13 @@
+- name: Département d'un ménage résidant à Saint-Python
+  period: 2022-09
+  input:
+    depcom: "59541"
+  output:
+    code_departement: "59"
+
+- name: Collectivité d'outremer à compétence départementale d'un ménage résidant à Nouméa
+  period: 2022-09
+  input:
+    depcom: "98818"
+  output:
+    code_departement: "988"

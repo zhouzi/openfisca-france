@@ -1,0 +1,34 @@
+- name: Région d'un ménage résidant dans les Ardennes en 1999
+  period: 1999-01
+  input:
+    code_departement: "08"
+  output:
+    code_region: "21"
+
+- name: Région d'un ménage résidant dans les Ardennes en 2000
+  period: 2000-01
+  input:
+    code_departement: "08"
+  output:
+    code_region: "21"
+
+- name: Région d'un ménage résidant dans les Ardennes en 2015
+  period: 2015-01
+  input:
+    code_departement: "08"
+  output:
+    code_region: "21"
+
+- name: Région d'un ménage résidant dans les Ardennes en 2016
+  period: 2016-01
+  input:
+    code_departement: "08"
+  output:
+    code_region: "44"
+
+- name: Région d'un ménage résidant dans les Ardennes en 2016
+  period: 2017-01
+  input:
+    code_departement: "08"
+  output:
+    code_region: "44"
