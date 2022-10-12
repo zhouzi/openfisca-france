@@ -174,8 +174,6 @@ metadata:
   reference:
     1962-04-01:
       title: Décret 62-440 du 14/04/1962
-    1963-07-01:
-      title: Décret 63-921 du 06/09/1963
     1964-01-01:
       title: Décret 63-921 du 06/09/1963
     1964-11-01:
@@ -195,31 +193,17 @@ metadata:
     1968-01-01:
       title: Décret 67-1168 du 22/12/1967
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000499371
-    1968-02-01:
-      title: Décret 68-101 du 31/01/1968
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000511365
     1968-07-01:
       title: Décret 68-585 du 29/06/1968
-    1969-01-01:
-      title: Décret 69-60 du 20/01/1969
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000334294
     1969-10-01:
       title: Décret 69-878 du 26/09/1969
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000676699
-    1970-01-01:
-      title: Décret 69-879 du 26/09/1969
     1970-10-01:
       title: Décret 70-879 du 29/09/1970
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000518679
-    1971-01-01:
-      title: Décret 70-1004 du 30/10/1970
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000674361
     1971-10-01:
       title: Décret 71-705 du 27/08/1971
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000305823
-    1972-01-01:
-      title: Décret 71-1106 du 30/12/1971
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000880824
     1972-10-01:
       title: Décret 72-929 du 11/10/1972
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000506112
@@ -407,9 +391,6 @@ metadata:
     2014-04-01:
       title: Circulaire CNAV 2014/28 du 09/04/2014
       href: https://www.legislation.cnav.fr/Pages/texte.aspx?Nom=circulaire_cnav_2014_028_09042014
-    2014-10-01:
-      title: Circulaire CNAV 2014/53 du 29/10/2014
-      href: https://www.legislation.cnav.fr/Documents/circulaire_cnav_2014_53_29102014.pdf
     2016-04-01:
       title: Circulaire CNAV 2016/21 du 04/04/2016
       href: https://www.legislation.cnav.fr/Documents/circulaire_cnav_2016_21_04042016.pdf
@@ -430,7 +411,6 @@ metadata:
       href: https://www.legislation.cnav.fr/Documents/circulaire_cnav_2021_01_11012021.pdf
   official_journal_date:
     1962-04-01: "1962-04-15"
-    1963-07-01: "1963-09-08"
     1964-01-01: "1963-09-08"
     1964-11-01: "1965-01-10"
     1965-07-01: "1965-01-10"
@@ -439,15 +419,10 @@ metadata:
     1967-01-01: "1967-01-12"
     1967-10-01: "1967-11-04"
     1968-01-01: "1967-12-28"
-    1968-02-01: "1968-02-01"
     1968-07-01: "1968-07-03"
-    1969-01-01: "1969-01-21"
     1969-10-01: "1969-09-27"
-    1970-01-01: "1969-09-27"
     1970-10-01: "1970-10-01"
-    1971-01-01: "1970-11-01"
     1971-10-01: "1972-08-29"
-    1972-01-01: "1971-12-31"
     1972-10-01: "1972-10-12"
     1973-07-01: "1973-07-19"
     1974-01-01: "1973-12-23"
@@ -507,12 +482,8 @@ metadata:
     2008-01-01: "2007-12-28"
     2016-04-01: "2009-04-29"
   notes:
-    1963-07-01:
-    - title: Les allocataires âgés d'au moins 75 ans bénéficient d'un montant de 900,00 F.
     2012-04-01:
     - title: L'AVTS est remplacée par l'ASPA en 2007 par le décret 2007-57. Cependant, comme le mentionne l'ordonnance 2004-605, les personnes qui bénéficiaient au moment de l'entrée en vigueur de l'ASPA des anciens dispositifs de mimimum vieillesse continuent à percevoir ces anciennes prestations selon les règles applicables avant cette entrée en vigueur. D'où le fait qu'on garde les barèmes de l'AVTS après 2007.; ; Décret 2009-473, art. 1 du 28/04/2009 (modif art. D815-1 et D815-2 du CSS). Ce décret fixe les montants jusqu'à celui en vigueur à partir du 01/04/2012
-    2014-10-01:
-    - title: Pas de revalorisation du montant mais revalorisation du plafond
 documentation: |-
   Sources:
   Bozio, A. (2006), Réformes des retraites : estimations sur données françaises, thèse de doctorat, EHESS, annexe A.

@@ -12,11 +12,6 @@ metadata:
   reference:
     1985-01-01:
       title: Loi 85-17 du 04/01/1985, art. 6 et 7
-    1986-07-01:
-      title: Décrets 85-566 et 567 du 31/05/1985Arrêté du 31/05/1985Décret 86-150 du 30/001/1986
-    1987-04-01:
-      title: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006681717&cidTexte=JORFTEXT000000693695
     1994-07-01:
     - title: Loi 94-629 du 25/07/1994, art. 2 (modif art. L532-1, 2 ,4 du CSS)
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006757878&cidTexte=JORFTEXT000000365243
@@ -33,8 +28,6 @@ metadata:
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006758905&cidTexte=JORFTEXT000000249276
   official_journal_date:
     1985-01-01: "1985-01-05"
-    1986-07-01: 1985-06-02; 1985-06-02; 1986-02-02
-    1987-04-01: "1986-12-30"
     1994-07-01: "1994-07-26"
     1996-07-01: "1996-07-06"
     2004-01-01: "2003-12-19"

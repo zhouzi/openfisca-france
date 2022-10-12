@@ -16,9 +16,6 @@ metadata:
   ipp_csv_id: ret_plib_0_85
   unit: /1
   reference:
-    1993-01-01:
-    - title: Loi 91-73 art. 21 du 18/01/1991
-    - title: Décret no 92-829 du 26/08/1992
     2004-01-01:
     - title: Loi 2003-775 du 21/08/2003 - art. 88
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006758637&cidTexte=JORFTEXT000000781627
@@ -37,7 +34,6 @@ metadata:
       title: Décret 2014-1413 du 27/11/2014
       href: https://www.legifrance.gouv.fr/eli/decret/2014/11/27/2014-1413/jo/texte
   official_journal_date:
-    1993-01-01: "1992-08-28"
     2004-01-01: 2003-08-22; 2003-05-29
     2012-07-04: "2012-07-03"
     2013-01-01: "2012-11-30"

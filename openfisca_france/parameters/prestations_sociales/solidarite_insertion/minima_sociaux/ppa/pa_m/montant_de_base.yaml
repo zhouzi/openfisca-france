@@ -27,9 +27,6 @@ metadata:
     2015-10-01:
       title: Décret 2015-1710 du 21/12/2015, art. 1
       href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000031665102
-    2016-01-01:
-      title: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000031673709&cidTexte=JORFTEXT000031665094
     2016-04-01:
       title: Décret 2016-536 du 27/04/2016, art. 1
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000032482324&categorieLien=id
@@ -58,7 +55,6 @@ metadata:
       title: LOI n° 2022-1158 du 16/08/2022, art 9.
       href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046186723
   official_journal_date:
-    2016-01-01: "2015-12-22"
     2016-04-01: "2016-05-03"
     2017-04-01: "2017-05-05"
     2018-04-01: "2018-05-04"

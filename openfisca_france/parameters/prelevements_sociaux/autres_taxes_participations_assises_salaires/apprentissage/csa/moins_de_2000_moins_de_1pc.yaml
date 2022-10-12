@@ -20,9 +20,6 @@ metadata:
     1973-07-01:
       title: Décret 72-1208 du 27/12/1972
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000695977&categorieLien=id
-    1977-01-01:
-      title: Loi 77-704 du 05/07/1977
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000704668
     1978-01-01:
       title: Loi 78-653 du 22/06/1978 (LFR pour 1978)
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000704926
@@ -32,9 +29,6 @@ metadata:
     1980-01-01:
       title: Loi 80-30 du 18/01/80 (LF pour 1980), art. 21
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006273412&cidTexte=JORFTEXT000000705191
-    1993-01-01:
-      title: Loi 93-121 du 27/01/1993, art. 92
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006757797&cidTexte=JORFTEXT000000711603
     1995-01-01:
       title: Référence législative manquante
     1997-01-01:
@@ -69,39 +63,26 @@ metadata:
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000028428572&cidTexte=JORFTEXT000028400921
     - title: Loi 2012-354 du 14/12/2012 (LFR pour 2012), art. 22
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000025511700&cidTexte=JORFTEXT000025509584
-    2019-01-01:
-      title: Loi 2018-771 du 5/09/2018, art. 37
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037368540&cidTexte=JORFTEXT000037367660
   official_journal_date:
     1972-07-01: "1971-07-17"
     1973-07-01: "1972-12-29"
-    1977-01-01: "1977-07-06"
     1978-01-01: "1978-06-22"
-    1979-01-01: "1978-12-30"
     1980-01-01: "1980-01-19"
-    1993-01-01: "1993-01-30"
     1997-01-01: "1997-03-14"
     2004-01-01: "2004-12-31"
-    2005-01-01: "2004-12-31"
     2006-01-01: "2004-12-31"
     2007-01-01: "2008-03-12"
-    2009-01-01: "2009-11-25"
     2011-01-01: "2011-07-30"
     2012-01-01: "2012-03-15"
     2013-01-01: "2012-03-15"
     2014-01-01: 2013-12-29; 2012-03-15
-    2019-01-01: "2018-09-06"
   notes:
     1972-07-01:
     - title: La Loi 71-578 ramène le taux de la taxe d'apprentissage de 0,60% à 0,50%
     1973-07-01:
     - title: Le décret précise que les lois de 1971 sur l'apprentissage entreront en vigueur en Alsace-Moselle en 1973. Toutefois, le décret d'application 72-280 du 12/04/1972, art. 58 qui devait préciser le taux de la taxe applicable est introuvable sur Légifrance.
-    1977-01-01:
-    - title: Cotisation exceptionnelle supplémentaire de 0,1% des salaires de 1977, reconduite en 1978, 1979, 1980, 1981 et 1982. La loi 82-1126 donne un caractère permanent à cette cotisation (art. 27)
     1978-01-01:
     - title: En 1978, création d'une cotisation supplémentaire de 0,2 % pour financer la formation en alternance (référence législative manquante)
-    1993-01-01:
-    - title: Cette loi supprime la cotisation supplémentaire de 0,1 %, instaurée de façon exceptionnelle en 1977 et rendu permanente en 1983
     1995-01-01:
     - title: Mémento pratique Fiscal 1995, ed. Francis Lefebvre
     1997-01-01:

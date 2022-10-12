@@ -34,14 +34,11 @@ metadata:
     1976-10-01: "1976-09-30"
     1997-04-01: "1997-04-18"
     2007-02-01: 2006-12-27; 2007-01-31
-    2009-06-01: "2009-04-16"
   notes:
     1976-10-01:
     - title: API créée par la loi 76-617, en insérant un chapitre V-3 au CSS; Même évaluation de l'avantage en nature que pour les cotisations sociales
     2007-02-01:
     - title: "Loi : Calcul du forfait passe en % du RMI; Décret : dit que le forfait logement de l'API suit maintenant la même règle que le RMI; Même forfait logement que le RMI : cf. feuille \"RMI_FL\" à partir du 01/02/2007"
-    2009-06-01:
-    - title: Abrogation de l'API
   last_review: "2022-03-14"
 documentation: |-
   Notes :

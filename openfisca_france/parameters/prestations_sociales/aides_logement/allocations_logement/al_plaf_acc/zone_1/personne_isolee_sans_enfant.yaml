@@ -36,22 +36,6 @@ metadata:
   ipp_csv_id: plaf_remb_isol_z1_al
   unit: currency
   reference:
-    1990-07-01:
-      title: Arrêté du 24/10/1990, art. 1
-    1991-07-01:
-      title: Arrêté du 08/11/1991, art. 1
-    1992-07-01:
-      title: Arrêté du 23/09/1992, art. 1
-    1994-07-01:
-      title: Arrêté du 14/11/1994, art. 1
-    1997-07-01:
-      title: Arrêté du 10/09/1997, art. 1
-    1998-07-01:
-      title: Arrêté du 11/09/1998, art. 1
-    1999-07-01:
-      title: Arrêté du 28/06/1999, art. 1
-    2000-07-01:
-      title: Arrêté du 01/08/2000, art. 1
     2001-07-01:
       title: Arrêté du 31/07/2001, art. 2
     2002-07-01:
@@ -88,14 +72,6 @@ metadata:
       title: Arrêté du 27/09/2019, art. 33
       href: https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039160689/2019-10-02/#LEGIARTI000039160689
   official_journal_date:
-    1990-07-01: "1990-10-26"
-    1991-07-01: "1991-11-10"
-    1992-07-01: "1992-09-24"
-    1994-07-01: "1994-11-16"
-    1997-07-01: "1997-09-11"
-    1998-07-01: "1998-09-13"
-    1999-07-01: "1999-06-29"
-    2000-07-01: "2000-08-05"
     2001-07-01: "2001-08-02"
     2002-07-01: "2002-12-22"
     2003-07-01: "2004-05-29"

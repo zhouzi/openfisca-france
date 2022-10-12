@@ -172,45 +172,23 @@ metadata:
   reference:
     1956-04-01:
       title: Loi 56-639 du 30/06/1956, art. 6
-    1958-01-01:
-      title: Ordonnance 58-890 du 24/09/1958
-    1959-01-01:
-      title: Ordonnance 58-1374 du 30/12/1958, art. 19
     1961-01-01:
       title: Décret 61-172 du 16/02/1961
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006073402&categorieLien=id
-    1962-04-01:
-      title: Décret 62-440 du 14/04/1962
     1963-07-01:
       title: Décret 63-921 du 06/09/1963
-    1964-01-01:
-      title: Décret 63-921 du 06/09/1963
-    1964-11-01:
-      title: Décret 65-12 du 08/01/1965
-    1965-07-01:
-      title: Décret 65-12 du 08/01/1965
     1966-01-01:
       title: Décret 65-1153 du 24/12/1965
-    1966-07-01:
-      title: Décret 66-452 du 30/06/1966
     1967-01-01:
       title: Décret 67-35 du 11/01/1967
-    1967-10-01:
-      title: Décret 67-969 du 27/10/1967
     1968-01-01:
       title: Décret 67-1168 du 22/12/1967
     1968-02-01:
       title: Décret 68-101 du 31/01/1968
-    1968-07-01:
-      title: Décret 68-585 du 29/06/1968
     1969-01-01:
       title: Décret 69-60 du 20/01/1969
-    1969-10-01:
-      title: Décret 69-878 du 26/09/1969
     1970-01-01:
       title: Décret 69-879 du 26/09/1969
-    1970-10-01:
-      title: Décret 70-879 du 29/09/1970
     1971-01-01:
       title: Décret 70-1004 du 30/10/1970
     1971-10-01:
@@ -223,16 +201,12 @@ metadata:
       title: Décret 73-692 du 18/07/1973
     1974-01-01:
       title: Décret 73-1138 du 21/12/1973
-    1974-02-01:
-      title: Décret 74-160 du 26/02/1974
     1974-07-01:
       title: Décret 74-612 du 27/06/1974
     1975-01-01:
       title: Décret 74-1125 du 26/12/1974
     1975-04-01:
       title: Décret 75-210 du 28/03/1975
-    1975-09-01:
-      title: Décret du 13/09/1975
     1976-01-01:
       title: Décret 75-1342 du 31/12/1975
     1976-07-01:
@@ -249,14 +223,8 @@ metadata:
       title: Décret 78-1242 du 29/12/1978
     1979-07-01:
       title: Décret 79-568 du 03/07/1979
-    1979-09-01:
-      title: Décret 79-811 du 20/09/1979
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000696977
     1979-12-01:
       title: Décret 79-1058 du 07/12/1979
-    1980-02-01:
-      title: Décret 80-99 du 30/01/1980
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000678078
     1980-06-01:
       title: Décret 80-499 du 01/07/1980
     1980-10-01:
@@ -419,36 +387,23 @@ metadata:
       href: https://www.legislation.cnav.fr/Documents/circulaire_cnav_2021_01_11012021.pdf
   official_journal_date:
     1956-04-01: "1956-07-01"
-    1958-01-01: "1958-09-27"
-    1959-01-01: "1958-12-31"
     1961-01-01: "1961-02-18"
-    1962-04-01: "1962-04-15"
     1963-07-01: "1963-09-08"
-    1964-01-01: "1963-09-08"
-    1964-11-01: "1965-01-10"
-    1965-07-01: "1965-01-10"
     1966-01-01: "1965-12-30"
-    1966-07-01: "1966-07-01"
     1967-01-01: "1967-01-12"
-    1967-10-01: "1967-11-04"
     1968-01-01: "1967-12-28"
     1968-02-01: "1968-02-01"
-    1968-07-01: "1968-07-03"
     1969-01-01: "1969-01-21"
-    1969-10-01: "1969-09-27"
     1970-01-01: "1969-09-27"
-    1970-10-01: "1970-10-01"
     1971-01-01: "1970-11-01"
     1971-10-01: "1972-08-29"
     1972-01-01: "1971-12-31"
     1972-10-01: "1972-10-12"
     1973-07-01: "1973-07-19"
     1974-01-01: "1973-12-23"
-    1974-02-01: "1974-02-27"
     1974-07-01: "1974-07-30"
     1975-01-01: "1974-12-29"
     1975-04-01: "1975-04-02"
-    1975-09-01: "1975-09-14"
     1976-01-01: "1975-01-03"
     1976-07-01: "1976-06-27"
     1977-01-01: "1976-12-30"
@@ -457,9 +412,7 @@ metadata:
     1978-07-01: "1978-07-11"
     1979-01-01: "1978-12-30"
     1979-07-01: "1979-07-07"
-    1979-09-01: "1979-09-22"
     1979-12-01: "1979-12-08"
-    1980-02-01: "1980-01-31"
     1980-06-01: "1980-07-03"
     1980-10-01: "1980-11-06"
     1981-01-01: "1981-01-10"
@@ -507,12 +460,8 @@ metadata:
   notes:
     1961-01-01:
     - title: Complément de 208 pour les plus de 75 ans.
-    1962-04-01:
-    - title: Complément de 308 pour les plus de 75 ans.
     1971-10-01:
     - title: Complément de 100 aux allocataires âgés de plus de 75 ans.
-    1975-09-01:
-    - title: Le décret n'a pas de numéro
     2016-04-01:
     - title: L'AVTS est remplacée par l'ASPA en 2007 par le décret 2007-57. Cependant, comme le mentionne l'ordonnance 2004-605, les personnes qui bénéficiaient au moment de l'entrée en vigueur de l'ASPA des anciens dispositifs de mimimum vieillesse continuent à percevoir ces anciennes prestations selon les règles applicables avant cette entrée en vigueur. D'où le fait qu'on garde les barèmes de l'AVTS après 2007.
   last_review: "2021-01-01"
