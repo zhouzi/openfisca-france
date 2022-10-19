@@ -3,6 +3,6 @@ metadata:
   ux_name: Nés ou adoptés avant le 01/04/2014
   description_en: "Early childhood benefit (PAJE): Thresholds for means-testing"
   order:
-  - plafond_ressources_0_enfant
-  - biactifs_parents_isoles
-  - majorations_enfants
+    - plafond_ressources_0_enfant
+    - biactifs_parents_isoles
+    - majorations_enfants

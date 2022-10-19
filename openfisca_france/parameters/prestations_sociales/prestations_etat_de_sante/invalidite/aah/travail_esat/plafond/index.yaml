@@ -3,6 +3,6 @@ metadata:
   ux_name: Plafond du cumul AAH et rémunération par l'Esat
   description_en: Disability
   order:
-  - seul
-  - couple
-  - majoration
+    - seul
+    - couple
+    - majoration

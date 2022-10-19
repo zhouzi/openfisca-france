@@ -3,6 +3,6 @@ metadata:
   ux_name: Retraite complémentaire
   description_en: Contribution for complementary pension scheme (sales retailers and craftsmen)
   order:
-  - artisans
-  - industriels_commercants
-  - art_ind_com
+    - artisans
+    - industriels_commercants
+    - art_ind_com

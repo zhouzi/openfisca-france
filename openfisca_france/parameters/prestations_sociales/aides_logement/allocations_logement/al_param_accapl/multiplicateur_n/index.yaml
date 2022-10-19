@@ -3,6 +3,6 @@ metadata:
   ux_name: Multiplicateur de N
   description_en: Parameters for new home-buyers (APL)
   order:
-  - dans_formule_ka
-  - dans_formule_kl
-  - dans_formule_kl_numerateur
+    - dans_formule_ka
+    - dans_formule_kl
+    - dans_formule_kl_numerateur

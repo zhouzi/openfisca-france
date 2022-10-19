@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux
   description_en: "Family allowances (AF): General conditions and amount"
   order:
-  - enf2
-  - enf3
+    - enf2
+    - enf3

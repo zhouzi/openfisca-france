@@ -3,5 +3,5 @@ metadata:
   ux_name: Majorations enfants
   description_en: "Early childhood benefit (PAJE): Thresholds for means-testing"
   order:
-  - premier_2eme_enfant
-  - troisieme_plus_enfant
+    - premier_2eme_enfant
+    - troisieme_plus_enfant

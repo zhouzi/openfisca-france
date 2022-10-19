@@ -84,7 +84,7 @@ metadata:
     2013-01-01: "2012-12-30"
   notes:
     1998-01-01:
-    - title: Cotisations sur pension seulement pour les bénéficiaires fiscalement domiciliés à l'étranger
+      - title: Cotisations sur pension seulement pour les bénéficiaires fiscalement domiciliés à l'étranger
 documentation: |-
   Sources :
   Loi 66-509 du 12/07/1966, JO 1966-07-13

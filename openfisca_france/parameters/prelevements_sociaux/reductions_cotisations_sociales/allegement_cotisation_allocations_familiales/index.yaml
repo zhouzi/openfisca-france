@@ -3,5 +3,5 @@ metadata:
   ux_name: Allègements des cotisations famille
   description_en: Reduction in SSCs for family benefits
   order:
-  - reduction
-  - plafond_smic
+    - reduction
+    - plafond_smic

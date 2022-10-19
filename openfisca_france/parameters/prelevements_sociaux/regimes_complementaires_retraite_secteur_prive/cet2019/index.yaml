@@ -3,5 +3,5 @@ metadata:
   ux_name: Contribution d'équilibre technique (CET)
   description_en: Complementary pension schemes (private sector)
   order:
-  - salarie
-  - employeur
+    - salarie
+    - employeur

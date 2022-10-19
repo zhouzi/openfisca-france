@@ -3,4 +3,4 @@ metadata:
   ux_name: Moins de 10 salariés
   description_en: Employer's participation to lifelong professional training
   order:
-  - contribution_contrats_insertion_en_alternance
+    - contribution_contrats_insertion_en_alternance

@@ -3,5 +3,5 @@ metadata:
   ux_name: Employé hors AM
   description_en: SSCs for physicians working part-time (1961-1974)
   order:
-  - moins_de_65_ans
-  - plus_de_65_ans
+    - moins_de_65_ans
+    - plus_de_65_ans

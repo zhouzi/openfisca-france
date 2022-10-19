@@ -3,6 +3,6 @@ metadata:
   ux_name: Participation employeur à l'effort de construction
   description_en: Contributions for housing construction
   order:
-  - 10_19_salaries
-  - plus_20_salaries
-  - plus_50_salaries
+    - 10_19_salaries
+    - plus_20_salaries
+    - plus_50_salaries

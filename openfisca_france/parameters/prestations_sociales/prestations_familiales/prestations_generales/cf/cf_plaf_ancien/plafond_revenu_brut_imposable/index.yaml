@@ -3,6 +3,6 @@ metadata:
   ux_name: Pour un revenu (brut imposable)
   description_en: "Family complement (CF): Thresholds for means-testing"
   order:
-  - 1_enfant
-  - enfant_supplementaire
-  - 1_enfant_biactifs_isoles
+    - 1_enfant
+    - enfant_supplementaire
+    - 1_enfant_biactifs_isoles

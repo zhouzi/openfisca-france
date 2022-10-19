@@ -3,7 +3,7 @@ metadata:
   ux_name: RSA
   description_en: Active solidarity income (RSA)
   order:
-  - rsa_cond
-  - rsa_m
-  - rsa_maj
-  - rsa_fl
+    - rsa_cond
+    - rsa_m
+    - rsa_maj
+    - rsa_fl

@@ -3,5 +3,5 @@ metadata:
   ux_name: Salarié
   description_en: Contribution levied on options and shares granted for free
   order:
-  - taux_plein
-  - taux_reduit
+    - taux_plein
+    - taux_reduit

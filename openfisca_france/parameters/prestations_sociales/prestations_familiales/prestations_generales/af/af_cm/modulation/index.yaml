@@ -3,6 +3,6 @@ metadata:
   ux_name: Modulation
   description_en: "Family allowances (AF): General conditions and amount"
   order:
-  - taux_tranche_1
-  - taux_tranche_2
-  - taux_tranche_3
+    - taux_tranche_1
+    - taux_tranche_2
+    - taux_tranche_3

@@ -3,5 +3,5 @@ metadata:
   ux_name: APJE
   description_en: "Allowance for Young Children (APJE): General conditions and amount"
   order:
-  - apje_cm
-  - apje_plaf
+    - apje_cm
+    - apje_plaf

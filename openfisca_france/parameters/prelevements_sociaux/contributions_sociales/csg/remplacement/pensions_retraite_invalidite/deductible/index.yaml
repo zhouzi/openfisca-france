@@ -2,6 +2,6 @@ description: Contribution Sociale Généralisée (CSG) déductible sur les pensi
 metadata:
   ux_name: CSG déductible
   order:
-  - taux_plein
-  - taux_reduit
-  - taux_median
+    - taux_plein
+    - taux_reduit
+    - taux_median

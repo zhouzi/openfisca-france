@@ -3,4 +3,4 @@ metadata:
   ux_name: Forfait logement
   description_en: "Activity prenium (PA) : accomodation allowance"
   order:
-  - taux_forfait_logement
+    - taux_forfait_logement

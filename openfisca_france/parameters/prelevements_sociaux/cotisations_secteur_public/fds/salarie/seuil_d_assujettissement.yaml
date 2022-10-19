@@ -336,23 +336,23 @@ metadata:
     2018-01-01: "2017-12-31"
   notes:
     1988-09-23:
-    - title: Les valeurs du seuil pour les années 1988 et antérieures sont issues de documents fournis par le FDS.
+      - title: Les valeurs du seuil pour les années 1988 et antérieures sont issues de documents fournis par le FDS.
     1990-01-01:
-    - title: La date d'effet est bien le 1er janvier 1990
+      - title: La date d'effet est bien le 1er janvier 1990
     1990-04-01:
-    - title: La date d'effet est le 1er avril 1990
+      - title: La date d'effet est le 1er avril 1990
     1991-08-01:
-    - title: La date d'effet est bien le 1er août 1991
+      - title: La date d'effet est bien le 1er août 1991
     1991-11-01:
-    - title: La date d'effet est bien le 1er novembre 1991
+      - title: La date d'effet est bien le 1er novembre 1991
     1992-02-01:
-    - title: La date d'effet est bien le 1er février 1992
+      - title: La date d'effet est bien le 1er février 1992
     1998-01-01:
-    - title: Référence à l'Indice Brut 296 loi 97-1239, art. 30
+      - title: Référence à l'Indice Brut 296 loi 97-1239, art. 30
     2002-01-01:
-    - title: Conversion en Euros
+      - title: Conversion en Euros
     2018-01-01:
-    - title: Suppression de la contribution exceptionnelle de solidarité en compensation de la hausse de CSG. La suppression du Fonds de solidarité était prévue par l'art. 143 de la loi 2016-1918 du 29/12/2016 (LFR pour 2016)
+      - title: Suppression de la contribution exceptionnelle de solidarité en compensation de la hausse de CSG. La suppression du Fonds de solidarité était prévue par l'art. 143 de la loi 2016-1918 du 29/12/2016 (LFR pour 2016)
   last_review: "2021-08-24"
 documentation: |-
   Le Fonds de solidarité pour l'emploi et la contribution le finançant ont été instaurés par la Loi 82-939 du 04/11/1982, art. 4 (publiée au JO le 05/11/1982).

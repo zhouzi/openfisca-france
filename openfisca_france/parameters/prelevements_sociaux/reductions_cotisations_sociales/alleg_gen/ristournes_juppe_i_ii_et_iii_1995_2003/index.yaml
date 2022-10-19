@@ -3,6 +3,6 @@ metadata:
   ux_name: Ristournes Juppé (I, II et III)
   description_en: Reduction in SSCs
   order:
-  - taux
-  - taux_max_au_smic
-  - plafond_en_nombre_de_smic
+    - taux
+    - taux_max_au_smic
+    - plafond_en_nombre_de_smic

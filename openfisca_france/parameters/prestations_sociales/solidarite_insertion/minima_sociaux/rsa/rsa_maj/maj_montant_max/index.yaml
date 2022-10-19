@@ -3,5 +3,5 @@ metadata:
   ux_name: Majoration montant maximal
   description_en: "Active solidarity income (RSA): Extra allowance and minimal amount"
   order:
-  - couple_1_enfant_ou_2e_enfant
-  - couples_celibataire_avec_enfant
+    - couple_1_enfant_ou_2e_enfant
+    - couples_celibataire_avec_enfant

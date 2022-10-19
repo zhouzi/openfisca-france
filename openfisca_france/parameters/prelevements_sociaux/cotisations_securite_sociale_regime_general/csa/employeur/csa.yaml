@@ -1,11 +1,11 @@
 description: Taux employeur (sur tout salaire) de la Contribution de solidarité autonomie (CSA) du régime général de la sécurité sociale (SS)
 brackets:
-- threshold:
-    2004-07-01:
-      value: 0
-  rate:
-    2004-07-01:
-      value: 0.003
+  - threshold:
+      2004-07-01:
+        value: 0
+    rate:
+      2004-07-01:
+        value: 0.003
 metadata:
   ux_name: Barème employeur
   description_en: "SSC for autonomy (CSA: Solidarity Contribution for Autonomy)"

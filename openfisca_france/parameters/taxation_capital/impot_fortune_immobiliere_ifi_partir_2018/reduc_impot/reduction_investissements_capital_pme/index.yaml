@@ -3,5 +3,5 @@ metadata:
   ux_name: Réduction pour investissements au capital de PME
   description_en: Tax reductions for investment and donations
   order:
-  - plafond_investissement_dans_pme
-  - taux_investissement_direct
+    - plafond_investissement_dans_pme
+    - taux_investissement_direct

@@ -3,5 +3,5 @@ metadata:
   ux_name: Âge maximal du plus jeune enfant
   description_en: "Early childhood benefit (PAJE): Shared benefit for the child's custody (PreParE)"
   order:
-  - enfant
-  - deux_enfants_plus
+    - enfant
+    - deux_enfants_plus

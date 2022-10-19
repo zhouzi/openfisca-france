@@ -3,10 +3,10 @@ metadata:
   ux_name: Base de calcul (revenus ordinaires)
   description_en: Disability
   order:
-  - plafond_ressources
-  - abattement_30
-  - abattement_sup
-  - abattement_300
-  - abattement_700
-  - abattement_1100
-  - abattement_1500
+    - plafond_ressources
+    - abattement_30
+    - abattement_sup
+    - abattement_300
+    - abattement_700
+    - abattement_1100
+    - abattement_1500

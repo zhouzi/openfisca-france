@@ -1,31 +1,31 @@
 description: Barème non-cadre pour les salariés non-cadre des cotisations aux régimes complémentaires de retraite (secteur privé) pour la structure financière de l'AGFF (2001-2018)
 brackets:
-- threshold:
-    2001-04-01:
-      value: 0
-    2019-01-01:
-      value: null
-  rate:
-    2001-04-01:
-      value: 0.008
-- threshold:
-    2001-04-01:
-      value: 1
-    2019-01-01:
-      value: null
-  rate:
-    2001-04-01:
-      value: 0.009
-- threshold:
-    2001-04-01:
-      value: 3
-    2019-01-01:
-      value: null
-  rate:
-    2001-04-01:
-      value: 0
-    2019-01-01:
-      value: null
+  - threshold:
+      2001-04-01:
+        value: 0
+      2019-01-01:
+        value: null
+    rate:
+      2001-04-01:
+        value: 0.008
+  - threshold:
+      2001-04-01:
+        value: 1
+      2019-01-01:
+        value: null
+    rate:
+      2001-04-01:
+        value: 0.009
+  - threshold:
+      2001-04-01:
+        value: 3
+      2019-01-01:
+        value: null
+    rate:
+      2001-04-01:
+        value: 0
+      2019-01-01:
+        value: null
 metadata:
   ux_name: Non-cadre
   description_en: Contributions to the financial structure AGFF (2001-2016)
@@ -38,7 +38,7 @@ metadata:
       title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
   notes:
     2019-01-01:
-    - title: Suppression de l'AGFF avec la fusion des régimes Agirc et Arrco (remplacée par la CEG et CET, voir barème AGIRC-ARRCO)
+      - title: Suppression de l'AGFF avec la fusion des régimes Agirc et Arrco (remplacée par la CEG et CET, voir barème AGIRC-ARRCO)
   last_review: "2021-07-30"
   rate_unit: /1
   threshold_unit: PSS

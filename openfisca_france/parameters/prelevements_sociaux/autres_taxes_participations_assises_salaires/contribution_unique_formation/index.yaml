@@ -3,5 +3,5 @@ metadata:
   ux_name: CUFPA
   description_en: Unique employer's participation to lifelong professional training and apprenticeship
   order:
-  - contrib_formation_pro
-  - taxe_apprentissage
+    - contrib_formation_pro
+    - taxe_apprentissage

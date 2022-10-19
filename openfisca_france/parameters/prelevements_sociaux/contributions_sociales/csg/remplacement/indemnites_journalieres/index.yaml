@@ -2,5 +2,5 @@ description: Contribution Sociale Généralisée (CSG) sur les indemnités journ
 metadata:
   ux_name: Indemnités journalières
   order:
-  - taux_global
-  - deductible
+    - taux_global
+    - deductible

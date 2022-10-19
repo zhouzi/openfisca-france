@@ -3,6 +3,6 @@ metadata:
   ux_name: AES
   description_en: "Special education allowance (AES): Conditions and amounts"
   order:
-  - age_maximum_enfant
-  - base
-  - complement_allocation
+    - age_maximum_enfant
+    - base
+    - complement_allocation

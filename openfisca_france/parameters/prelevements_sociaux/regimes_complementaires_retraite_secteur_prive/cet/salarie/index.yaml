@@ -3,4 +3,4 @@ metadata:
   ux_name: Barème salarié
   description_en: Exceptional and temporary pension contribution (CET)
   order:
-  - cet
+    - cet

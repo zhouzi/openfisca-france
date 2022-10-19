@@ -1,15 +1,15 @@
 description: Barème de la Taxe exceptionnelle de solidarité sur les hautes rémunérations (TEHR) versées par les entreprises
 brackets:
-- threshold:
-    2013-01-01:
-      value: 1000000
-    2015-01-01:
-      value: null
-  rate:
-    2013-01-01:
-      value: 0.5
-    2015-01-01:
-      value: null
+  - threshold:
+      2013-01-01:
+        value: 1000000
+      2015-01-01:
+        value: null
+    rate:
+      2013-01-01:
+        value: 0.5
+      2015-01-01:
+        value: null
 metadata:
   ux_name: Taux
   description_en: Exceptional solidarity tax on high wages ("75% tax")

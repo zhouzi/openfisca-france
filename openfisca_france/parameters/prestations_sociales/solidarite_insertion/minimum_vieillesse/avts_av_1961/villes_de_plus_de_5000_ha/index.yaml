@@ -3,5 +3,5 @@ metadata:
   ux_name: Villes de plus de 5000 habitants
   description_en: Allowance for elderly workers (AVTS, 1941-1961)
   order:
-  - allocation_de_base
-  - bonification_pour_enfants
+    - allocation_de_base
+    - bonification_pour_enfants

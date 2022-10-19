@@ -3,4 +3,4 @@ metadata:
   ux_name: Condition PreParE majorée
   description_en: "Early childhood benefit (PAJE): Shared benefit for the child's custody (PreParE)"
   order:
-  - nombre_enfants_charge_minimum
+    - nombre_enfants_charge_minimum

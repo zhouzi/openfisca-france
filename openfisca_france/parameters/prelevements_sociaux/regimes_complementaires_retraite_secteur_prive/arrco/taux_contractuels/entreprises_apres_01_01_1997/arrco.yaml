@@ -1,45 +1,45 @@
 description: Taux contractuels (entreprises après 01/01/1997) des cotisations retraites des non-cadres (ARRCO) aux régimes complémentaires de retraite (secteur privé)
 brackets:
-- threshold:
-    1962-01-01:
-      value: 0
-  rate:
-    1962-01-01:
-      value: 0.025
-    1967-01-01:
-      value: 0.04
-    1996-01-01:
-      value: 0.045
-    1997-01-01:
-      value: 0.05
-    1998-01-01:
-      value: 0.055
-    1999-01-01:
-      value: 0.06
-    2014-01-01:
-      value: 0.061
-    2015-01-01:
-      value: 0.062
-    2019-01-01:
-      value: null
-- threshold:
-    1962-01-01:
-      value: 1
-  rate:
-    1962-01-01:
-      value: null
-    1997-01-01:
-      value: 0.14
-    1999-01-01:
-      value: 0.15
-    2000-01-01:
-      value: 0.16
-    2014-01-01:
-      value: 0.161
-    2015-01-01:
-      value: 0.162
-    2019-01-01:
-      value: null
+  - threshold:
+      1962-01-01:
+        value: 0
+    rate:
+      1962-01-01:
+        value: 0.025
+      1967-01-01:
+        value: 0.04
+      1996-01-01:
+        value: 0.045
+      1997-01-01:
+        value: 0.05
+      1998-01-01:
+        value: 0.055
+      1999-01-01:
+        value: 0.06
+      2014-01-01:
+        value: 0.061
+      2015-01-01:
+        value: 0.062
+      2019-01-01:
+        value: null
+  - threshold:
+      1962-01-01:
+        value: 1
+    rate:
+      1962-01-01:
+        value: null
+      1997-01-01:
+        value: 0.14
+      1999-01-01:
+        value: 0.15
+      2000-01-01:
+        value: 0.16
+      2014-01-01:
+        value: 0.161
+      2015-01-01:
+        value: 0.162
+      2019-01-01:
+        value: null
 metadata:
   ux_name: Tranches 1 et 2
   description_en: Pension contributions for non-executives (ARRCO)
@@ -80,9 +80,9 @@ metadata:
       title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
   notes:
     1982-01-01:
-    - title: "BSP : \"Le plus souvent, répartition employeur/salarié = 60/40 comme à l'UNIRS\""
+      - title: 'BSP : "Le plus souvent, répartition employeur/salarié = 60/40 comme à l''UNIRS"'
     2019-01-01:
-    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
+      - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
   last_review: "2021-07-30"
   rate_unit: /1
   threshold_unit: PSS

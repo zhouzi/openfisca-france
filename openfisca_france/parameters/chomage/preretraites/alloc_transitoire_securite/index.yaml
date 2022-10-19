@@ -3,6 +3,6 @@ metadata:
   ux_name: Allocation transitoire de solidarité (ATS)
   description_en: Transitional solidarity allowance (ATS) (2011-2015)
   order:
-  - montant_journalier
-  - plafond_seul
-  - plafond_couple
+    - montant_journalier
+    - plafond_seul
+    - plafond_couple

@@ -3,5 +3,5 @@ metadata:
   ux_name: AFG
   description_en: "Child care costs allowance (AFG): General conditions and amounts"
   order:
-  - afg_c
-  - afg_plaf
+    - afg_c
+    - afg_plaf

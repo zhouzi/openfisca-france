@@ -19,16 +19,16 @@ metadata:
       title: Loi 93-1313 du 20/12/1993, art. 1
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006657310&cidTexte=JORFTEXT000000864578
     1996-10-01:
-    - title: Loi 95-1236 du 30/12/1995
-    - title: Décret 95-835 du 20/09/1996
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000554907
+      - title: Loi 95-1236 du 30/12/1995
+      - title: Décret 95-835 du 20/09/1996
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000554907
   official_journal_date:
     1993-07-01: "1993-07-28"
     1995-01-01: "1993-12-21"
     1996-10-01: "1996-09-22"
   notes:
     1996-10-01:
-    - title: "Ristourne Juppé II (plafond : 1,33 SMIC)"
+      - title: "Ristourne Juppé II (plafond : 1,33 SMIC)"
   last_review: "1996-10-01"
 documentation: |-
   Note :

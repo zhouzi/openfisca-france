@@ -3,6 +3,6 @@ metadata:
   ux_name: Montants
   description_en: "Single parent allowance (API): General conditions"
   order:
-  - femmes_enceintes_sans_enfant_a_charge
-  - personne_isolee_avec_un_enfant_a_charge
-  - supplement_par_enfant
+    - femmes_enceintes_sans_enfant_a_charge
+    - personne_isolee_avec_un_enfant_a_charge
+    - supplement_par_enfant

@@ -3,7 +3,7 @@ metadata:
   ux_name: Majorations et montant minimum
   description_en: "Active solidarity income (RSA): Extra allowance and minimal amount"
   order:
-  - maj_montant_max
-  - majoration_isolement_en_base_rsa
-  - majoration_ressources_revenus_activite
-  - montant_minimum_verse
+    - maj_montant_max
+    - majoration_isolement_en_base_rsa
+    - majoration_ressources_revenus_activite
+    - montant_minimum_verse

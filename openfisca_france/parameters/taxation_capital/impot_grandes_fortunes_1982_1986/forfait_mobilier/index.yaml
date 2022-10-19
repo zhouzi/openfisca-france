@@ -3,4 +3,4 @@ metadata:
   ux_name: Forfait mobilier
   description_en: Furniture package
   order:
-  - majoration_forfaitaire
+    - majoration_forfaitaire

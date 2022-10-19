@@ -28,11 +28,11 @@ metadata:
     2004-01-01: "2003-12-19"
   notes:
     1985-01-01:
-    - title: La loi 85-17 du 4 janvier 1985 crée l'Allocation parentale d'éducation
+      - title: La loi 85-17 du 4 janvier 1985 crée l'Allocation parentale d'éducation
     1996-07-01:
-    - title: APE pendant 1 an en cas d'adoption d'un enfant entre 2 et 16 ans. APE pendant 3 ans si adoption simultanée d'au moins 3 enfants
+      - title: APE pendant 1 an en cas d'adoption d'un enfant entre 2 et 16 ans. APE pendant 3 ans si adoption simultanée d'au moins 3 enfants
     2004-01-01:
-    - title: Remplacée par PAJE. Toujours pas de cumul avec CF
+      - title: Remplacée par PAJE. Toujours pas de cumul avec CF
 documentation: |-
   Notes :
    L'activité professionnelle et les situations assimilées sont prises en comptes, au titre des vingt-quatre mois, si elles ont assuré un revenu moyen annuel d'au moins 40 p. 100 d'une somme égale à 2.028 fois le montant horaire du salaire minimum de croissance en vigueur au 1er janvier de l'année de la demande d'allocation parentale d'éducation.

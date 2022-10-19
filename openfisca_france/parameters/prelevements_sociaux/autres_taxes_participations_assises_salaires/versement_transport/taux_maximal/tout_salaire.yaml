@@ -22,7 +22,7 @@ metadata:
     1993-04-01: "1992-12-31"
   notes:
     1993-04-01:
-    - title: Déplafonnement du versement transport
+      - title: Déplafonnement du versement transport
   last_review: "2021-12-07"
 documentation: |-
   Notes :

@@ -3,4 +3,4 @@ metadata:
   ux_name: PreParE majorée
   description_en: "Early childhood benefit (PAJE): Shared benefit for the child's custody (PreParE)"
   order:
-  - taux
+    - taux

@@ -3,4 +3,4 @@ metadata:
   ux_name: Plafond de ressources
   description_en: "Family allowances (AF): Thresholds for means-testing"
   order:
-  - 0_enfant_couples_monoactifs
+    - 0_enfant_couples_monoactifs

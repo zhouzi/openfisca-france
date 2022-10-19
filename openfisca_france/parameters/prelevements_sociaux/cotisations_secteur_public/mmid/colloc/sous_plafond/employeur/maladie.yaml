@@ -1,27 +1,27 @@
 description: Barème employeur sous plafond pour la Fonction publique hospitalière et Collectivités locales des cotisations maladie spécifiques à la fonction publique
 brackets:
-- threshold:
-    1967-10-01:
-      value: 1
-  rate:
-    1967-01-01:
-      value: 0
-- threshold:
-    1967-10-01:
-      value: 0
-  rate:
-    1967-10-01:
-      value: 0.0625
-    1970-08-01:
-      value: 0.07
-    1976-10-01:
-      value: 0.075
-    1979-01-01:
-      value: 0.055
-    1981-11-01:
-      value: 0.02
-    1984-01-01:
-      value: null
+  - threshold:
+      1967-10-01:
+        value: 1
+    rate:
+      1967-01-01:
+        value: 0
+  - threshold:
+      1967-10-01:
+        value: 0
+    rate:
+      1967-10-01:
+        value: 0.0625
+      1970-08-01:
+        value: 0.07
+      1976-10-01:
+        value: 0.075
+      1979-01-01:
+        value: 0.055
+      1981-11-01:
+        value: 0.02
+      1984-01-01:
+        value: null
 metadata:
   ux_name: Barème Employeur
   description_en: Health insurance contributions - local governments and hospital administration
@@ -78,7 +78,7 @@ metadata:
     2018-01-01: "2017-12-31"
   notes:
     1981-11-01:
-    - title: "Date d'effet : voir Note"
+      - title: "Date d'effet : voir Note"
   last_review: "2021-08-24"
   rate_unit: /1
   threshold_unit: PSS

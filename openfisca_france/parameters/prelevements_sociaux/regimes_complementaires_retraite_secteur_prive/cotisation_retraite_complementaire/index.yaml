@@ -2,4 +2,4 @@ description: Cotisation à la retraite complémentaire (secteur privé)
 metadata:
   ux_name: Cotisation à la retraite complémentaire
   order:
-  - chomage
+    - chomage

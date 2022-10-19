@@ -3,6 +3,6 @@ metadata:
   ux_name: Conditions générales
   description_en: "Family allowances (AF): General conditions and amount"
   order:
-  - nb_enfants_min_pour_allocation
-  - taux
-  - modulation
+    - nb_enfants_min_pour_allocation
+    - taux
+    - modulation

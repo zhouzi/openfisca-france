@@ -3,8 +3,8 @@ metadata:
   ux_name: Petite enfance
   description_en: Early childhood
   order:
-  - apn_t_maj
-  - aprn_t
-  - apje
-  - aa_m
-  - paje
+    - apn_t_maj
+    - aprn_t
+    - apje
+    - aa_m
+    - paje

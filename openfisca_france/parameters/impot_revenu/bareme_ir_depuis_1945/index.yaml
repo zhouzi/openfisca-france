@@ -3,5 +3,5 @@ metadata:
   ux_name: Barème de l'impôt sur le revenu
   description_en: Thresholds and marginal tax rates (1945-)
   order:
-  - bareme
-  - bareme_taux_neutre
+    - bareme
+    - bareme_taux_neutre

@@ -3,5 +3,5 @@ metadata:
   ux_name: Seuil de revenu
   description_en: Attendance allowance for individuals living at home (APA)
   order:
-  - seuil_inferieur
-  - seuil_superieur
+    - seuil_inferieur
+    - seuil_superieur

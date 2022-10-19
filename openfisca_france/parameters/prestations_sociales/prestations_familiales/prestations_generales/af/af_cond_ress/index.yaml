@@ -3,6 +3,6 @@ metadata:
   ux_name: Plafond de ressources
   description_en: "Family allowances (AF): General conditions and amount"
   order:
-  - plafond_tranche_1
-  - plafond_tranche_2
-  - majoration_plafond_par_enfant_supplementaire
+    - plafond_tranche_1
+    - plafond_tranche_2
+    - majoration_plafond_par_enfant_supplementaire

@@ -71,10 +71,10 @@ metadata:
     2012-01-01: "2011-12-30"
   notes:
     1946-07-01:
-    - title: La date de début d'effet est supputée.
+      - title: La date de début d'effet est supputée.
     2000-07-01:
-    - title: Référence de l'avis absent sur légifrance mais disponible ici
-      href: http://admi.net/jo/2000/09573.html
+      - title: Référence de l'avis absent sur légifrance mais disponible ici
+        href: http://admi.net/jo/2000/09573.html
   last_review: "1986-01-01"
 documentation: |-
   Sources :

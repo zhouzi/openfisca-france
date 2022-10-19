@@ -14,7 +14,7 @@ metadata:
     1968-11-01: "1968-10-10"
   notes:
     2021-01-01:
-    - title: BOFIP non mis à jour
+      - title: BOFIP non mis à jour
 documentation: |-
   Notes :
   Le taux applicable entre le plafond 1 et le plafond 2 (resp. entre les plafonds 2 et 3 et au dessus du plafond 3) est égal au (taux 1 + majoration 1) (resp. au (taux 1 + majoration2) et (taux1 + majoration3)), soit 8,50% (resp. 13,60% et 20%).

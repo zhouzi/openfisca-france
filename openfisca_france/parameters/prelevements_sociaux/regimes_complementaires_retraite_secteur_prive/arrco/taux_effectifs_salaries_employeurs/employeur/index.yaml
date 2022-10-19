@@ -3,5 +3,5 @@ metadata:
   ux_name: Barème employeur
   description_en: Pension contributions for non-executives (ARRCO)
   order:
-  - cadre
-  - noncadre
+    - cadre
+    - noncadre

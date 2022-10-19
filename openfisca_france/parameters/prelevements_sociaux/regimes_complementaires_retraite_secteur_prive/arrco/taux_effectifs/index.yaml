@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux effectifs des cotisations retraites des non-cadres (ARRCO)
   description_en: Pension contributions for non-executives (ARRCO)
   order:
-  - entreprises_avant_01_01_1997
-  - entreprises_apres_01_01_1997
+    - entreprises_avant_01_01_1997
+    - entreprises_apres_01_01_1997

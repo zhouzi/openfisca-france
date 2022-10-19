@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisations assurance chômage
   description_en: Unemployment insurance scheme contribution
   order:
-  - salarie
-  - employeur
+    - salarie
+    - employeur

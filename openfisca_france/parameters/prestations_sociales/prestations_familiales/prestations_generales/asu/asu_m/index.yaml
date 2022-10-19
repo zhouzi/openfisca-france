@@ -3,7 +3,7 @@ metadata:
   ux_name: Montant
   description_en: "Single earner allowance (ASU): Monthly amount"
   order:
-  - base
-  - taux
-  - montant
-  - majoration
+    - base
+    - taux
+    - montant
+    - majoration

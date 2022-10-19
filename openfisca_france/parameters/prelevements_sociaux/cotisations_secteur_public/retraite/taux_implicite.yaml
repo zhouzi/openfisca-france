@@ -29,7 +29,7 @@ metadata:
   unit: /1
   notes:
     2006-01-01:
-    - title: Le taux de cotisation employeur est devenu explicite en 2006 dans le cadre de la LOLF.
+      - title: Le taux de cotisation employeur est devenu explicite en 2006 dans le cadre de la LOLF.
 documentation: |-
   Notes :
   Ce tableau reporte les taux de la contribution de l'Etat sur les traitements de ses agents civils et militaires destinée au financement de leurs pensions de retraite de base, ainsi que les allocations temporaires qui leurs sont versées en cas d'invalidité (ATI).

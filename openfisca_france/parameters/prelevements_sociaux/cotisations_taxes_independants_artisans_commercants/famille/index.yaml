@@ -3,4 +3,4 @@ metadata:
   ux_name: Prestations familiales
   description_en: SSCs for family benefits (independent workers)
   order:
-  - famille_ind
+    - famille_ind

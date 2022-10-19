@@ -3,4 +3,4 @@ metadata:
   ux_name: Artisans
   description_en: "Contributions and taxes on self-employed: craftsmen"
   order:
-  - sous_pss
+    - sous_pss

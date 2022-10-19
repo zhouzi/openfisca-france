@@ -3,7 +3,7 @@ metadata:
   ux_name: Prestations sociales
   description_en: Allowances
   order:
-  - prestations_familiales
-  - aides_logement
-  - prestations_etat_de_sante
-  - solidarite_insertion
+    - prestations_familiales
+    - aides_logement
+    - prestations_etat_de_sante
+    - solidarite_insertion

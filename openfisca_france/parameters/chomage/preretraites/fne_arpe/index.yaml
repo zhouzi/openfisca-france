@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant minimum FNE-ARPE
   description_en: Minimum level of FNE-ARPE early retirement benefits
   order:
-  - lic_demission_arpe
-  - progress_mi_temps
+    - lic_demission_arpe
+    - progress_mi_temps

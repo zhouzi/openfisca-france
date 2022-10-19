@@ -3,5 +3,5 @@ metadata:
   ux_name: Branche retraite complémentaire
   description_en: SSCs on unemployment benefits
   order:
-  - taux
-  - assiette_sjr
+    - taux
+    - assiette_sjr

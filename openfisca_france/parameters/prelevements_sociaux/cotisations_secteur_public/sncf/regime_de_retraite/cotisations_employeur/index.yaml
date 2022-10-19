@@ -3,5 +3,5 @@ metadata:
   ux_name: Employeur
   description_en: Contributions to the SNCF scheme (public railway company)
   order:
-  - t1
-  - t2
+    - t1
+    - t2

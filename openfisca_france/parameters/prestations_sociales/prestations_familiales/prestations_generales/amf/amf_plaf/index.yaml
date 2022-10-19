@@ -3,7 +3,7 @@ metadata:
   ux_name: Plafond de ressources
   description_en: "Allowance for stay-at-home-mother (AMF): Thresholds for means-testing"
   order:
-  - plafond_ressources_droit_amf_3_enfants
-  - majoration_plafond_droit_amf
-  - plafond_ressources_majoration_0_enfant
-  - majoration_plafond_majoration
+    - plafond_ressources_droit_amf_3_enfants
+    - majoration_plafond_droit_amf
+    - plafond_ressources_majoration_0_enfant
+    - majoration_plafond_majoration

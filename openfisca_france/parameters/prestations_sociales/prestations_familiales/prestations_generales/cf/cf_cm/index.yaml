@@ -3,7 +3,7 @@ metadata:
   ux_name: Conditions générales et montants
   description_en: "Family complement (CF): General conditions and amounts"
   order:
-  - age_min
-  - age_max
-  - nombre_d_enfants_minimal
-  - complement_familial
+    - age_min
+    - age_max
+    - nombre_d_enfants_minimal
+    - complement_familial

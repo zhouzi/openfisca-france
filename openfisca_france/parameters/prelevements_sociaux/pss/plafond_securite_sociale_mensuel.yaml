@@ -507,19 +507,19 @@ metadata:
     2021-01-01: "2020-12-29"
   notes:
     1930-07-01:
-    - title: Voir référence sur Gallica.bnf.fr
+      - title: Voir référence sur Gallica.bnf.fr
     1951-10-01:
-    - title: Référence erronée dans legislation.cnav.fr
+      - title: Référence erronée dans legislation.cnav.fr
     1960-01-01:
-    - title: Changement des anciens francs aux nouveaux francs
+      - title: Changement des anciens francs aux nouveaux francs
     1962-01-01:
-    - title: Entre 1962 et 1982, revalorisation en janvier uniquement.
+      - title: Entre 1962 et 1982, revalorisation en janvier uniquement.
     1982-01-01:
-    - title: Entre 1982 et 1997, revalorisation en janvier et juillet (cf. règles fixées par le décret 82-542 du 29/06/1982).
+      - title: Entre 1982 et 1997, revalorisation en janvier et juillet (cf. règles fixées par le décret 82-542 du 29/06/1982).
     1996-07-01:
-    - title: Les plafonds annuels sont inexacts sur legislation.cnav.fr (12*montant mensuel) au lieu de la somme des plafonds mensuels sur l'année.
+      - title: Les plafonds annuels sont inexacts sur legislation.cnav.fr (12*montant mensuel) au lieu de la somme des plafonds mensuels sur l'année.
     1997-01-01:
-    - title: Depuis 1997, revalorisation chaque début d'année.
+      - title: Depuis 1997, revalorisation chaque début d'année.
   last_review: "2021-01-01"
 documentation: |-
   Sources de la législation :

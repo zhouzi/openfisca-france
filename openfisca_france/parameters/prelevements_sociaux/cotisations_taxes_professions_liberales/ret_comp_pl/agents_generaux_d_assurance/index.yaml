@@ -3,4 +3,4 @@ metadata:
   ux_name: Agents généraux d'assurance
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - commissions_remunerations
+    - commissions_remunerations

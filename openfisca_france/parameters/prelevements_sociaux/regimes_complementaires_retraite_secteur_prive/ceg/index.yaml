@@ -3,5 +3,5 @@ metadata:
   ux_name: Contribution d'équilibre général (CEG)
   description_en: Complementary pension schemes (private sector)
   order:
-  - salarie
-  - employeur
+    - salarie
+    - employeur

@@ -3,6 +3,6 @@ metadata:
   ux_name: Cotisation forfaitaire mensuelle
   description_en: Contributions for the Guarantee of a minimum of retirement points (GMP) - cadres
   order:
-  - cotisation_totale
-  - part_salariale
-  - part_patronale
+    - cotisation_totale
+    - part_salariale
+    - part_patronale

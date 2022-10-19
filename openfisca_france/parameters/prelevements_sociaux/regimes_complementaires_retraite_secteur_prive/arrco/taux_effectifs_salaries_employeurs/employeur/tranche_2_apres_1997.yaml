@@ -1,31 +1,31 @@
 description: Tranche 2 (après 1997) du barème employeur pour les employeurs non-cadre, des cotisations retraites des non-cadres (ARRCO) aux régimes complémentaires de retraite (secteur privé)
 brackets:
-- threshold:
-    1962-01-01:
-      value: 1
-  rate:
-    1962-01-01:
-      value: null
-    1997-01-01:
-      value: 0.10500000000000001
-    1999-01-01:
-      value: 0.11249999999999999
-    2000-01-01:
-      value: 0.12
-    2014-01-01:
-      value: 0.12075
-    2015-01-01:
-      value: 0.1215
-    2019-01-01:
-      value: null
-- threshold:
-    1962-01-01:
-      value: 3
-  rate:
-    1962-01-01:
-      value: 0
-    2019-01-01:
-      value: null
+  - threshold:
+      1962-01-01:
+        value: 1
+    rate:
+      1962-01-01:
+        value: null
+      1997-01-01:
+        value: 0.10500000000000001
+      1999-01-01:
+        value: 0.11249999999999999
+      2000-01-01:
+        value: 0.12
+      2014-01-01:
+        value: 0.12075
+      2015-01-01:
+        value: 0.1215
+      2019-01-01:
+        value: null
+  - threshold:
+      1962-01-01:
+        value: 3
+    rate:
+      1962-01-01:
+        value: 0
+      2019-01-01:
+        value: null
 metadata:
   ux_name: Non-cadre - Tranche 2 (après 97)
   description_en: Pension contributions for non-executives (ARRCO)
@@ -68,9 +68,9 @@ metadata:
       title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
   notes:
     1982-01-01:
-    - title: "BSP : \"Le plus souvent, répartition employeur/salarié = 60/40 comme à l'UNIRS\""
+      - title: 'BSP : "Le plus souvent, répartition employeur/salarié = 60/40 comme à l''UNIRS"'
     2019-01-01:
-    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
+      - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
   last_review: "2021-01-01"
   rate_unit: /1
   threshold_unit: PSS

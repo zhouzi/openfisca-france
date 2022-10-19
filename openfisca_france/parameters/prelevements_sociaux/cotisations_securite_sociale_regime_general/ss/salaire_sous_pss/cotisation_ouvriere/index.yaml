@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisation ouvrière
   description_en: SSC (1930-1966)
   order:
-  - moins_de_65_ans
-  - plus_de_65_ans
+    - moins_de_65_ans
+    - plus_de_65_ans

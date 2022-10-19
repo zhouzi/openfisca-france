@@ -3,5 +3,5 @@ metadata:
   ux_name: Plafond de ressources pour majoration
   description_en: "Family complement (CF): Extra allowances"
   order:
-  - couple_avec_1_revenu
-  - biactifs_isoles
+    - couple_avec_1_revenu
+    - biactifs_isoles

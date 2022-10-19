@@ -3,5 +3,5 @@ metadata:
   ux_name: Partie fixe
   description_en: UI scheme - lump-sum and minimum
   order:
-  - si_affiliation_entre_3_6_mois
-  - si_affiliation_6_mois
+    - si_affiliation_entre_3_6_mois
+    - si_affiliation_6_mois

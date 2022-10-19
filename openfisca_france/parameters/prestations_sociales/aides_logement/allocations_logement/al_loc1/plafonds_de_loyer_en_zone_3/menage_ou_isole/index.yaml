@@ -3,9 +3,9 @@ metadata:
   ux_name: Ménage ou isolé
   description_en: Parameters for the rental sector (before the 2001 reform)
   order:
-  - avec_1_enfant
-  - avec_2_enfants
-  - avec_3_enfants
-  - avec_4_enfants
-  - avec_5_enfants
-  - par_enfant_en_plus
+    - avec_1_enfant
+    - avec_2_enfants
+    - avec_3_enfants
+    - avec_4_enfants
+    - avec_5_enfants
+    - par_enfant_en_plus

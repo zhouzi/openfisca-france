@@ -3,5 +3,5 @@ metadata:
   ux_name: Branche assurance maladie
   description_en: SSCs for freelance journalists (1964-1974)
   order:
-  - tout_salaire
-  - sous_pss
+    - tout_salaire
+    - sous_pss

@@ -3,4 +3,4 @@ metadata:
   ux_name: Barème salarié
   description_en: Complementary pension schemes (private sector)
   order:
-  - agirc_arrco
+    - agirc_arrco

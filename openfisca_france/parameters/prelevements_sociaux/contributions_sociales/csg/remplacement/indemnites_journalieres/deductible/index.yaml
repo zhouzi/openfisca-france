@@ -2,4 +2,4 @@ description: Contribution Sociale Généralisée (CSG) déductible sur les indem
 metadata:
   ux_name: CSG déductible
   order:
-  - taux
+    - taux

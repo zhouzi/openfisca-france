@@ -3,6 +3,6 @@ metadata:
   ux_name: Plafonds de ressources
   description_en: "Early childhood benefit (PAJE): Thresholds for means-testing"
   order:
-  - ne_adopte_apres_04_2018
-  - ne_adopte_04_2014_et_03_2018
-  - ne_adopte_avant_04_2014
+    - ne_adopte_apres_04_2018
+    - ne_adopte_04_2014_et_03_2018
+    - ne_adopte_avant_04_2014

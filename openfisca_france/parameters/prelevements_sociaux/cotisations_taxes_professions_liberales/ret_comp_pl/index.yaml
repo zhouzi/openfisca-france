@@ -3,9 +3,9 @@ metadata:
   ux_name: Retraite complémentaire
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - agents_generaux_d_assurance
-  - infirmiers_masseurs_kine_orthophon_orthopti
-  - chir_dent_sage_femmes
-  - medecins
-  - pharmaciens
-  - notaires
+    - agents_generaux_d_assurance
+    - infirmiers_masseurs_kine_orthophon_orthopti
+    - chir_dent_sage_femmes
+    - medecins
+    - pharmaciens
+    - notaires

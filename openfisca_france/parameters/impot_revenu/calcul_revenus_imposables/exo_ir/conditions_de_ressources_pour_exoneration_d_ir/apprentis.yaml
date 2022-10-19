@@ -82,6 +82,6 @@ values:
 metadata:
   unit: currency
   reference:
-  - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/exo_ir/
-  - href: http://bofip.impots.gouv.fr/bofip/5893-PGP#5893-PGP_Portee_de_lexoneration_210
-  - href: https://www.insee.fr/fr/statistiques/1375188
+    - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/exo_ir/
+    - href: http://bofip.impots.gouv.fr/bofip/5893-PGP#5893-PGP_Portee_de_lexoneration_210
+    - href: https://www.insee.fr/fr/statistiques/1375188

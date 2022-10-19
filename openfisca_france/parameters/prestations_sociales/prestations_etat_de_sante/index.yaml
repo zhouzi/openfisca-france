@@ -3,5 +3,5 @@ metadata:
   ux_name: Prestations sociales
   description_en: Health related allowances
   order:
-  - invalidite
-  - perte_autonomie_personnes_agees
+    - invalidite
+    - perte_autonomie_personnes_agees

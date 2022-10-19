@@ -3,5 +3,5 @@ metadata:
   ux_name: Zone 1
   description_en: Parameters for the rental sector (before the 2001 reform)
   order:
-  - menage_seul
-  - menage_ou_isole
+    - menage_seul
+    - menage_ou_isole

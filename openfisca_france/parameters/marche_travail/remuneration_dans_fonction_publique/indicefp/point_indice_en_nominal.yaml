@@ -413,19 +413,19 @@ metadata:
     2017-02-01: "2016-05-26"
   notes:
     1990-01-01:
-    - title: La date d'effet est bien le 1er janvier 1990
+      - title: La date d'effet est bien le 1er janvier 1990
     1990-04-01:
-    - title: La date d'effet est le 1er avril 1990
+      - title: La date d'effet est le 1er avril 1990
     1991-08-01:
-    - title: La date d'effet est bien le 1er août 1991
+      - title: La date d'effet est bien le 1er août 1991
     1991-11-01:
-    - title: La date d'effet est bien le 1er novembre 1991
+      - title: La date d'effet est bien le 1er novembre 1991
     1992-02-01:
-    - title: La date d'effet est bien le 1er février 1992
+      - title: La date d'effet est bien le 1er février 1992
     2010-07-01:
-    - title: L'indice est gelé du 01/07/2010 au 01/07/2016.
+      - title: L'indice est gelé du 01/07/2010 au 01/07/2016.
     2017-02-01:
-    - title: L'indice est gelé depuis 2017.
+      - title: L'indice est gelé depuis 2017.
 documentation: |-
   Notes :
   Le point d'indice (ou la valeur de l'indice majoré 100) permet de déterminer la rémunération fixe des fonctionnaires

@@ -65,31 +65,31 @@ metadata:
     2013-01-01:
       title: Circulaire DSS/SD2B/2012/423
     2014-01-01:
-    - title: Circulaire DSS/SD2B/2013/416
-    - title: Décret 2014-419 du 23/04/2014
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000028870537
+      - title: Circulaire DSS/SD2B/2013/416
+      - title: Décret 2014-419 du 23/04/2014
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000028870537
     2015-01-01:
       title: Circulaire DSS/SD2B/2014/345
     2016-01-01:
       title: Circulaire DSS/SD2B/2015/371
     2018-01-01:
-    - title: Circulaire DSS/SD2B/2017/352 du 22/12/2017
-    - title: Arrêté du 27/12/2017, art. 2
-      href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036299566
+      - title: Circulaire DSS/SD2B/2017/352 du 22/12/2017
+      - title: Arrêté du 27/12/2017, art. 2
+        href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036299566
     2019-01-01:
-    - title: Circulaire DSS/SD2B/2018/279 du 17/12/2018
-    - title: Arrêté du 21/12/2018, art. 2
-      href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037864993
+      - title: Circulaire DSS/SD2B/2018/279 du 17/12/2018
+      - title: Arrêté du 21/12/2018, art. 2
+        href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037864993
     2020-01-01:
-    - title: Arrêté du 20/12/2019, art. 2
-      href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000039663227
-    - title: Circulaire DSS/SD2B/2019/261 du 18/12/2019
-      href: https://solidarites-sante.gouv.fr/fichiers/bo/2019/19-12/ste_20190012_0000_0064.pdf
+      - title: Arrêté du 20/12/2019, art. 2
+        href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000039663227
+      - title: Circulaire DSS/SD2B/2019/261 du 18/12/2019
+        href: https://solidarites-sante.gouv.fr/fichiers/bo/2019/19-12/ste_20190012_0000_0064.pdf
     2021-01-01:
-    - title: Arrêté du 14/12/2020, art. 3
-      href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042694990
-    - title: Circulaire DSS/2B/2020/226 du 14/12/2020
-      href: https://solidarites-sante.gouv.fr/fichiers/bo/2020/20-12/ste_20200012_0000_0050.pdf
+      - title: Arrêté du 14/12/2020, art. 3
+        href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042694990
+      - title: Circulaire DSS/2B/2020/226 du 14/12/2020
+        href: https://solidarites-sante.gouv.fr/fichiers/bo/2020/20-12/ste_20200012_0000_0050.pdf
   official_journal_date:
     1986-01-01: "1985-12-21"
     2003-07-01: 2004-01-01; 2003-06-28
@@ -108,15 +108,15 @@ metadata:
     2019-01-01: "2017-12-23"
   notes:
     1986-01-01:
-    - title: "art. R222-2 : la réglementation des plafonds est la même que pour l'APJE"
+      - title: "art. R222-2 : la réglementation des plafonds est la même que pour l'APJE"
     2003-07-01:
-    - title: Suppression de l'APJE => le renvoi à la réglementation des plafonds de l'APJE n'est plus possible.; => règlementation propre au CF
+      - title: Suppression de l'APJE => le renvoi à la réglementation des plafonds de l'APJE n'est plus possible.; => règlementation propre au CF
     2014-01-01:
-    - title: Ne pas confondre la circulaire pour la France métropolitaine avec celle pour les départements d'Outre-mer
+      - title: Ne pas confondre la circulaire pour la France métropolitaine avec celle pour les départements d'Outre-mer
     2016-01-01:
-    - title: Pas de modification en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
+      - title: Pas de modification en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
     2018-01-01:
-    - title: Arrêté du 21/12/2018, Revalorisation des plafonds de 0,2%
+      - title: Arrêté du 21/12/2018, Revalorisation des plafonds de 0,2%
 documentation: |-
   Notes :
   Les articles L522-1 et R522-1 du CSS prévoient la revalorisation des plafonds par Arrêté Ministériel, au rythme de l'évolution des prix hors tabac

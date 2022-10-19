@@ -33,8 +33,8 @@ metadata:
   unit: /1
   reference:
     1971-09-01:
-    - title: Loi 71-559 du 12/07/1971
-    - title: Décret 71-710 du 30/08/1971
+      - title: Loi 71-559 du 12/07/1971
+      - title: Décret 71-710 du 30/08/1971
     1975-07-01:
       title: Décret 75-533 du 27/06/1975
     1979-01-01:
@@ -48,10 +48,10 @@ metadata:
     2001-07-01:
       title: Référence manquante
     2004-01-01:
-    - title: Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006321875&cidTexte=JORFTEXT000000612133
-    - title: Décret 2003-1385 du 31/12/2003
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000797506
+      - title: Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006321875&cidTexte=JORFTEXT000000612133
+      - title: Décret 2003-1385 du 31/12/2003
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000797506
     2008-01-01:
       title: Référence manquante
     2013-01-01:
@@ -60,10 +60,10 @@ metadata:
     2015-07-01:
       title: Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
     2017-01-01:
-    - title: Article L2531-4 du Code général des collectivités territoriales
-      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036432163/2018-01-01
-    - title: Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 91
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000033760644&cidTexte=JORFTEXT000033734169
+      - title: Article L2531-4 du Code général des collectivités territoriales
+        href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036432163/2018-01-01
+      - title: Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 91
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000033760644&cidTexte=JORFTEXT000033734169
     2018-01-01:
       title: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 99
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000036377564&cidTexte=JORFTEXT000036339197
@@ -90,7 +90,7 @@ metadata:
     2021-01-01: "2017-12-31"
   notes:
     1971-09-01:
-    - title: Le VT est instauré uniquement pour Paris, le 92 et le 94.
+      - title: Le VT est instauré uniquement pour Paris, le 92 et le 94.
   last_review: "2021-12-07"
 documentation: |-
   Notes :

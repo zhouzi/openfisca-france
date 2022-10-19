@@ -94,9 +94,9 @@ metadata:
     2018-01-01: "2017-12-31"
   notes:
     1998-01-01:
-    - title: Cotisations sur pension seulement pour les bénéficiaires fiscalement domiciliés à l'étranger
+      - title: Cotisations sur pension seulement pour les bénéficiaires fiscalement domiciliés à l'étranger
     2018-01-01:
-    - title: Progressivité du taux de cotisation (voir Note, (3)).
+      - title: Progressivité du taux de cotisation (voir Note, (3)).
 documentation: |-
   Sources :
   Loi 66-509 du 12/07/1966, JO 1966-07-13

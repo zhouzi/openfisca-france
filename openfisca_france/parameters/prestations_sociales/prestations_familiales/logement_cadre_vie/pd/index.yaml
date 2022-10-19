@@ -3,4 +3,4 @@ metadata:
   ux_name: Prime de déménagement
   description_en: Relocation allowance (PD) - Rate and maximum amount
   order:
-  - taux_en_bmaf
+    - taux_en_bmaf

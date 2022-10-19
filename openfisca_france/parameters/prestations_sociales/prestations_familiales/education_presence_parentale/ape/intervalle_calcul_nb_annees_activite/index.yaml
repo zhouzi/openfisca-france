@@ -3,5 +3,5 @@ metadata:
   ux_name: Intervalle pour calcul d'années d'activité
   description_en: "Parental leave allowance (APE): Conditions and amounts"
   order:
-  - pour_le_2e_enfant
-  - pour_le_3e_enfant
+    - pour_le_2e_enfant
+    - pour_le_3e_enfant

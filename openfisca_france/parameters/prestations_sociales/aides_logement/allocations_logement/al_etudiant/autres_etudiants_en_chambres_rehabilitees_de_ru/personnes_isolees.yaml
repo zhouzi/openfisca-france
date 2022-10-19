@@ -94,9 +94,9 @@ metadata:
     2019-10-01: "2019-10-01"
   notes:
     2005-09-01:
-    - title: "Décret 2005-1607 : déplace les barèmes à l'art. D831-2-1 du CSS."
+      - title: "Décret 2005-1607 : déplace les barèmes à l'art. D831-2-1 du CSS."
     2014-10-01:
-    - title: Montants toujours identiques en 2016
+      - title: Montants toujours identiques en 2016
     2015-10-01:
-    - title: Idem en 2016
+      - title: Idem en 2016
   last_review: "2022-09-28"

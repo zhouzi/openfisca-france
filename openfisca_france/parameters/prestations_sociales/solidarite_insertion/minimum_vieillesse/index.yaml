@@ -3,9 +3,9 @@ metadata:
   ux_name: Minimum vieillesse
   description_en: Social minima for elderly
   order:
-  - aspa
-  - avts
-  - avts_av_1961
-  - majconj
-  - as
-  - avpf
+    - aspa
+    - avts
+    - avts_av_1961
+    - majconj
+    - as
+    - avpf

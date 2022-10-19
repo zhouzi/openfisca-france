@@ -3,5 +3,5 @@ metadata:
   ux_name: Fonction publique hospitalière et Collectivités locales
   description_en: Health insurance contributions - local governments and hospital administration
   order:
-  - sous_plafond
-  - tout_traitement
+    - sous_plafond
+    - tout_traitement

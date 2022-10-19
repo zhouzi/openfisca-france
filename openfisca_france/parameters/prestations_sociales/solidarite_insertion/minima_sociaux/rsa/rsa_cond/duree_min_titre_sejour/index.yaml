@@ -3,4 +3,4 @@ metadata:
   ux_name: Durée minimum du titre de séjour
   description_en: "Active solidarity income (RSA): General conditions"
   order:
-  - non_eee
+    - non_eee

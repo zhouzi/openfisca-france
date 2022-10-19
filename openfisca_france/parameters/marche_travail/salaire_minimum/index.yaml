@@ -3,7 +3,7 @@ metadata:
   ux_name: SMIC
   description_en: Minimum wage
   order:
-  - smic
-  - smig
-  - minstage
-  - gmr
+    - smic
+    - smig
+    - minstage
+    - gmr

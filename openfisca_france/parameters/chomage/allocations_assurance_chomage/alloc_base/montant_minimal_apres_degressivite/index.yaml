@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant minimal après dégressivité
   description_en: UI scheme - lump-sum and minimum
   order:
-  - tous
-  - plus_52_ans_sous_conditions
+    - tous
+    - plus_52_ans_sous_conditions

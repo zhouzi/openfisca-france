@@ -3,8 +3,8 @@ metadata:
   ux_name: Aides Logement
   description_en: Housing allowances
   order:
-  - action_logement
-  - allocations_logement
-  - logement_social
-  - reduction_loyer_solidarite
-  - ressources
+    - action_logement
+    - allocations_logement
+    - logement_social
+    - reduction_loyer_solidarite
+    - ressources

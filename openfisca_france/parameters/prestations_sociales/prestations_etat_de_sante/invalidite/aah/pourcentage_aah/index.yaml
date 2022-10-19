@@ -3,5 +3,5 @@ metadata:
   ux_name: Pourcentage perçu
   description_en: Disability
   order:
-  - normal
-  - prison_hospitalisation
+    - normal
+    - prison_hospitalisation

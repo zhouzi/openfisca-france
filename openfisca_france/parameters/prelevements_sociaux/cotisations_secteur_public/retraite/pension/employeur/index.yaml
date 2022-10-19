@@ -3,5 +3,5 @@ metadata:
   ux_name: Employeur
   description_en: Contributions for pensions - central government
   order:
-  - civils
-  - militaires
+    - civils
+    - militaires

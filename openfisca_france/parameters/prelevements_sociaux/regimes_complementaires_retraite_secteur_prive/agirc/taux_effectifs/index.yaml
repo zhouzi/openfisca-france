@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux effectifs
   description_en: Pension contributions for executives (AGIRC)
   order:
-  - entreprises_avant_01_01_1981
-  - entreprises_apres_01_01_1981
+    - entreprises_avant_01_01_1981
+    - entreprises_apres_01_01_1981

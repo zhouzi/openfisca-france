@@ -3,7 +3,7 @@ metadata:
   ux_name: Partie fixe et minimum
   description_en: UI scheme - lump-sum and minimum
   order:
-  - partie_fixe
-  - montant_minimum
-  - montant_minimal_apres_degressivite
-  - montant_minimal_are_formation
+    - partie_fixe
+    - montant_minimum
+    - montant_minimal_apres_degressivite
+    - montant_minimal_are_formation

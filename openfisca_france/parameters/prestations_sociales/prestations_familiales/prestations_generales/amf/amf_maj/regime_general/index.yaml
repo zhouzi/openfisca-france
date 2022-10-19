@@ -3,5 +3,5 @@ metadata:
   ux_name: Régime général
   description_en: "Allowance for stay-at-home-mother (AMF): Extra allowances"
   order:
-  - base
-  - montant
+    - base
+    - montant

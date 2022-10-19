@@ -35,7 +35,7 @@ metadata:
     1978-07-01: "1977-12-29"
   notes:
     1978-01-01:
-    - title: Le décret 77-1452 institue un plafond propre au prêt aux jeunes ménages. Il n'est plus conditionné au plafond de ressources de l'allocation pour frais de garde
+      - title: Le décret 77-1452 institue un plafond propre au prêt aux jeunes ménages. Il n'est plus conditionné au plafond de ressources de l'allocation pour frais de garde
 documentation: |-
   Notes :
   (1) Le plafond se calcule sur la base du SMIC en vigueur au 1er juillet de l'année de référence selon la formule suivante pour les couples sans enfants: (SMIC*4260*25%)*4

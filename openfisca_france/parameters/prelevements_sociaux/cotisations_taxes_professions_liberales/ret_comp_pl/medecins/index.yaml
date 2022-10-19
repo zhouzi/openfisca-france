@@ -3,5 +3,5 @@ metadata:
   ux_name: Médecins
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - sous_3_5_pss
-  - sous_5_pss
+    - sous_3_5_pss
+    - sous_5_pss

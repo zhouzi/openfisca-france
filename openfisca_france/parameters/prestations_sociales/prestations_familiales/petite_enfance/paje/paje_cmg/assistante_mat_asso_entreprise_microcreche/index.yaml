@@ -3,6 +3,6 @@ metadata:
   ux_name: Recours à une assistante maternelle, une association, une entreprise ou une microcrèche
   description_en: "Early childhood benefit (PAJE): Extra allowance for the choice of the type of care (CMG)"
   order:
-  - sous_premier_plafond
-  - sous_second_plafond
-  - apres_second_plafond
+    - sous_premier_plafond
+    - sous_second_plafond
+    - apres_second_plafond

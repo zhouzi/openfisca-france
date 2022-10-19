@@ -1,33 +1,33 @@
 description: Cotisations salariales pour l'Association pour la gestion de la structure financière, ou cotisation ASF (1984-2001)
 brackets:
-- threshold:
-    1984-01-01:
-      value: 0
-  rate:
-    1984-01-01:
-      value: 0.008
-    1990-10-01:
-      value: 0.0072
-    1994-01-01:
-      value: 0.008
-    2001-04-01:
-      value: 0
-- threshold:
-    1984-04-01:
-      value: 1
-  rate:
-    1984-04-01:
-      value: 0.008
-    1994-01-01:
-      value: 0.0089
-    2001-04-01:
-      value: 0
-- threshold:
-    1984-04-01:
-      value: 4
-  rate:
-    1984-04-01:
-      value: 0
+  - threshold:
+      1984-01-01:
+        value: 0
+    rate:
+      1984-01-01:
+        value: 0.008
+      1990-10-01:
+        value: 0.0072
+      1994-01-01:
+        value: 0.008
+      2001-04-01:
+        value: 0
+  - threshold:
+      1984-04-01:
+        value: 1
+    rate:
+      1984-04-01:
+        value: 0.008
+      1994-01-01:
+        value: 0.0089
+      2001-04-01:
+        value: 0
+  - threshold:
+      1984-04-01:
+        value: 4
+    rate:
+      1984-04-01:
+        value: 0
 metadata:
   ux_name: Barème salarié
   description_en: Contributions to the financial structure ASF (1984-2001)
@@ -52,7 +52,7 @@ metadata:
     1994-01-01: "1994-01-08"
   notes:
     2001-04-01:
-    - title: Le taux AGFF se substitute à l'ASF.
+      - title: Le taux AGFF se substitute à l'ASF.
   rate_unit: /1
   threshold_unit: PSS
 documentation: |-

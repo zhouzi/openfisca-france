@@ -27,8 +27,8 @@ metadata:
   unit: /1
   reference:
     1930-07-01:
-    - title: Loi du 05/04/1928, art. 2 § 2
-    - title: Loi du 30/04/1930, art. 2 §2
+      - title: Loi du 05/04/1928, art. 2 § 2
+      - title: Loi du 30/04/1930, art. 2 §2
     1936-01-01:
       title: Décret loi du 28/10/1935, art. 40
     1937-01-01:
@@ -55,15 +55,15 @@ metadata:
     1966-09-01: "1966-08-17"
   notes:
     1930-07-01:
-    - title: La date d'effet est bien le 01/07/1930.
+      - title: La date d'effet est bien le 01/07/1930.
     1936-01-01:
-    - title: La baisse des taux est prévue comme une mesure provisoire d'un an (destinée à apporter une aide transitoire à la production)
+      - title: La baisse des taux est prévue comme une mesure provisoire d'un an (destinée à apporter une aide transitoire à la production)
     1937-01-01:
-    - title: L'art. 2-§2 rappelle que les taux sont fixés à 4%, hors les dispositions exceptionnelles de 1936 prévues à l'art. 40
+      - title: L'art. 2-§2 rappelle que les taux sont fixés à 4%, hors les dispositions exceptionnelles de 1936 prévues à l'art. 40
     1947-01-01:
-    - title: 4% sont dues au titre de la contribution spéciale instaurée par l'ordonnance du 30/12/1944
+      - title: 4% sont dues au titre de la contribution spéciale instaurée par l'ordonnance du 30/12/1944
     1967-09-01:
-    - title: En 1967 la cotisation globale de Sécurité sociale est remplacée par des cotisations différenciées par branches
+      - title: En 1967 la cotisation globale de Sécurité sociale est remplacée par des cotisations différenciées par branches
   last_review: "1967-01-01"
 documentation: |-
   Sources :

@@ -3,4 +3,4 @@ metadata:
   ux_name: Pharmaciens
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - sous_5_pss
+    - sous_5_pss

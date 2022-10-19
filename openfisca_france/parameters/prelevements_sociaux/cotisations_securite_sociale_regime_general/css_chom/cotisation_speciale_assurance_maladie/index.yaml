@@ -3,4 +3,4 @@ metadata:
   ux_name: Branche assurance maladie
   description_en: SSCs on unemployment benefits
   order:
-  - taux
+    - taux

@@ -3,6 +3,6 @@ metadata:
   ux_name: Taux
   description_en: "Prenatal allowance (APrN): Rate and payment"
   order:
-  - 1er_examen
-  - 2e_examen
-  - 3e_examen
+    - 1er_examen
+    - 2e_examen
+    - 3e_examen

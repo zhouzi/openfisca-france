@@ -3,7 +3,7 @@ metadata:
   ux_name: AEEH
   description_en: "Disabled-child education allowance (AEEH): Conditions and amounts"
   order:
-  - age_maximum_enfant
-  - base
-  - complement_allocation
-  - majoration_parent_isole
+    - age_maximum_enfant
+    - base
+    - complement_allocation
+    - majoration_parent_isole

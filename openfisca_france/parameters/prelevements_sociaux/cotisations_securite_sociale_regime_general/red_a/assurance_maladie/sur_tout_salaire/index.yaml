@@ -3,5 +3,5 @@ metadata:
   ux_name: Sur tout salaire
   description_en: SSCs for artists (1960-1974)
   order:
-  - employeur
-  - employe
+    - employeur
+    - employe

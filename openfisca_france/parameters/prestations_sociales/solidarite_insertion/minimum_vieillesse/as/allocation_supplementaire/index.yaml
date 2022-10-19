@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant annuel
   description_en: Extra allowance (AS)
   order:
-  - as_personne_seule
-  - as_menage
+    - as_personne_seule
+    - as_menage

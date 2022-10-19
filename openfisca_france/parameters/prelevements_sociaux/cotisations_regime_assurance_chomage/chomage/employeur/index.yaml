@@ -3,4 +3,4 @@ metadata:
   ux_name: Cotisation chômage
   description_en: Unemployment insurance scheme employer contributions
   order:
-  - chomage
+    - chomage

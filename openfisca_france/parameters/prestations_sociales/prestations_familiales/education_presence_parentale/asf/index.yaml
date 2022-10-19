@@ -3,5 +3,5 @@ metadata:
   ux_name: ASF
   description_en: "Family support allowance (ASF): Amounts"
   order:
-  - montant_asf
-  - montant_asf_dans_calcul_rsa_ppa
+    - montant_asf
+    - montant_asf_dans_calcul_rsa_ppa

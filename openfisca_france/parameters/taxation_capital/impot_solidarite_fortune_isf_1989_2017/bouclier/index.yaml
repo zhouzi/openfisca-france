@@ -3,4 +3,4 @@ metadata:
   ux_name: Bouclier fiscal
   description_en: Tax shield (2005-2010)
   order:
-  - taux_bouclier_fiscal
+    - taux_bouclier_fiscal

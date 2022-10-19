@@ -3,4 +3,4 @@ metadata:
   ux_name: CRDS
   notes:
     0001-01-01:
-    - title: Les taux de CRDS sur les revenus du capital sont rangés dans parameters.taxation_capital.prelevements_sociaux.crds
+      - title: Les taux de CRDS sur les revenus du capital sont rangés dans parameters.taxation_capital.prelevements_sociaux.crds

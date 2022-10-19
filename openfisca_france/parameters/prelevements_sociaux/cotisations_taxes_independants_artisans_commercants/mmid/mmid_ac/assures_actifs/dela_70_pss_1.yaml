@@ -34,9 +34,9 @@ metadata:
     2018-01-01: "2017-12-31"
   notes:
     2017-01-01:
-    - title: Progressivité du taux de cotisation (voir Note, (1))
+      - title: Progressivité du taux de cotisation (voir Note, (1))
     2018-01-01:
-    - title: Progressivité du taux de cotisation (voir Note, (2)). Le taux indiqué comprend la cotisation pour IJ
+      - title: Progressivité du taux de cotisation (voir Note, (2)). Le taux indiqué comprend la cotisation pour IJ
 documentation: |-
   Loi 66-509 du 12/07/1966
   1966-07-13

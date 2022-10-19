@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant à taux plein
   description_en: "Parental presence allowance (AA): Amounts"
   order:
-  - couple
-  - seul
+    - couple
+    - seul

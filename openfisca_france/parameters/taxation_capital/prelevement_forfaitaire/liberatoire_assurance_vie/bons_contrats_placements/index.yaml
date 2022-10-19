@@ -3,7 +3,7 @@ metadata:
   ux_name: Bons ou contrats de capitalisation et placements
   description_en: Levy in discharge on life insurance (1983 - 2017)
   order:
-  - entre_1_1_83_et_31_12_89
-  - apres_le_1_1_90
-  - avec_anonymat
-  - produits_vers_etats_non_cooperatifs
+    - entre_1_1_83_et_31_12_89
+    - apres_le_1_1_90
+    - avec_anonymat
+    - produits_vers_etats_non_cooperatifs

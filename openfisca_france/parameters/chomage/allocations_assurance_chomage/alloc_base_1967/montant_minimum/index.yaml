@@ -3,6 +3,6 @@ metadata:
   ux_name: Montant minimum
   description_en: UI scheme (1958-1967)
   order:
-  - paris
-  - villes_plus_5000_hab
-  - villes_moins_5000_hab
+    - paris
+    - villes_plus_5000_hab
+    - villes_moins_5000_hab

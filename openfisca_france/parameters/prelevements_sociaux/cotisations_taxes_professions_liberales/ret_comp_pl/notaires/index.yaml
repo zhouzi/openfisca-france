@@ -3,4 +3,4 @@ metadata:
   ux_name: Notaires
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - moyenne_3_dernieres_annees
+    - moyenne_3_dernieres_annees

@@ -3,7 +3,7 @@ metadata:
   ux_name: Majoration du montant maximal
   description_en: "Minimum insertion income (RMI): Extra allowance"
   order:
-  - couples
-  - celibataire_1_enfant
-  - couple_1_enfant_ou_2e_enfant
-  - par_enfant_supplementaire
+    - couples
+    - celibataire_1_enfant
+    - couple_1_enfant_ou_2e_enfant
+    - par_enfant_supplementaire

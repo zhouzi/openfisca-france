@@ -3,4 +3,4 @@ metadata:
   ux_name: Tous indépendants
   description_en: SSCs for old-age insurance (sales retailers and craftsmen)
   order:
-  - tout_salaire
+    - tout_salaire

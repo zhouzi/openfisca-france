@@ -1,41 +1,41 @@
 description: Barème du versement forfaitaire sur les salaires (1949-1967)
 brackets:
-- threshold:
-    1949-01-01:
-      value: 0
-  rate:
-    1949-01-01:
-      value: 0.05
-    1968-01-01:
-      value: null
-- threshold:
-    1949-01-01:
-      value: null
-    1957-01-01:
-      value: 3000000
-    1968-01-01:
-      value: null
-  rate:
-    1949-01-01:
-      value: null
-    1957-01-01:
-      value: 0.1
-    1968-01-01:
-      value: null
-- threshold:
-    1949-01-01:
-      value: null
-    1957-01-01:
-      value: 6000000
-    1968-01-01:
-      value: null
-  rate:
-    1949-01-01:
-      value: null
-    1957-01-01:
-      value: 0.16
-    1968-01-01:
-      value: null
+  - threshold:
+      1949-01-01:
+        value: 0
+    rate:
+      1949-01-01:
+        value: 0.05
+      1968-01-01:
+        value: null
+  - threshold:
+      1949-01-01:
+        value: null
+      1957-01-01:
+        value: 3000000
+      1968-01-01:
+        value: null
+    rate:
+      1949-01-01:
+        value: null
+      1957-01-01:
+        value: 0.1
+      1968-01-01:
+        value: null
+  - threshold:
+      1949-01-01:
+        value: null
+      1957-01-01:
+        value: 6000000
+      1968-01-01:
+        value: null
+    rate:
+      1949-01-01:
+        value: null
+      1957-01-01:
+        value: 0.16
+      1968-01-01:
+        value: null
 metadata:
   ux_name: Barème
   ipp_csv_id:
@@ -55,9 +55,9 @@ metadata:
     1968-01-01: "1968-10-10"
   notes:
     1957-01-01:
-    - title: Anciens francs.
+      - title: Anciens francs.
     1968-01-01:
-    - title: Fin du versement forfaitaire sur les salaires et création de la taxe sur les salaires.
+      - title: Fin du versement forfaitaire sur les salaires et création de la taxe sur les salaires.
   rate_unit: /1
   threshold_unit: currency
 documentation: |-

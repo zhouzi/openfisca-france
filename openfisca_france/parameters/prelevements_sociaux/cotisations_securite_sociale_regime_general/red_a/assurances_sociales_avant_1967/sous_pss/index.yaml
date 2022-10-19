@@ -3,6 +3,6 @@ metadata:
   ux_name: Assurances sociales avant 1967
   description_en: SSCs for artists (1960-1974)
   order:
-  - employe_hors_am
-  - employe_am
-  - employeur
+    - employe_hors_am
+    - employe_am
+    - employeur

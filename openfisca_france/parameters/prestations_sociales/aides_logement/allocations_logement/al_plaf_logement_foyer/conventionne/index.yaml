@@ -2,6 +2,6 @@ description: Plafonds d'équivalence de loyer et de charges locatives pour les p
 metadata:
   ux_name: Conventionné
   order:
-  - zone_1
-  - zone_2
-  - zone_3
+    - zone_1
+    - zone_2
+    - zone_3

@@ -35,18 +35,18 @@ metadata:
     1949-01-01:
       title: Arrêté du 24/05/1949
     1983-01-01:
-    - title: Décret 82-1154 du 30/12/1982
-    - title: Décret 83-618 du 1/07/1983
+      - title: Décret 82-1154 du 30/12/1982
+      - title: Décret 83-618 du 1/07/1983
     1991-01-01:
       title: Décret 91-864 du 30/08/1991
     1996-01-01:
       title: Décret 96-654 du 16/07/1996
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000174034&categorieLien=id
     1997-01-01:
-    - title: Décret 97-830 du 4/09/1997
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000182574
-    - title: Décret 96-1164 du 26/12/1996
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000747883
+      - title: Décret 97-830 du 4/09/1997
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000182574
+      - title: Décret 96-1164 du 26/12/1996
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000747883
     1999-01-01:
       title: Décret 99-959 du 22/11/1999
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000761482&categorieLien=id
@@ -63,18 +63,18 @@ metadata:
       title: Décret 2015-1802 du 29/12/2015
       href: https://www.legifrance.gouv.fr/eli/decret/2015/12/29/2015-1802/jo/texte
     2016-01-01:
-    - title: Décret 2015-1802 du 29/12/2015
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031733604
-    - title: Décret 2007-597 du 24/04/2007
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000649843
+      - title: Décret 2015-1802 du 29/12/2015
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000031733604
+      - title: Décret 2007-597 du 24/04/2007
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000649843
     2017-01-01:
       title: Décret 2017-730 du 3/05/2017
       href: https://www.legifrance.gouv.fr/eli/decret/2017/5/3/2017-730/jo/texte
     2018-01-01:
-    - title: Décret 2017-730 du 3/05/2017
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034579602
-    - title: Décret 2017-993 du 10/05/2017
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034676865
+      - title: Décret 2017-730 du 3/05/2017
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034579602
+      - title: Décret 2017-993 du 10/05/2017
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034676865
   official_journal_date:
     1949-01-01: "1949-06-01"
     1983-01-01: 1982-12-31; 1983-07-10
@@ -91,13 +91,13 @@ metadata:
     2018-01-01: 2017-05-05; 2017-05-11
   notes:
     1983-01-01:
-    - title: Institution d'une cotisation proportionnelle en plus de la cotisation forfaitaire qui existait déjà pour les médecins
+      - title: Institution d'une cotisation proportionnelle en plus de la cotisation forfaitaire qui existait déjà pour les médecins
     1996-01-01:
-    - title: Institution d'une cotisation proportionnelle en plus de la cotisation ofrfaitaire qui existait depuis la création du régime complémentaire en 1984 pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
+      - title: Institution d'une cotisation proportionnelle en plus de la cotisation ofrfaitaire qui existait depuis la création du régime complémentaire en 1984 pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
     1997-01-01:
-    - title: Institution d'une cotisation proportionnelle en plus de la cotisation forfaitaire qui existait déjà pour les chirurgiens dentistes
+      - title: Institution d'une cotisation proportionnelle en plus de la cotisation forfaitaire qui existait déjà pour les chirurgiens dentistes
     2018-01-01:
-    - title: "Référence législative manquante pour taux notaires section C. Source : rapport d'activité 2018 de la CPRN"
+      - title: "Référence législative manquante pour taux notaires section C. Source : rapport d'activité 2018 de la CPRN"
 documentation: |-
   Notes :
   (1) La Caisse nationale d'assurance vieillesse des professions libérales (CNAVPL) comprend 10 sections professionnelles gérant différents régimes:

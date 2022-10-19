@@ -3,5 +3,5 @@ metadata:
   ux_name: Employeur hors AM
   description_en: SSCs for freelance journalists (1964-1974)
   order:
-  - presse_quotidienne
-  - presse_periodique
+    - presse_quotidienne
+    - presse_periodique

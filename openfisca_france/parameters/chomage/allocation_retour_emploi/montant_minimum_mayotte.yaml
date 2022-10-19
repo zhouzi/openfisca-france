@@ -9,5 +9,5 @@ metadata:
   unit: currency
   reference:
     2021-07-01:
-    - href: https://www.service-public.fr/particuliers/actualites/A15021
-    - href: https://www.unedic.org/espace-presse/actualites/les-allocations-dassurance-chomage-sont-revalorisees-de-060-partir-du-1er
+      - href: https://www.service-public.fr/particuliers/actualites/A15021
+      - href: https://www.unedic.org/espace-presse/actualites/les-allocations-dassurance-chomage-sont-revalorisees-de-060-partir-du-1er

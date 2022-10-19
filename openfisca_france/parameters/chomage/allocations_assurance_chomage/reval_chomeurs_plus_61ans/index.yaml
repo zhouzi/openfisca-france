@@ -3,4 +3,4 @@ metadata:
   ux_name: Revalorisation chômeurs >61 ans
   description_en: Indexation of UI reference wage for older unemployed - above age 61 (1965-1973)
   order:
-  - taux
+    - taux

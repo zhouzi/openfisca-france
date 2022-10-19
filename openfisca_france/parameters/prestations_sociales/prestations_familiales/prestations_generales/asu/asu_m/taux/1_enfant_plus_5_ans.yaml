@@ -11,14 +11,14 @@ metadata:
   unit: /1
   reference:
     1976-07-01:
-    - title: Loi 72-8 du 03/01/1972
-    - title: Décret 72-530 du 29/06/1972 (S.U.)
-    - title: Décret 76-767 du 16/08/1976 ("Majoration")
+      - title: Loi 72-8 du 03/01/1972
+      - title: Décret 72-530 du 29/06/1972 (S.U.)
+      - title: Décret 76-767 du 16/08/1976 ("Majoration")
   official_journal_date:
     1976-07-01: 1972-01-05; 1972-06-30; 1976-08-17
   notes:
     1976-07-01:
-    - title: Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
+      - title: Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
 documentation: |-
   Notes :
   L'Allocation de salaire unique est instituée en 1941 par la loi du 29 mars 1941 parue au JO du 11 avril 1941 page 1555

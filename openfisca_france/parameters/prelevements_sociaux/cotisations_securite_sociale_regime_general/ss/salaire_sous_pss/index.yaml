@@ -3,5 +3,5 @@ metadata:
   ux_name: Sous PSS
   description_en: SSC (1930-1966)
   order:
-  - cotisation_ouvriere
-  - cotisation_patronale
+    - cotisation_ouvriere
+    - cotisation_patronale

@@ -40,19 +40,19 @@ metadata:
     2015-01-01: "2014-08-09"
   notes:
     1946-07-01:
-    - title: Référence législative inconnue.
+      - title: Référence législative inconnue.
     1946-10-01:
-    - title: Texte non consulté (date d'effet supposée).
+      - title: Texte non consulté (date d'effet supposée).
     1948-03-01:
-    - title: Référence législative inconnue.
+      - title: Référence législative inconnue.
     1974-04-01:
-    - title: Pour les revenus n'excédant pas 10 000 FF, taux réduit de 3,25%
+      - title: Pour les revenus n'excédant pas 10 000 FF, taux réduit de 3,25%
     1989-01-01:
-    - title: Loi DMOS du 13/01/89 (JO 14/01/89).
+      - title: Loi DMOS du 13/01/89 (JO 14/01/89).
     2015-01-01:
-    - title: Création d'un taux réduit pour les revenus inférieurs à 1,6 SMIC. Voir aussi Circulaire DSS/SD5B/2015/99 du 01/01/2015
+      - title: Création d'un taux réduit pour les revenus inférieurs à 1,6 SMIC. Voir aussi Circulaire DSS/SD5B/2015/99 du 01/01/2015
     2016-04-01:
-    - title: Extension du taux réduit aux revenus inférieurs à 3,5 SMIC.
+      - title: Extension du taux réduit aux revenus inférieurs à 3,5 SMIC.
 documentation: |-
   Sources :
   La Sécurité Sociale: son histoire à travers les textes, tome III, page 215.

@@ -3,5 +3,5 @@ metadata:
   ux_name: Plafonds
   description_en: Back-to-school allowance (ARS)
   order:
-  - plafond_ressources
-  - majoration_par_enf_supp
+    - plafond_ressources
+    - majoration_par_enf_supp

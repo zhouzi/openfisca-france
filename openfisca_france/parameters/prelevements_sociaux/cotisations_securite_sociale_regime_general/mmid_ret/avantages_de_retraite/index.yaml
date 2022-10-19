@@ -3,5 +3,5 @@ metadata:
   ux_name: Avantages retraite
   description_en: Special SSC on pension benefits for sickness insurance
   order:
-  - regime_general
-  - regimes_comp
+    - regime_general
+    - regimes_comp

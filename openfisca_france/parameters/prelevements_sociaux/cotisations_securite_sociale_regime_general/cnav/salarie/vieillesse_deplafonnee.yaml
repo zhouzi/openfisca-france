@@ -1,21 +1,21 @@
 description: Taux salarié de la Cotisation déplafonnée de sécurité sociale (SS) du régime général pour la branche assurance vieillesse (CNAV) (2004-2016)
 brackets:
-- threshold:
-    2004-07-01:
-      value: 0
-  rate:
-    1967-10-01:
-      value: null
-    2004-07-01:
-      value: 0.001
-    2014-01-01:
-      value: 0.0025
-    2015-01-01:
-      value: 0.003
-    2016-01-01:
-      value: 0.0035
-    2017-01-01:
-      value: 0.004
+  - threshold:
+      2004-07-01:
+        value: 0
+    rate:
+      1967-10-01:
+        value: null
+      2004-07-01:
+        value: 0.001
+      2014-01-01:
+        value: 0.0025
+      2015-01-01:
+        value: 0.003
+      2016-01-01:
+        value: 0.0035
+      2017-01-01:
+        value: 0.004
 metadata:
   ux_name: Taux sur tout salaire
   description_en: SSCs for old-age benefits (1967-2016)
@@ -45,7 +45,7 @@ metadata:
     2017-01-01: "2014-12-19"
   notes:
     2004-07-01:
-    - title: La cotisation veuvage est transférée à la Cnav.
+      - title: La cotisation veuvage est transférée à la Cnav.
   last_review: "2021-10-11"
   rate_unit: /1
   threshold_unit: PSS

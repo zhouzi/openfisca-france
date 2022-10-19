@@ -3,4 +3,4 @@ metadata:
   ux_name: Cotisations décès cadres
   description_en: Death contribution - executives
   order:
-  - employeur_sous_plafond
+    - employeur_sous_plafond

@@ -2,5 +2,5 @@ description: Seuil de RFR 1 (taux nul) de la Contribution Sociale Généralisée
 metadata:
   ux_name: Seuil de RFR1
   order:
-  - seuil_rfr1
-  - demi_part_suppl_rfr1
+    - seuil_rfr1
+    - demi_part_suppl_rfr1

@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisations employeur
   description_en: SSCs for old-age benefits (1967-2016)
   order:
-  - vieillesse_plafonnee
-  - vieillesse_deplafonnee
+    - vieillesse_plafonnee
+    - vieillesse_deplafonnee

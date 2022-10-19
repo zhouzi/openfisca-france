@@ -3,6 +3,6 @@ metadata:
   ux_name: Garantie Individuelle du Pouvoir d'Achat
   description_en: Guarantee of purchasing power (GIPA) (2008-2017)
   order:
-  - indice_1
-  - indice_2
-  - inflation
+    - indice_1
+    - indice_2
+    - inflation

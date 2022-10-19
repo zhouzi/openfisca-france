@@ -41,6 +41,6 @@ metadata:
   unit: currency
   reference:
     2021-07-01:
-    - href: https://www.ipp.eu/baremes-ipp/chomage/allocations_assurance_chomage/alloc_base/
-    - href: https://www.service-public.fr/particuliers/actualites/A15021
-    - href: https://www.unedic.org/indemnisation/vos-questions-sur-indemnisation-assurance-chomage/comment-est-calculee-mon-allocation-chomage
+      - href: https://www.ipp.eu/baremes-ipp/chomage/allocations_assurance_chomage/alloc_base/
+      - href: https://www.service-public.fr/particuliers/actualites/A15021
+      - href: https://www.unedic.org/indemnisation/vos-questions-sur-indemnisation-assurance-chomage/comment-est-calculee-mon-allocation-chomage

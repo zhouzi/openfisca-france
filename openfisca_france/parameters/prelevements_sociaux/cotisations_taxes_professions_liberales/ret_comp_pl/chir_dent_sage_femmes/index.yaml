@@ -3,5 +3,5 @@ metadata:
   ux_name: Chirurgiens-dentistes (+ sages femmes depuis janvier 2009)
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - entre_0_85_et_5_pss
-  - sous_5_pss
+    - entre_0_85_et_5_pss
+    - sous_5_pss

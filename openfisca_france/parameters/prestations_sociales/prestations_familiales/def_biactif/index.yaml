@@ -3,4 +3,4 @@ metadata:
   ux_name: Couple bi-actif
   description_en: Definition of a biactive couple
   order:
-  - revenu_professionnel_plancher_couples_biactifs
+    - revenu_professionnel_plancher_couples_biactifs

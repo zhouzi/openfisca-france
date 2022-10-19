@@ -3,6 +3,6 @@ metadata:
   ux_name: Barèmes
   description_en: Help for energy expenses voucher
   order:
-  - une_uc
-  - une_uc_a_deux_uc
-  - plus_de_deux_ucs
+    - une_uc
+    - une_uc_a_deux_uc
+    - plus_de_deux_ucs

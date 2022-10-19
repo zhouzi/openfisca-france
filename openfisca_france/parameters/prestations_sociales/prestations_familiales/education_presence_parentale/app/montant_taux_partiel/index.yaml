@@ -3,7 +3,7 @@ metadata:
   ux_name: Montant à taux partiel
   description_en: "Parental presence allowance (AA): Amounts"
   order:
-  - 80_duree_legale_couple
-  - 80_duree_legale_seul
-  - 50_duree_legale_couple
-  - 50_duree_legale_seul
+    - 80_duree_legale_couple
+    - 80_duree_legale_seul
+    - 50_duree_legale_couple
+    - 50_duree_legale_seul

@@ -3,5 +3,5 @@ metadata:
   ux_name: Taxe d'apprentissage (CUFPA)
   description_en: Unique employer's participation to lifelong professional training and apprenticeship
   order:
-  - general
-  - alsace_moselle
+    - general
+    - alsace_moselle

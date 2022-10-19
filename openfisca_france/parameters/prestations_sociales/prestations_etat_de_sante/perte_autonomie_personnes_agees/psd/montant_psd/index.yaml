@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant mensuel versé
   description_en: Attendance allowance (PSD, 1997-2001))
   order:
-  - maximal
-  - seuils
+    - maximal
+    - seuils

@@ -3,6 +3,6 @@ metadata:
   ux_name: Cotisations chômage
   description_en: Unemployment insurance scheme contributions
   order:
-  - chomage
-  - ags
-  - asf
+    - chomage
+    - ags
+    - asf

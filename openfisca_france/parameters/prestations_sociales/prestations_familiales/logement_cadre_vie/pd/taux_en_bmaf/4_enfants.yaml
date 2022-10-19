@@ -15,7 +15,7 @@ metadata:
     1976-08-01: "1976-08-17"
   notes:
     1976-08-01:
-    - title: "Montant maximum: Taux*Base"
+      - title: "Montant maximum: Taux*Base"
 documentation: |-
   Notes :
   Création en 1958

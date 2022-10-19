@@ -3,6 +3,6 @@ metadata:
   ux_name: Plafonds accédants à la propriété
   description_en: Annual ceiling of reimbursement for new homebuyers
   order:
-  - zone_1
-  - zone_2
-  - zone_3
+    - zone_1
+    - zone_2
+    - zone_3

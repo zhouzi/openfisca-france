@@ -3,10 +3,10 @@ metadata:
   ux_name: PAJE
   description_en: "Early childhood benefit (PAJE): CMG thresholds for means-testing"
   order:
-  - paje_cm
-  - paje_cm2
-  - paje_plaf
-  - paje_cmg
-  - plaf_cmg
-  - paje_clca
-  - paje_prepare
+    - paje_cm
+    - paje_cm2
+    - paje_plaf
+    - paje_cmg
+    - plaf_cmg
+    - paje_clca
+    - paje_prepare

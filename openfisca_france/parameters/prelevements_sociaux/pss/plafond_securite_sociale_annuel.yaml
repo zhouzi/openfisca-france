@@ -445,24 +445,24 @@ metadata:
     2021-01-01: "2020-12-29"
   notes:
     1930-07-01:
-    - title: Voir référence sur Gallica.bnf.fr
+      - title: Voir référence sur Gallica.bnf.fr
     1936-01-01:
-    - title: Voir référence sur Gallica.bnf.fr
+      - title: Voir référence sur Gallica.bnf.fr
     1937-01-01:
-    - title: Voir référence sur Gallica.bnf.fr
+      - title: Voir référence sur Gallica.bnf.fr
     1938-07-01:
-    - title: JO sur gallica
-      href: http://gallica.bnf.fr/ark:/12148/bpt6k6550526r/f20.image.r=journal%20officiel%201948.langFR
+      - title: JO sur gallica
+        href: http://gallica.bnf.fr/ark:/12148/bpt6k6550526r/f20.image.r=journal%20officiel%201948.langFR
     1951-10-01:
-    - title: Référence erronée dans legislation.cnav.fr
+      - title: Référence erronée dans legislation.cnav.fr
     1960-01-01:
-    - title: Changement des anciens francs aux nouveaux francs
+      - title: Changement des anciens francs aux nouveaux francs
     1962-01-01:
-    - title: Entre 1962 et 1982, revalorisation en janvier uniquement.
+      - title: Entre 1962 et 1982, revalorisation en janvier uniquement.
     1982-01-01:
-    - title: Entre 1982 et 1997, revalorisation en janvier et juillet (cf. règles fixées par le décret 82-542 du 29/06/1982).
+      - title: Entre 1982 et 1997, revalorisation en janvier et juillet (cf. règles fixées par le décret 82-542 du 29/06/1982).
     1997-01-01:
-    - title: Depuis 1997, revalorisation chaque début d'année.
+      - title: Depuis 1997, revalorisation chaque début d'année.
   last_review: "2021-01-01"
 documentation: |-
   Sources de la législation :

@@ -3,8 +3,8 @@ metadata:
   ux_name: Barème après fusion de l'AGIRC et de l'ARRCO
   description_en: Complementary pension schemes (private sector)
   order:
-  - tx_calcul
-  - tx_appel
-  - tx_total
-  - employeur
-  - salarie
+    - tx_calcul
+    - tx_appel
+    - tx_total
+    - employeur
+    - salarie

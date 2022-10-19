@@ -3,6 +3,6 @@ metadata:
   ux_name: ADA
   description_en: Asylum-seeker allowance (ADA)
   order:
-  - montant_journalier_pour_une_personne
-  - majoration_pers_supp
-  - supplement_non_hebergement
+    - montant_journalier_pour_une_personne
+    - majoration_pers_supp
+    - supplement_non_hebergement

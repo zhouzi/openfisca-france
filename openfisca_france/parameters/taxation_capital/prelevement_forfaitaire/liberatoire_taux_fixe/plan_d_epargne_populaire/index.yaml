@@ -3,6 +3,6 @@ metadata:
   ux_name: Plan d'épargne populaire
   description_en: Levy in discharge on capital income (1965 - 2012)
   order:
-  - retrait_avant_4_ans
-  - retrait_entre_4_et_8_ans
-  - retrait_apres_8_ans
+    - retrait_avant_4_ans
+    - retrait_entre_4_et_8_ans
+    - retrait_apres_8_ans

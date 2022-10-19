@@ -2,19 +2,19 @@ description: Codes des départements constituant la région Île-de-France.
 values:
   1956-11-28:
     value:
-    - "75"
-    - "77"
-    - "78"
+      - "75"
+      - "77"
+      - "78"
   1968-01-01:
     value:
-    - "75"
-    - "77"
-    - "78"
-    - "91"
-    - "92"
-    - "93"
-    - "94"
-    - "95"
+      - "75"
+      - "77"
+      - "78"
+      - "91"
+      - "92"
+      - "93"
+      - "94"
+      - "95"
 metadata:
   unit: codes départements
   reference:

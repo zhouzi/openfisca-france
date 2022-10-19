@@ -3,7 +3,7 @@ metadata:
   ux_name: Commerçants-industriels
   description_en: "Contributions and taxes on self-employed: sales retailers"
   order:
-  - invalidite
-  - deces
-  - sous_pss
-  - montant_forfaitaire_total
+    - invalidite
+    - deces
+    - sous_pss
+    - montant_forfaitaire_total

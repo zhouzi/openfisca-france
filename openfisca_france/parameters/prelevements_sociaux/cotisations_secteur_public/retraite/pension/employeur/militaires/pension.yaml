@@ -1,27 +1,27 @@
 description: Barème des pensions militaires (TI et NBI) - cotisations employeur retraite spécifiques à la fonction publique
 brackets:
-- threshold:
-    1995-01-01:
-      value: 0
-  rate:
-    1995-01-01:
-      value: null
-    2006-01-01:
-      value: 1
-    2007-01-01:
-      value: 1.0105
-    2008-01-01:
-      value: 1.035
-    2009-01-01:
-      value: 1.0839
-    2010-01-01:
-      value: 1.0863
-    2011-01-01:
-      value: 1.1414
-    2012-01-01:
-      value: 1.2155
-    2013-01-01:
-      value: 1.2607
+  - threshold:
+      1995-01-01:
+        value: 0
+    rate:
+      1995-01-01:
+        value: null
+      2006-01-01:
+        value: 1
+      2007-01-01:
+        value: 1.0105
+      2008-01-01:
+        value: 1.035
+      2009-01-01:
+        value: 1.0839
+      2010-01-01:
+        value: 1.0863
+      2011-01-01:
+        value: 1.1414
+      2012-01-01:
+        value: 1.2155
+      2013-01-01:
+        value: 1.2607
 metadata:
   ux_name: Barème
   description_en: Contributions for pensions - central government (employer contribution)
@@ -74,11 +74,11 @@ metadata:
     2014-01-01: "2012-12-29"
   notes:
     2006-01-01:
-    - title: Le taux de cotisation employeur est devenu explicite en 2006 dans le cadre de la LOLF.
+      - title: Le taux de cotisation employeur est devenu explicite en 2006 dans le cadre de la LOLF.
     2013-12-01:
-    - title: De manière dérogatoire le taux de cotisation est ramené à 44,28 % pour les salaires versés au cours du mois de décembre 2013.
+      - title: De manière dérogatoire le taux de cotisation est ramené à 44,28 % pour les salaires versés au cours du mois de décembre 2013.
     2014-01-01:
-    - title: "Circulaire du 05/08/2013 précise le retour aux conditions du décret 2012-1507. Pour 2018 : circulaire du 11/12/2017. Pour 2019 : circulaire du 20/12/2018. Pour 2020 : circulaire du 23/12/2019. En 2020, le taux employeur explicite devient 30,65% pour les fonctionnaires civils détachés (cotisation à la charge des collectivités)."
+      - title: "Circulaire du 05/08/2013 précise le retour aux conditions du décret 2012-1507. Pour 2018 : circulaire du 11/12/2017. Pour 2019 : circulaire du 20/12/2018. Pour 2020 : circulaire du 23/12/2019. En 2020, le taux employeur explicite devient 30,65% pour les fonctionnaires civils détachés (cotisation à la charge des collectivités)."
   last_review: "2021-08-24"
   rate_unit: /1
   threshold_unit: PSS

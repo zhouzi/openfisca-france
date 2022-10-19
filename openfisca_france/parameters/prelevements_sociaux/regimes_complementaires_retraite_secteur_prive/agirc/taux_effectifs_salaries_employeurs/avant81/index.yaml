@@ -3,5 +3,5 @@ metadata:
   ux_name: Entreprises avant 1981
   description_en: Pension contributions for executives (AGIRC)
   order:
-  - salarie
-  - employeur
+    - salarie
+    - employeur

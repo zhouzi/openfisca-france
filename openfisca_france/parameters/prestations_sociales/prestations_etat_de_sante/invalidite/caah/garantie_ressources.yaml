@@ -65,10 +65,10 @@ metadata:
       title: Décret 2008-988 du 18/09/2008 - art. 1
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000019503190&cidTexte=JORFTEXT000019502659
     2019-12-01:
-    - title: Loi n° 2018-1317 du 28 décembre 2018 (LF pour 2019), art. 266
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=JORFARTI000037882639&cidTexte=JORFTEXT000037882341
-    - title: Circulaire DGAS/1C 2007-42 du 24/01/2007
-      href: https://solidarites-sante.gouv.fr/fichiers/bo/2007/07-02/a0020078.htm
+      - title: Loi n° 2018-1317 du 28 décembre 2018 (LF pour 2019), art. 266
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=JORFARTI000037882639&cidTexte=JORFTEXT000037882341
+      - title: Circulaire DGAS/1C 2007-42 du 24/01/2007
+        href: https://solidarites-sante.gouv.fr/fichiers/bo/2007/07-02/a0020078.htm
   official_journal_date:
     2005-07-01: "2001-12-19"
     2006-07-01: "2006-05-12"
@@ -78,9 +78,9 @@ metadata:
     2019-12-01: "2018-12-29"
   notes:
     2008-09-01:
-    - title: Depuis 2008, on ajoute 179,31 euros au montant de base de l'AAH, voir (1)
+      - title: Depuis 2008, on ajoute 179,31 euros au montant de base de l'AAH, voir (1)
     2019-12-01:
-    - title: Suppression du complément de ressources au 1er Décembre 2019
+      - title: Suppression du complément de ressources au 1er Décembre 2019
 documentation: |-
   Notes :
   Dispositif créé par la loi 75-534 du 30 Juin 1975

@@ -1,11 +1,11 @@
 description: Contribution additionnelle solidarité autonomie (CASA) sur les pensions de retraite, préretraite et d'invalidité
 brackets:
-- threshold:
-    2013-04-01:
-      value: 0
-  rate:
-    2013-04-01:
-      value: 0.003
+  - threshold:
+      2013-04-01:
+        value: 0
+    rate:
+      2013-04-01:
+        value: 0.003
 metadata:
   ux_name: Taux CASA
   description_en: "Additional SSC for autonomy (CASA: Additional solidarity Contribution for Autonomy)"
@@ -13,10 +13,10 @@ metadata:
     rate: casa_pens
   reference:
     2013-04-01:
-    - title: Article L137-41 du Code de la Sécurité Sociale
-      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042675242
-    - title: Loi 2012-1404 du 03/12/2012 (LFSS pour 2013), art. 17
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000026787271&cidTexte=JORFTEXT000026785322
+      - title: Article L137-41 du Code de la Sécurité Sociale
+        href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042675242
+      - title: Loi 2012-1404 du 03/12/2012 (LFSS pour 2013), art. 17
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000026787271&cidTexte=JORFTEXT000026785322
     2015-01-01:
       title: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015), art. 7
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000029954669&cidTexte=JORFTEXT000029953502
@@ -45,7 +45,7 @@ metadata:
     2017-01-01: "2016-12-23"
   notes:
     2015-01-01:
-    - title: Créé un seuil d'exonération de Casa assis sur les revenus N-2, identique au seuil d'assujettissement de CRDS et CSG taux 6,6 % (modifie L. 136-2, L. 136-8 du CGI, L14-10-4 du Code de l'action sociale et des familles)
+      - title: Créé un seuil d'exonération de Casa assis sur les revenus N-2, identique au seuil d'assujettissement de CRDS et CSG taux 6,6 % (modifie L. 136-2, L. 136-8 du CGI, L14-10-4 du Code de l'action sociale et des familles)
   last_review: "2021-12-07"
   rate_unit: /1
   threshold_unit: PSS

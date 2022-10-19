@@ -3,6 +3,6 @@ metadata:
   ux_name: Par zone
   description_en: Parameters for the rental sector (after the 2001 reform)
   order:
-  - zone_1
-  - zone_2
-  - zone_3
+    - zone_1
+    - zone_2
+    - zone_3

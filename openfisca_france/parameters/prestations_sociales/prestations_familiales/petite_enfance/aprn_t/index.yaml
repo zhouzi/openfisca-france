@@ -3,4 +3,4 @@ metadata:
   ux_name: Allocations prénatales
   description_en: "Prenatal allowance (APrN): Rate and payment"
   order:
-  - taux
+    - taux

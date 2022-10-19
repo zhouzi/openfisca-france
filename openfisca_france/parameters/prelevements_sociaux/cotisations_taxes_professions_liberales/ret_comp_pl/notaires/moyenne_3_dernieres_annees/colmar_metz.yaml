@@ -13,9 +13,9 @@ metadata:
   unit: /1
   reference:
     1951-01-01:
-    - title: Décret 51-310 du 03/03/1951
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000508413
-    - title: Arrêté du 4/03/1951
+      - title: Décret 51-310 du 03/03/1951
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000508413
+      - title: Arrêté du 4/03/1951
     1963-01-01:
       title: Décret 63-106 du 8/02/1963
     2015-01-01:
@@ -27,7 +27,7 @@ metadata:
     2015-01-01: "2015-12-30"
   notes:
     1951-01-01:
-    - title: Création d'un régime supplémentaire pour les notaires du ressort de la Cour d'appel de Colmar
+      - title: Création d'un régime supplémentaire pour les notaires du ressort de la Cour d'appel de Colmar
 documentation: |-
   Notes :
   (1) La Caisse nationale d'assurance vieillesse des professions libérales (CNAVPL) comprend 10 sections professionnelles gérant différents régimes:

@@ -3,4 +3,4 @@ metadata:
   ux_name: Supplément indemnités journalières (artisans)
   description_en: SSCs for sickness and maternity benefits (sales retailers and craftsmen)
   order:
-  - sous_5_pss
+    - sous_5_pss

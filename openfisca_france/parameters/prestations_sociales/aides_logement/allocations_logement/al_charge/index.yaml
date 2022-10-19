@@ -3,5 +3,5 @@ metadata:
   ux_name: Charges
   description_en: Lump sum extra allowance for charges
   order:
-  - personne_isolee_ou_menage_seul
-  - majoration_par_enfant
+    - personne_isolee_ou_menage_seul
+    - majoration_par_enfant

@@ -3,5 +3,5 @@ metadata:
   ux_name: CICE (2013-2018)
   description_en: Tax credit for competitivness and employment (CICE)
   order:
-  - taux
-  - plafond_smic
+    - taux
+    - plafond_smic

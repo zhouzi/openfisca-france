@@ -3,5 +3,5 @@ metadata:
   ux_name: Branche assurance vieillesse
   description_en: SSCs for artists (1960-1974)
   order:
-  - employeur
-  - employes
+    - employeur
+    - employes

@@ -3,5 +3,5 @@ metadata:
   ux_name: AVPF
   description_en: Elderly insurance for stay-at-home parents (AVPF)
   order:
-  - salaire_forfaitaire
-  - taux
+    - salaire_forfaitaire
+    - taux

@@ -3,5 +3,5 @@ metadata:
   ux_name: Plafond de ressources
   description_en: "Single earner allowance (ASU): Thresholds for means-testing"
   order:
-  - plafond_droit_au_salaire_unique
-  - plafond_majoration_salaire_unique
+    - plafond_droit_au_salaire_unique
+    - plafond_majoration_salaire_unique

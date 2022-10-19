@@ -3,5 +3,5 @@ metadata:
   ux_name: Plafond de ressources mensuel
   description_en: Special UI scheme
   order:
-  - personne_seule
-  - couple
+    - personne_seule
+    - couple

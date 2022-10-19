@@ -3,9 +3,9 @@ metadata:
   ux_name: Prestations générales
   description_en: General benefits
   order:
-  - af
-  - icaf
-  - asu
-  - afg
-  - amf
-  - cf
+    - af
+    - icaf
+    - asu
+    - afg
+    - amf
+    - cf

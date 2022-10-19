@@ -3,6 +3,6 @@ metadata:
   ux_name: Contribution additionnelle solidarité autonomie (CASA)
   description_en: Social contributions
   order:
-  - pensions_retraite_preretraite_invalidite
-  - seuil_exoneration_irpp_paye_en_n_1
-  - seuil_exoneration_rfr_1_part_qf_en_n_2
+    - pensions_retraite_preretraite_invalidite
+    - seuil_exoneration_irpp_paye_en_n_1
+    - seuil_exoneration_rfr_1_part_qf_en_n_2

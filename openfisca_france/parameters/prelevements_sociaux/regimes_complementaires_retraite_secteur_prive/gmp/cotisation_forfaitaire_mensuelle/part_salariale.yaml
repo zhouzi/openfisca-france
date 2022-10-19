@@ -99,21 +99,21 @@ metadata:
       title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
   notes:
     1995-01-01:
-    - title: BSP n° 32 du 31/01/1996
+      - title: BSP n° 32 du 31/01/1996
     1996-01-01:
-    - title: BSP n° 36 du 31/01/1997
+      - title: BSP n° 36 du 31/01/1997
     1997-01-01:
-    - title: BSP n° 36 du 31/01/1997 et BSP n°40 du 31/01/1998
+      - title: BSP n° 36 du 31/01/1997 et BSP n°40 du 31/01/1998
     1998-01-01:
-    - title: BSP n° 40 du 31/01/1998 et BSP n°44 du 31/01/1999
+      - title: BSP n° 40 du 31/01/1998 et BSP n°44 du 31/01/1999
     1999-01-01:
-    - title: BSP n° 44 du 31/01/1999
+      - title: BSP n° 44 du 31/01/1999
     2000-01-01:
-    - title: BSP n° 48 du 31/01/2000
+      - title: BSP n° 48 du 31/01/2000
     2004-01-01:
-    - title: Les valeurs des paramètres pour les années 2005 et antérieures sont tirées de barèmes communiqués par l'AGIRC-ARRCO.
+      - title: Les valeurs des paramètres pour les années 2005 et antérieures sont tirées de barèmes communiqués par l'AGIRC-ARRCO.
     2019-01-01:
-    - title: Suppression de la GMP avec la fusion des régimes Agirc et Arrco (remplacée par la CEG et CET, voir barème AGIRC-ARRCO)
+      - title: Suppression de la GMP avec la fusion des régimes Agirc et Arrco (remplacée par la CEG et CET, voir barème AGIRC-ARRCO)
   last_review: "2021-07-30"
 documentation: |-
   Notes :

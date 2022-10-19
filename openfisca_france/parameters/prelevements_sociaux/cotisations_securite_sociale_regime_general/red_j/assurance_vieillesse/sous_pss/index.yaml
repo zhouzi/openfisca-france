@@ -3,5 +3,5 @@ metadata:
   ux_name: Sous PSS
   description_en: SSCs for freelance journalists (1964-1974)
   order:
-  - employeur
-  - employes
+    - employeur
+    - employes

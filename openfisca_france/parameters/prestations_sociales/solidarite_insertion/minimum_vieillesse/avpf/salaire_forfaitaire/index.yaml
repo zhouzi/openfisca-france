@@ -3,6 +3,6 @@ metadata:
   ux_name: Salaire forfaitaire
   description_en: Elderly insurance for stay-at-home parents (AVPF)
   order:
-  - metropole
-  - guadeloupe_guyane_martinique
-  - reunion
+    - metropole
+    - guadeloupe_guyane_martinique
+    - reunion

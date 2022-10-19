@@ -3,12 +3,12 @@ metadata:
   ux_name: AAH
   description_en: Disability
   order:
-  - age_minimal
-  - age_maximal
-  - montant
-  - pourcentage_aah
-  - abattement_special
-  - abattement_conjoint
-  - travail_esat
-  - travail_ordinaire
-  - majoration_plafond
+    - age_minimal
+    - age_maximal
+    - montant
+    - pourcentage_aah
+    - abattement_special
+    - abattement_conjoint
+    - travail_esat
+    - travail_ordinaire
+    - majoration_plafond

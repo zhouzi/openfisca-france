@@ -3,7 +3,7 @@ metadata:
   ux_name: Employeur
   description_en: Contribution levied on options and shares granted for free
   order:
-  - taux_plein
-  - taux_reduit
-  - taux_stock_options
-  - taux_attributions_gratuites_options
+    - taux_plein
+    - taux_reduit
+    - taux_stock_options
+    - taux_attributions_gratuites_options

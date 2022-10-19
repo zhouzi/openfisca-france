@@ -3,4 +3,4 @@ metadata:
   ux_name: Prime transitoire de solidarité
   description_en: Transitional solidarity premium (PTS)
   order:
-  - montant_mensuel
+    - montant_mensuel

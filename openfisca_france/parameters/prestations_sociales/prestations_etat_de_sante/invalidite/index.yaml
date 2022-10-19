@@ -3,6 +3,6 @@ metadata:
   ux_name: Invalidité
   description_en: Disability
   order:
-  - aah
-  - caah
-  - asi
+    - aah
+    - caah
+    - asi

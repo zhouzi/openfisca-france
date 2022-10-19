@@ -3,5 +3,5 @@ metadata:
   ux_name: Majoration et montant minimum versés
   description_en: "Minimum insertion income (RMI): Extra allowance and minimal amount"
   order:
-  - maj_montant_max
-  - montant_minimum_verse
+    - maj_montant_max
+    - montant_minimum_verse

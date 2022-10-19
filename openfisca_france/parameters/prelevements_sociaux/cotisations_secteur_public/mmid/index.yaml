@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisations maladie
   description_en: Health insurance contributions
   order:
-  - etat
-  - colloc
+    - etat
+    - colloc

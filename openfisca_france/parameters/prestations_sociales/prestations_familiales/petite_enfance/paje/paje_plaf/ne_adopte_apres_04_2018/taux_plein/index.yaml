@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux plein
   description_en: "Early childhood benefit (PAJE): Thresholds for means-testing"
   order:
-  - plafond_ressources_0_enfant
-  - biactifs_parents_isoles
+    - plafond_ressources_0_enfant
+    - biactifs_parents_isoles

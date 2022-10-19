@@ -3,9 +3,9 @@ metadata:
   ux_name: Montant
   description_en: "Activity prenium (PA) : accomodation allowance"
   order:
-  - montant_de_base
-  - majoration_montant_maximal
-  - majoration_isolement
-  - majoration_ressources_revenus_activite
-  - bonification
-  - montant_minimum_verse
+    - montant_de_base
+    - majoration_montant_maximal
+    - majoration_isolement
+    - majoration_ressources_revenus_activite
+    - bonification
+    - montant_minimum_verse

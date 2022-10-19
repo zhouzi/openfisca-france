@@ -3,13 +3,13 @@ metadata:
   ux_name: Régimes complémentaires de retraite (privé)
   description_en: Complementary pension schemes (private sector)
   order:
-  - agirc_arrco
-  - cet
-  - cet2019
-  - ceg
-  - apec
-  - prevoyance_deces_cadres
-  - arrco
-  - agirc
-  - agff
-  - gmp
+    - agirc_arrco
+    - cet
+    - cet2019
+    - ceg
+    - apec
+    - prevoyance_deces_cadres
+    - arrco
+    - agirc
+    - agff
+    - gmp

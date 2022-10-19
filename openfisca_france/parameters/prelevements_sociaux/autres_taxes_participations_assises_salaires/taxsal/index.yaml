@@ -3,6 +3,6 @@ metadata:
   ux_name: Taxe sur les salaires (depuis 1968)
   description_en: Other payroll and workforce taxes
   order:
-  - taux_maj
-  - guy
-  - mgr
+    - taux_maj
+    - guy
+    - mgr

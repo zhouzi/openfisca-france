@@ -3,6 +3,6 @@ metadata:
   ux_name: Aide Famille
   description_en: Exceptional benefit - COVID-19 crisis
   order:
-  - base
-  - base_jeune
-  - par_enfant
+    - base
+    - base_jeune
+    - par_enfant

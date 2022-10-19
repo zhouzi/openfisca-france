@@ -3,7 +3,7 @@ metadata:
   ux_name: CSG
   notes:
     0001-01-01:
-    - title: Les taux de CSG du capital sont rangés dans parameters.taxation_capital.csg
+      - title: Les taux de CSG du capital sont rangés dans parameters.taxation_capital.csg
   order:
-  - activite
-  - remplacement
+    - activite
+    - remplacement

@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisations retraites exceptionnelle et temporaire (CET) (1997-2018)
   description_en: Exceptional and temporary pension contribution (CET)
   order:
-  - salarie
-  - employeur
+    - salarie
+    - employeur

@@ -37,13 +37,13 @@ metadata:
     2009-06-01: "2008-12-28"
   notes:
     1971-07-01:
-    - title: Appelé "Allocation d'orphelin"
+      - title: Appelé "Allocation d'orphelin"
     1982-07-01:
-    - title: Droit à l'allocation pour abandon manifeste au bout de 2 mois et non 6 mois
+      - title: Droit à l'allocation pour abandon manifeste au bout de 2 mois et non 6 mois
     1984-12-28:
-    - title: Allocation de Soutien Familial
+      - title: Allocation de Soutien Familial
     2009-06-01:
-    - title: Le RSA intègre dans son calcul l'ASF mais avec des taux différents
+      - title: Le RSA intègre dans son calcul l'ASF mais avec des taux différents
 documentation: |-
   Notes :
   le RSA n'a pas complètement éliminé l'ASF, mais les deux prestations se complètent (les montants sont indiqués pour 2013)

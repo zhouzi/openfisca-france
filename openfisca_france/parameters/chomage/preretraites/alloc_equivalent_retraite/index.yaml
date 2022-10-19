@@ -3,6 +3,6 @@ metadata:
   ux_name: Préretraites
   description_en: Early retirement benefits
   order:
-  - montant_journalier
-  - plafond_seul
-  - plafond_couple
+    - montant_journalier
+    - plafond_seul
+    - plafond_couple

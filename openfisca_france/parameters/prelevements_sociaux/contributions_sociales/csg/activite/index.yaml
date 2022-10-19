@@ -3,5 +3,5 @@ metadata:
   ux_name: Revenus d'activité
   description_en: CSG - rates on work incomes
   order:
-  - taux_global
-  - deductible
+    - taux_global
+    - deductible

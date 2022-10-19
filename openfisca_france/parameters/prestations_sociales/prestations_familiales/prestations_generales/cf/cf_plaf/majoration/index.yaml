@@ -3,6 +3,6 @@ metadata:
   ux_name: Majoration
   description_en: "Family complement (CF): Extra allowances"
   order:
-  - biactifs_isoles
-  - deux_premiers_enf
-  - troisieme_enf_et_plus
+    - biactifs_isoles
+    - deux_premiers_enf
+    - troisieme_enf_et_plus

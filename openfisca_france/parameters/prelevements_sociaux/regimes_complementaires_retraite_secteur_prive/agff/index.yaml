@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisations pour la structure financière de l'AGFF (2001-2018)
   description_en: Contributions to the financial structure AGFF (2001-2016)
   order:
-  - salarie
-  - employeur
+    - salarie
+    - employeur

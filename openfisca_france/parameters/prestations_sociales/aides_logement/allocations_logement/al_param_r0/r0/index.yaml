@@ -3,12 +3,12 @@ metadata:
   ux_name: R0
   description_en: Parameters for R0 (the amount deducted from revenues) - rental sector (after the 2001 reform)
   order:
-  - taux1pac
-  - taux2pac
-  - taux3pac
-  - taux4pac
-  - taux5pac
-  - taux6pac
-  - taux_couple
-  - taux_pac_supp
-  - taux_seul
+    - taux1pac
+    - taux2pac
+    - taux3pac
+    - taux4pac
+    - taux5pac
+    - taux6pac
+    - taux_couple
+    - taux_pac_supp
+    - taux_seul

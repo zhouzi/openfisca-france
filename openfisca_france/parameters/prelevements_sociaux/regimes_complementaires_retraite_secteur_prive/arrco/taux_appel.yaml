@@ -63,9 +63,9 @@ metadata:
       title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
   notes:
     1982-01-01:
-    - title: "BSP : \"Le plus souvent, répartition employeur/salarié = 60/40 comme à l'UNIRS\""
+      - title: 'BSP : "Le plus souvent, répartition employeur/salarié = 60/40 comme à l''UNIRS"'
     2019-01-01:
-    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
+      - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
   last_review: "2021-01-01"
 documentation: |-
   Notes :

@@ -3,5 +3,5 @@ metadata:
   ux_name: CSG Revenus Capital
   description_en: CSG on financial income
   order:
-  - taux_global
-  - taux_deductible
+    - taux_global
+    - taux_deductible

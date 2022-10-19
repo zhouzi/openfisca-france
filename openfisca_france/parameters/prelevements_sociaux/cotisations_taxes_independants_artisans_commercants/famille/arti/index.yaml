@@ -3,4 +3,4 @@ metadata:
   ux_name: Artisans
   description_en: SSCs for family benefits (independent workers)
   order:
-  - famille
+    - famille

@@ -3,4 +3,4 @@ metadata:
   ux_name: Revalorisation FNE
   description_en: Indexation of reference wage for FNE early retirement benefit
   order:
-  - revalorisation_sr
+    - revalorisation_sr

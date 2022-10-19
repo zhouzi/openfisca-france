@@ -3,4 +3,4 @@ metadata:
   ux_name: Commerçants
   description_en: SSCs for old-age insurance (sales retailers and craftsmen)
   order:
-  - sous_pss
+    - sous_pss

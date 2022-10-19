@@ -266,12 +266,12 @@ metadata:
       title: Arrêté du 26/12/2000
       href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000588355
     2002-01-01:
-    - title: Loi 2001-647 du 20/07/2001
-      href: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000406361/
-    - title: Décret 2001-1084 du 20/11/2001, art. 6
-      href: https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006683919/2022-01-03/
-    - title: Arrêté du 25/01/2002
-      href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000399330
+      - title: Loi 2001-647 du 20/07/2001
+        href: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000406361/
+      - title: Décret 2001-1084 du 20/11/2001, art. 6
+        href: https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006683919/2022-01-03/
+      - title: Arrêté du 25/01/2002
+        href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000399330
     2003-01-01:
       title: Arrêté du 31/12/2002
       href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000776880

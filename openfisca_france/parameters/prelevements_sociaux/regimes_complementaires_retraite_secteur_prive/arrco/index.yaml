@@ -3,7 +3,7 @@ metadata:
   ux_name: Taux effectifs (salariés/employeurs) (ARRCO)
   description_en: Pension contributions for non-executives (ARRCO)
   order:
-  - taux_appel
-  - taux_contractuels
-  - taux_effectifs
-  - taux_effectifs_salaries_employeurs
+    - taux_appel
+    - taux_contractuels
+    - taux_effectifs
+    - taux_effectifs_salaries_employeurs

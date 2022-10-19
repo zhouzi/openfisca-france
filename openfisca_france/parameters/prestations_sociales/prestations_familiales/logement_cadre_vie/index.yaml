@@ -3,6 +3,6 @@ metadata:
   ux_name: Logement et cadre de vie
   description_en: Housing and living environment
   order:
-  - pd
-  - pjm_c_plaf
-  - pjm_prets
+    - pd
+    - pjm_c_plaf
+    - pjm_prets

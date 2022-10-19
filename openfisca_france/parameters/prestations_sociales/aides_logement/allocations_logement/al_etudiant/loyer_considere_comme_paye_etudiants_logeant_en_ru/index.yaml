@@ -3,5 +3,5 @@ metadata:
   ux_name: Loyer payé par les étudiants
   description_en: Measure of rent for students living in university residences
   order:
-  - personnes_isolees
-  - menages
+    - personnes_isolees
+    - menages

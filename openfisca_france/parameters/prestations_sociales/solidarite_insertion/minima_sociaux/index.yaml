@@ -3,7 +3,7 @@ metadata:
   ux_name: Minima sociaux
   description_en: Minimum incomes
   order:
-  - rmi
-  - api
-  - rsa
-  - ppa
+    - rmi
+    - api
+    - rsa
+    - ppa

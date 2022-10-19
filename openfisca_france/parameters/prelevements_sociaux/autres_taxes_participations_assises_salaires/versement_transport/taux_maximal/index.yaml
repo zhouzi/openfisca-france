@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux maximal
   description_en: Transportation payroll tax
   order:
-  - sous_pss
-  - tout_salaire
+    - sous_pss
+    - tout_salaire

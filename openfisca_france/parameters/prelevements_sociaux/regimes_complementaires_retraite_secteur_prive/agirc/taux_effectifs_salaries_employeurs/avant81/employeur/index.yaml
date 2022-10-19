@@ -3,4 +3,4 @@ metadata:
   ux_name: Barème employeur
   description_en: Pension contributions for executives (AGIRC)
   order:
-  - agirc
+    - agirc

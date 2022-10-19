@@ -3,4 +3,4 @@ metadata:
   ux_name: Entreprises avant 01/01/1997
   description_en: Pension contributions for non-executives (ARRCO)
   order:
-  - arrco
+    - arrco

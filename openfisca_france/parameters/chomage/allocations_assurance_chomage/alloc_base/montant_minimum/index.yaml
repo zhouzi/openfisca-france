@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant minimum
   description_en: UI scheme - lump-sum and minimum
   order:
-  - 3_premiers_mois
-  - ensuite
+    - 3_premiers_mois
+    - ensuite

@@ -3,4 +3,4 @@ metadata:
   ux_name: Employeur
   description_en: Health insurance contributions - local governments and hospital administration
   order:
-  - maladie
+    - maladie

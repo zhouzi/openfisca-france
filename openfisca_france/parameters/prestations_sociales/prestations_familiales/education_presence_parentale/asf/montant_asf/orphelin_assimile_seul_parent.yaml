@@ -47,16 +47,16 @@ metadata:
       title: Décret 2015-314 du 19/03/2015, art. 1.
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000030379021&cidTexte=JORFTEXT000030377944
     2017-04-01:
-    - title: Circulaire DSS/SD2B/2017/97 du 21/03/2017
-    - title: Article R523-7 du Code de la sécurité sociale
-      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034427380/2017-04-15
+      - title: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+      - title: Article R523-7 du Code de la sécurité sociale
+        href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034427380/2017-04-15
     2018-04-01:
-    - title: Article R523-7 du Code de la sécurité sociale
-      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038249358/2018-04-01/
-    - title: Décret 2017-532 du 12/04/2017, art. 1
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034419976&categorieLien=id
-    - title: INSTRUCTION INTERMINISTERIELLE N°DSS/SD2B/2018/81 du 22/03/2018
-      href: https://www.legifrance.gouv.fr/download/pdf/circ?id=43190
+      - title: Article R523-7 du Code de la sécurité sociale
+        href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038249358/2018-04-01/
+      - title: Décret 2017-532 du 12/04/2017, art. 1
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034419976&categorieLien=id
+      - title: INSTRUCTION INTERMINISTERIELLE N°DSS/SD2B/2018/81 du 22/03/2018
+        href: https://www.legifrance.gouv.fr/download/pdf/circ?id=43190
   official_journal_date:
     1970-12-26: "1970-12-25"
     1971-07-01: "1971-06-30"
@@ -69,19 +69,19 @@ metadata:
     2018-04-01: "2017-04-14"
   notes:
     1970-12-26:
-    - title: Création de l'allocation d'orphelin
+      - title: Création de l'allocation d'orphelin
     1971-07-01:
-    - title: Appelé "Allocation d'orphelin"
+      - title: Appelé "Allocation d'orphelin"
     1978-01-01:
-    - title: Appelé "Allocation d'orphelin"
+      - title: Appelé "Allocation d'orphelin"
     1982-07-01:
-    - title: Droit à l'allocation pour abandon manifeste au bout de 2 mois et non 6 mois
+      - title: Droit à l'allocation pour abandon manifeste au bout de 2 mois et non 6 mois
     1984-12-28:
-    - title: Allocation de Soutien Familial
+      - title: Allocation de Soutien Familial
     2014-04-01:
-    - title: Majoration de 25 % en plus de l'inflation à horizon 2018
+      - title: Majoration de 25 % en plus de l'inflation à horizon 2018
     2015-04-01:
-    - title: Taux non modifiés en 2016
+      - title: Taux non modifiés en 2016
 documentation: |-
   Montant de l''ASF, en pourcentage de la base mensuelle des allocations familiales (BMAF), 
   pour un enfant orphelin de père ou de mère (un seul parent manquant) ou dans une situation 

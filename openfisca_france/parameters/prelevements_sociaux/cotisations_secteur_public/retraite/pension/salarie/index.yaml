@@ -3,4 +3,4 @@ metadata:
   ux_name: Salarié
   description_en: Contributions for pensions - central government
   order:
-  - pension
+    - pension

@@ -3,7 +3,7 @@ metadata:
   ux_name: Seuils
   description_en: Parameters for new home-buyers and students residences
   order:
-  - 1ere_tranche
-  - 2eme_tranche
-  - 3eme_tranche
-  - 4eme_tranche_debut_5eme_tranche
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche_debut_5eme_tranche

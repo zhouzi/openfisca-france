@@ -3,6 +3,6 @@ metadata:
   ux_name: Majoration montant maximal
   description_en: "Activity prenium (PA) : accomodation allowance"
   order:
-  - couples_seul_avec_enfant
-  - couple_1_enfant_2e_enfant
-  - par_enfant_supplementaire
+    - couples_seul_avec_enfant
+    - couple_1_enfant_2e_enfant
+    - par_enfant_supplementaire

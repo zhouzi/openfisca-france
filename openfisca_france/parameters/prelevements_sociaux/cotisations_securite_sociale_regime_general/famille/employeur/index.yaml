@@ -3,4 +3,4 @@ metadata:
   ux_name: Barème employeur
   description_en: SSCs for family benefits
   order:
-  - famille
+    - famille

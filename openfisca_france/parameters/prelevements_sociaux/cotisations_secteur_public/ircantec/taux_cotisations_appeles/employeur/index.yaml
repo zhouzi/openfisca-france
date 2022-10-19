@@ -3,4 +3,4 @@ metadata:
   ux_name: Cotisations employeur
   description_en: Contributions to the complementary pension of non-permanent workers of the public sector and of local representatives (IRCANTEC scheme)
   order:
-  - ircantec
+    - ircantec

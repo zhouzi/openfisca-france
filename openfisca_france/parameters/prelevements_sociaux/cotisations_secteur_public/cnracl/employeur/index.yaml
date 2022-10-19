@@ -3,7 +3,7 @@ metadata:
   ux_name: Cotisations employeur
   description_en: Contributions for pensions - local governments and hospitals (CNRACL scheme)
   order:
-  - cnracl
-  - atiacl
-  - territoriale
-  - hospitaliere
+    - cnracl
+    - atiacl
+    - territoriale
+    - hospitaliere

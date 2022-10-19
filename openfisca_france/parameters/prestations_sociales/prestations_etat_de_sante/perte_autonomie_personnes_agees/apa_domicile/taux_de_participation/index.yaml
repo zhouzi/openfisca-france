@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux de participation
   description_en: Attendance allowance for individuals living at home (APA)
   order:
-  - minimum
-  - maximum
+    - minimum
+    - maximum

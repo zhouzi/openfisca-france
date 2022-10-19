@@ -3,5 +3,5 @@ metadata:
   ux_name: Régime de prévoyance
   description_en: Contributions to the SNCF scheme (public railway company)
   order:
-  - salaries
-  - employeurs
+    - salaries
+    - employeurs

@@ -3,4 +3,4 @@ metadata:
   ux_name: Industriels commerçants
   description_en: Contribution for complementary pension scheme (sales retailers and craftsmen)
   order:
-  - sous_3_pss
+    - sous_3_pss

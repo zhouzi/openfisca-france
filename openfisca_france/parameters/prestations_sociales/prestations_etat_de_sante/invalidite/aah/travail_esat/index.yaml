@@ -3,6 +3,6 @@ metadata:
   ux_name: Base de calcul pour Esat
   description_en: Disability
   order:
-  - plafond_ressources_en_multiple_montant_base
-  - plafond
-  - abattement_esat
+    - plafond_ressources_en_multiple_montant_base
+    - plafond
+    - abattement_esat

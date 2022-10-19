@@ -3,5 +3,5 @@ metadata:
   ux_name: Prélèvements sociaux
   description_en: Other social levies on financial income
   order:
-  - revenus_du_patrimoine
-  - produits_de_placement
+    - revenus_du_patrimoine
+    - produits_de_placement

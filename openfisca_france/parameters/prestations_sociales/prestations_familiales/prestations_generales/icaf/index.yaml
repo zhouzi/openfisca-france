@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant ICAF
   description_en: "Compensatory payments of tax benefits (ICAF): Amount"
   order:
-  - 2_enfants_a_charge
-  - par_enfant_supplementaire
+    - 2_enfants_a_charge
+    - par_enfant_supplementaire

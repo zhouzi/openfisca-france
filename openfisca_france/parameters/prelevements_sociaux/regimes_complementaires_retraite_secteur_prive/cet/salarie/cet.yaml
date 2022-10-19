@@ -1,33 +1,33 @@
 description: Barème salarié (sous 8 PSS) des cotisations retraites exceptionnelle et temporaire (CET) aux régimes complémentaires de retraite (secteur privé) (1997-2018)
 brackets:
-- threshold:
-    1997-01-01:
-      value: 0
-    2019-01-01:
-      value: null
-  rate:
-    1997-01-01:
-      value: 0.00025
-    1998-01-01:
-      value: 0.0005
-    1999-01-01:
-      value: 0.0008
-    2000-01-01:
-      value: 0.0011
-    2001-01-01:
-      value: 0.0013
-    2019-01-01:
-      value: null
-- threshold:
-    1997-01-01:
-      value: 8
-    2019-01-01:
-      value: null
-  rate:
-    1997-01-01:
-      value: 0
-    2019-01-01:
-      value: null
+  - threshold:
+      1997-01-01:
+        value: 0
+      2019-01-01:
+        value: null
+    rate:
+      1997-01-01:
+        value: 0.00025
+      1998-01-01:
+        value: 0.0005
+      1999-01-01:
+        value: 0.0008
+      2000-01-01:
+        value: 0.0011
+      2001-01-01:
+        value: 0.0013
+      2019-01-01:
+        value: null
+  - threshold:
+      1997-01-01:
+        value: 8
+      2019-01-01:
+        value: null
+    rate:
+      1997-01-01:
+        value: 0
+      2019-01-01:
+        value: null
 metadata:
   ux_name: Barème salarié
   description_en: Exceptional and temporary pension contribution (CET)
@@ -41,17 +41,17 @@ metadata:
       title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
   notes:
     1997-01-01:
-    - title: "BSP : en 1997, le taux est de 0,07% (0,045% employeur, 0,025% salarié) pour le taux contractuel de 14%. Elle est respectivement de 0,044% et 0,026% pour les taux contractuels de 15 et 16%"
+      - title: "BSP : en 1997, le taux est de 0,07% (0,045% employeur, 0,025% salarié) pour le taux contractuel de 14%. Elle est respectivement de 0,044% et 0,026% pour les taux contractuels de 15 et 16%"
     1998-01-01:
-    - title: BSP n°40 du 31/01/1998. Plus qu'un seul taux à partir de 1998.
+      - title: BSP n°40 du 31/01/1998. Plus qu'un seul taux à partir de 1998.
     1999-01-01:
-    - title: BSP n°44 du 31/01/1999
+      - title: BSP n°44 du 31/01/1999
     2000-01-01:
-    - title: BSP n°48 du 31/01/2000
+      - title: BSP n°48 du 31/01/2000
     2001-01-01:
-    - title: BSP pour 2001 non communicables à la BNF
+      - title: BSP pour 2001 non communicables à la BNF
     2019-01-01:
-    - title: Suppression de la CET avec la fusion des régimes Agirc et Arrco (remplacée par la CEG et nouvelle CET, voir barème AGIRC-ARRCO)
+      - title: Suppression de la CET avec la fusion des régimes Agirc et Arrco (remplacée par la CEG et nouvelle CET, voir barème AGIRC-ARRCO)
   last_review: "2021-07-30"
   rate_unit: /1
   threshold_unit: PSS

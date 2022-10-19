@@ -25,11 +25,11 @@ metadata:
     1998-01-01: "1997-12-23"
   notes:
     1998-01-01:
-    - title: Exonération pour les entreprises de moins de 10 salariés
+      - title: Exonération pour les entreprises de moins de 10 salariés
     2011-01-01:
-    - title: "Les contributions patronales acquittées pour le financement de la prévoyance complémentaire des anciens salariés se trouvent soumises à leur tour à la\_taxe."
+      - title: "Les contributions patronales acquittées pour le financement de la prévoyance complémentaire des anciens salariés se trouvent soumises à leur tour à la\_taxe."
     2012-01-01:
-    - title: Depuis le 01/01/2012, la taxe spécifique sur les contributions patronales de prévoyance a été remplacée par le forfait social.
+      - title: Depuis le 01/01/2012, la taxe spécifique sur les contributions patronales de prévoyance a été remplacée par le forfait social.
 documentation: |-
   Champ :
   Employeurs de plus de 9 salariés

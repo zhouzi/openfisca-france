@@ -37,7 +37,7 @@ metadata:
     2008-01-01: "2006-12-31"
   notes:
     2008-01-01:
-    - title: Le taux maximal pour les commerçants, auparavant de 0,24 %, est passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre de métiers à 0,12 %
+      - title: Le taux maximal pour les commerçants, auparavant de 0,24 %, est passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre de métiers à 0,12 %
 documentation: |-
   Note :
   Depuis 2005, les commerçants et industriels paient un supplément de 0,9 % si leur conjoint a le statut de conjoint collaborateur.

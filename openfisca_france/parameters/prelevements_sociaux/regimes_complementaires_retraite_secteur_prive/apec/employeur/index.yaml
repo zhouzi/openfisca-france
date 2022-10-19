@@ -3,5 +3,5 @@ metadata:
   ux_name: Part employeur
   description_en: Contributions for the Association for the employment of executives (APEC)
   order:
-  - apec
-  - forfait_annuel
+    - apec
+    - forfait_annuel

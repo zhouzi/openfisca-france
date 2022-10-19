@@ -3,5 +3,5 @@ metadata:
   ux_name: Barème
   description_en: Wealth tax computation
   order:
-  - bareme
-  - nombre_tranches
+    - bareme
+    - nombre_tranches

@@ -3,6 +3,6 @@ metadata:
   ux_name: Plafonds de ressources
   description_en: "Family complement (CF): Extra allowances"
   order:
-  - plafond_ressources_0_enfant
-  - majoration
-  - plafond_ressources_majoration
+    - plafond_ressources_0_enfant
+    - majoration
+    - plafond_ressources_majoration

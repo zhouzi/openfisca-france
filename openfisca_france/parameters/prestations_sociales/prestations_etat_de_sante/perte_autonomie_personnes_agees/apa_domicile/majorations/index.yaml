@@ -3,5 +3,5 @@ metadata:
   ux_name: Majorations
   description_en: Attendance allowance for individuals living at home (APA)
   order:
-  - majoration_repit
-  - majoration_hospitalisation
+    - majoration_repit
+    - majoration_hospitalisation

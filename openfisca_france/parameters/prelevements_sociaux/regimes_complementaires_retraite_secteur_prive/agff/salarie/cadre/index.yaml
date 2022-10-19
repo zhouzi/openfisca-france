@@ -3,4 +3,4 @@ metadata:
   ux_name: Barème cadre
   description_en: Contributions to the financial structure AGFF (2001-2016)
   order:
-  - agff
+    - agff

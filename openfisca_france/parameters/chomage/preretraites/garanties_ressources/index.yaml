@@ -3,5 +3,5 @@ metadata:
   ux_name: Garanties de ressources
   description_en: Minimum income guarantee (1972-1999)
   order:
-  - revalorisation
-  - montant_minimum
+    - revalorisation
+    - montant_minimum

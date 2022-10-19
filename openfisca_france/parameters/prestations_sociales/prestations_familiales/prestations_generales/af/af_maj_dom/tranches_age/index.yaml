@@ -3,5 +3,5 @@ metadata:
   ux_name: Tranches d'âge
   description_en: Family allowances (AF)
   order:
-  - age_debut_premiere_tranche
-  - age_debut_deuxieme_tranche
+    - age_debut_premiere_tranche
+    - age_debut_deuxieme_tranche

@@ -3,4 +3,4 @@ metadata:
   ux_name: Salarié
   description_en: Contributions to the scheme of Additional pension
   order:
-  - rafp
+    - rafp

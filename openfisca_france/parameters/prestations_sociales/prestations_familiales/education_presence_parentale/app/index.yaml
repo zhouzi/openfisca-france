@@ -3,6 +3,6 @@ metadata:
   ux_name: APP
   description_en: "Parental presence allowance (AA): Amounts"
   order:
-  - montant_taux_plein
-  - montant_taux_partiel
-  - duree_max_allocation
+    - montant_taux_plein
+    - montant_taux_partiel
+    - duree_max_allocation

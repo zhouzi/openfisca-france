@@ -3,4 +3,4 @@ metadata:
   ux_name: Sous 3,5 PSS
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - retraite_complementaire
+    - retraite_complementaire

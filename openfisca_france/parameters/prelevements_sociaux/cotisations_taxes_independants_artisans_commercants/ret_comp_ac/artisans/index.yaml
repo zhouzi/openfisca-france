@@ -3,7 +3,7 @@ metadata:
   ux_name: Artisans
   description_en: Contribution for complementary pension scheme (sales retailers and craftsmen)
   order:
-  - sous_1_pss
-  - entre_1_et_4_pss
-  - sous_3_pss
-  - sous_4_pss
+    - sous_1_pss
+    - entre_1_et_4_pss
+    - sous_3_pss
+    - sous_4_pss

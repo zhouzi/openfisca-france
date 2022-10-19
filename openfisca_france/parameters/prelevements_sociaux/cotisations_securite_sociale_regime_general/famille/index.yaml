@@ -3,5 +3,5 @@ metadata:
   ux_name: Branche famille
   description_en: SSCs for family benefits
   order:
-  - employeur
-  - taux_reduit
+    - employeur
+    - taux_reduit

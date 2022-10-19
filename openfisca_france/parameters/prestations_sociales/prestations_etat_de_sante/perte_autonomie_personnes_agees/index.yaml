@@ -3,7 +3,7 @@ metadata:
   ux_name: Perte d'autonomie
   description_en: Long term care for the elderly
   order:
-  - psd
-  - apa_mtp
-  - apa_domicile
-  - apa_institution
+    - psd
+    - apa_mtp
+    - apa_domicile
+    - apa_institution

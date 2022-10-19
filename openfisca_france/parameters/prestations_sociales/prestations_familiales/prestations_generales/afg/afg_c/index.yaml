@@ -3,5 +3,5 @@ metadata:
   ux_name: Conditions générales et montants
   description_en: "Child care costs allowance (AFG): General conditions and amounts"
   order:
-  - nombre_minimal_enfants_a_charge
-  - montant_mensuel_maximum
+    - nombre_minimal_enfants_a_charge
+    - montant_mensuel_maximum

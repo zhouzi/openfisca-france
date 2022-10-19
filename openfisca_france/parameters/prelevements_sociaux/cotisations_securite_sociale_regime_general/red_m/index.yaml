@@ -3,8 +3,8 @@ metadata:
   ux_name: Professions Médicales Temps Partiel
   description_en: SSCs for physicians working part-time (1961-1974)
   order:
-  - assurance_maladie
-  - assurance_vieillesse
-  - accidents_travail
-  - allocations_familiales
-  - assurances_sociales_avant_1967
+    - assurance_maladie
+    - assurance_vieillesse
+    - accidents_travail
+    - allocations_familiales
+    - assurances_sociales_avant_1967

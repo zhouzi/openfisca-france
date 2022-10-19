@@ -8,13 +8,13 @@ metadata:
   unit: currency
   reference:
     2021-01-01:
-    - title: Arrêté du 31/12/2020, art. 1
-      href: https://www.legifrance.gouv.fr/loda/id/LEGIARTI000043041786/2021-01-02/
-    - title: Arrêté du 27/09/2019, art. 47
-      href: https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043044380/2021-01-01
+      - title: Arrêté du 31/12/2020, art. 1
+        href: https://www.legifrance.gouv.fr/loda/id/LEGIARTI000043041786/2021-01-02/
+      - title: Arrêté du 27/09/2019, art. 47
+        href: https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043044380/2021-01-01
   notes:
     2021-01-01:
-    - title: La loi indique ce montant pour "six personnes à charge OU PLUS"
+      - title: La loi indique ce montant pour "six personnes à charge OU PLUS"
 documentation: |-
   Notes :
   (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2.

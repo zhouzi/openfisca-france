@@ -33,20 +33,20 @@ metadata:
       title: Décret 2003-1025 du 28/10/2003 - art. 1
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006225021&cidTexte=JORFTEXT000000429252
     2004-01-01:
-    - title: Loi 2003-775 du 21/08/2003 - art. 88
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006758637&cidTexte=JORFTEXT000000781627
-    - title: Décret 2004-848 du 23/08/2004 - art. 1
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006233585&cidTexte=JORFTEXT000000625026
+      - title: Loi 2003-775 du 21/08/2003 - art. 88
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006758637&cidTexte=JORFTEXT000000781627
+      - title: Décret 2004-848 du 23/08/2004 - art. 1
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006233585&cidTexte=JORFTEXT000000625026
     2005-01-01:
-    - title: Décret 2005-272 du 23/03/2005
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000259384
-    - title: Décret 2004-848 du 23/08/2004 - art. 1
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006233585&cidTexte=JORFTEXT000000625026
+      - title: Décret 2005-272 du 23/03/2005
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000259384
+      - title: Décret 2004-848 du 23/08/2004 - art. 1
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006233585&cidTexte=JORFTEXT000000625026
     2008-01-01:
-    - title: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
-      href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000017852012&cidTexte=JORFTEXT000017765870
-    - title: Décret 2008-22 du 7/01/2008
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000017834337
+      - title: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000017852012&cidTexte=JORFTEXT000017765870
+      - title: Décret 2008-22 du 7/01/2008
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000017834337
     2011-01-01:
       title: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000017852012&cidTexte=JORFTEXT000017765870
@@ -65,7 +65,7 @@ metadata:
     2012-01-01: "2007-12-30"
   notes:
     2004-01-01:
-    - title: Pour les industriels et commerçants, taux de 3,5% sous 3 PSS pour le 1er semestre 2004, et 4,5% sous 3 PSS pour le 2ème semestre 2004
+      - title: Pour les industriels et commerçants, taux de 3,5% sous 3 PSS pour le 1er semestre 2004, et 4,5% sous 3 PSS pour le 2ème semestre 2004
 documentation: |-
   Notes :
   (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants.

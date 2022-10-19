@@ -3,6 +3,6 @@ metadata:
   ux_name: 10 salariés et plus
   description_en: Employer's participation to lifelong professional training
   order:
-  - cotisation_formation_alternee
-  - contrats_periodes_professionnalisation_dif
-  - conges_formation
+    - cotisation_formation_alternee
+    - contrats_periodes_professionnalisation_dif
+    - conges_formation

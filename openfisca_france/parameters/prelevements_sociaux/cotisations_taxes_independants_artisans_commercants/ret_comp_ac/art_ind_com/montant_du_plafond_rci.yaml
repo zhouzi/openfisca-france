@@ -32,9 +32,9 @@ metadata:
       title: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000017852012&cidTexte=JORFTEXT000017765870
     2013-01-01:
-    - title: Décret 2012-443 du 03/04/2012
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000025626696
-    - title: Circulaire RSI 2013-004 du 17/01/2013
+      - title: Décret 2012-443 du 03/04/2012
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000025626696
+      - title: Circulaire RSI 2013-004 du 17/01/2013
     2014-01-01:
       title: Décret 2012-139 du 30/01/2012
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000025241814
@@ -46,21 +46,21 @@ metadata:
     2014-01-01: "2012-12-31"
   notes:
     1978-01-01:
-    - title: Institution du régime d'assurance vieillesse complémentaire obligatoire pour les artisans
+      - title: Institution du régime d'assurance vieillesse complémentaire obligatoire pour les artisans
     2013-01-01:
-    - title: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour les différentes catégories d'independants.
+      - title: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour les différentes catégories d'independants.
     2014-01-01:
-    - title: Rétabli l'article D. 635-7 du CSS donnant les taux.
+      - title: Rétabli l'article D. 635-7 du CSS donnant les taux.
     2016-01-01:
-    - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: service-public.fr"
+      - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: service-public.fr"
     2018-01-01:
-    - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: service-public.fr"
+      - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: service-public.fr"
     2019-01-01:
-    - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: service-public.fr"
+      - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: service-public.fr"
     2020-01-01:
-    - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: secu-independants.fr"
+      - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: secu-independants.fr"
     2021-01-01:
-    - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: secu-independants.fr"
+      - title: "Référence législative fixant le plafond spécifique des indépendants introuvable. Source: secu-independants.fr"
 documentation: |-
   Notes :
   (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants.

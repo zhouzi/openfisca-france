@@ -3,4 +3,4 @@ metadata:
   ux_name: MTP
   description_en: Amount of markup for constant support to a third party (MTP)
   order:
-  - mtp
+    - mtp

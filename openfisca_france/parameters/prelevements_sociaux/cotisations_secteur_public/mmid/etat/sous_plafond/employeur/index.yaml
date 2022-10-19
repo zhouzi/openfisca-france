@@ -3,4 +3,4 @@ metadata:
   ux_name: Employeur
   description_en: Health insurance contributions
   order:
-  - maladie
+    - maladie

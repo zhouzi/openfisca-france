@@ -17,11 +17,11 @@ metadata:
   unit: /1
   reference:
     1968-07-22:
-    - title: Ordonnance 67-580 du 13/07/1967
-    - title: Avenant du 10/07/1967
+      - title: Ordonnance 67-580 du 13/07/1967
+      - title: Avenant du 10/07/1967
     1979-07-01:
-    - title: Loi cadre 79-32 du 16/01/1979
-    - title: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      - title: Loi cadre 79-32 du 16/01/1979
+      - title: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
     1984-04-01:
       title: Arrêté du 24/02/1984 portant agrément de la convention du 24/02/1984
     1989-10-01:

@@ -3,5 +3,5 @@ metadata:
   ux_name: Branche Maladie Maternité Invalidité Décès
   description_en: SSCs for sickness and maternity benefits (sales retailers and craftsmen)
   order:
-  - assures_actifs
-  - assures_retraites
+    - assures_actifs
+    - assures_retraites

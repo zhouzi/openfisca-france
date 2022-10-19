@@ -3,6 +3,6 @@ metadata:
   ux_name: Taux
   description_en: "Early childhood benefit (PAJE): Extra allowance for the choice of the type of care (CMG)"
   order:
-  - revenus_inferieurs_45_plaf
-  - revenus_superieurs_45_plaf
-  - revenus_superieurs_plaf
+    - revenus_inferieurs_45_plaf
+    - revenus_superieurs_45_plaf
+    - revenus_superieurs_plaf

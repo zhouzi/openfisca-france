@@ -3,5 +3,5 @@ metadata:
   ux_name: Majorations
   description_en: "Allowance for stay-at-home-mother (AMF): Extra allowances"
   order:
-  - regime_general
-  - regime_agricole
+    - regime_general
+    - regime_agricole

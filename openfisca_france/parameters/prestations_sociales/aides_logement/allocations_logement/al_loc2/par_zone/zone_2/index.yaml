@@ -3,7 +3,7 @@ metadata:
   ux_name: Zone 2
   description_en: Parameters for the rental sector (after the 2001 reform)
   order:
-  - personnes_seules
-  - couples
-  - un_enfant
-  - majoration_par_enf_supp
+    - personnes_seules
+    - couples
+    - un_enfant
+    - majoration_par_enf_supp

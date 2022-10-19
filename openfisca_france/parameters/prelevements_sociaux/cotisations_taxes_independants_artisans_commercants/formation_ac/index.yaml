@@ -3,5 +3,5 @@ metadata:
   ux_name: Participation à la formation professionnelle continue
   description_en: Contribution to lifelong professional training (sales retailers and craftsmen)
   order:
-  - artisans
-  - commercants_industriels
+    - artisans
+    - commercants_industriels

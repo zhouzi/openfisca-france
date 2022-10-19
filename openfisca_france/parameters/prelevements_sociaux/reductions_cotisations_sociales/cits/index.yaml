@@ -3,5 +3,5 @@ metadata:
   ux_name: Crédit d'impôt de taxe sur les salaires (CITS)
   description_en: Tax credit on the payroll tax (CITS)
   order:
-  - taux
-  - plafond_smic
+    - taux
+    - plafond_smic

@@ -3,7 +3,7 @@ metadata:
   ux_name: RMI
   description_en: Minimum insertion income (RMI)
   order:
-  - rmi_cond
-  - rmi_m
-  - rmi_maj
-  - rmi_fl
+    - rmi_cond
+    - rmi_m
+    - rmi_maj
+    - rmi_fl

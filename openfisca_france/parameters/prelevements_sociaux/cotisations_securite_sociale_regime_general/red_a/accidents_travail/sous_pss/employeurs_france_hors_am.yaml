@@ -49,7 +49,7 @@ metadata:
     1973-03-01: "1973-03-17"
   notes:
     1972-01-01:
-    - title: Modification de la cotisation accident du travail.
+      - title: Modification de la cotisation accident du travail.
   last_review: "1973-01-01"
 documentation: |-
   Note générale :

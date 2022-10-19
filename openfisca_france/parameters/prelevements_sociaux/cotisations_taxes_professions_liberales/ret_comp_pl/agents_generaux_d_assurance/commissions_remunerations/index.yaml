@@ -3,6 +3,6 @@ metadata:
   ux_name: Sur commissions et rémunérations brutes dans la limite d'un plafond
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - taux_contractuel
-  - taux_effectif
-  - taux_inv_deces
+    - taux_contractuel
+    - taux_effectif
+    - taux_inv_deces

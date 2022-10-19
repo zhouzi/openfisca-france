@@ -56,11 +56,11 @@ metadata:
     1980-10-01: "1980-11-06"
   notes:
     1961-01-01:
-    - title: Complément de 208 pour les plus de 75 ans.
+      - title: Complément de 208 pour les plus de 75 ans.
     1962-04-01:
-    - title: Complément de 308 pour les plus de 75 ans.
+      - title: Complément de 308 pour les plus de 75 ans.
     1975-09-01:
-    - title: Le décret n'a pas de numéro
+      - title: Le décret n'a pas de numéro
   last_review: "2021-01-01"
 documentation: |-
   Notes :

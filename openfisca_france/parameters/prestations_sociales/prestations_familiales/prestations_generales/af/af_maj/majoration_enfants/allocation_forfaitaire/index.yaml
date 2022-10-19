@@ -3,5 +3,5 @@ metadata:
   ux_name: Allocation forfaitaire
   description_en: "Family allowances (AF): Extra allowances"
   order:
-  - age_minimum
-  - taux
+    - age_minimum
+    - taux

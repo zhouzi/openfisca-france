@@ -3,5 +3,5 @@ metadata:
   ux_name: Réduction pour dons à certains organismes d'intérêt général
   description_en: Tax reductions for investment and donations
   order:
-  - taux
-  - limite_reduction
+    - taux
+    - limite_reduction

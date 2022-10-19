@@ -3,5 +3,5 @@ metadata:
   ux_name: Conditions générales
   description_en: "Minimum insertion income (RMI): General conditions"
   order:
-  - condition_age_allocataire
-  - nombre_minimal_enfant_si_condition_age_n_est_pas_respectee
+    - condition_age_allocataire
+    - nombre_minimal_enfant_si_condition_age_n_est_pas_respectee

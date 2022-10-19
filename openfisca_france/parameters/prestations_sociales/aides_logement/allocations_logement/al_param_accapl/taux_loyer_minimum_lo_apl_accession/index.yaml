@@ -3,9 +3,9 @@ metadata:
   ux_name: Taux pour le loyer minimum (Lo) pour l'APL accession
   description_en: Parameters for new home-buyers (APL)
   order:
-  - 1ere_tranche
-  - 2eme_tranche
-  - 3eme_tranche
-  - 4eme_tranche
-  - 5eme_tranche
-  - 6eme_tranche
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+    - 6eme_tranche

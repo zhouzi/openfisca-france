@@ -3,6 +3,6 @@ metadata:
   ux_name: Montants
   description_en: "Back-to-school allowance (ARS): Amounts"
   order:
-  - taux_primaire
-  - taux_college
-  - taux_lycee
+    - taux_primaire
+    - taux_college
+    - taux_lycee

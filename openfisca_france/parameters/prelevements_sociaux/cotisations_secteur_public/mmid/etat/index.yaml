@@ -3,5 +3,5 @@ metadata:
   ux_name: Fonction publique d'Etat
   description_en: Health insurance contributions
   order:
-  - sous_plafond
-  - tout_traitement
+    - sous_plafond
+    - tout_traitement

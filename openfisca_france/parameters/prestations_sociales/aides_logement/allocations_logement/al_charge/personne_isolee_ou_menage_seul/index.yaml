@@ -3,5 +3,5 @@ metadata:
   ux_name: Personne isolée ou ménage seul
   description_en: Lump sum extra allowance for charges
   order:
-  - cas_general
-  - cas_colocataires_ou_proprietaires
+    - cas_general
+    - cas_colocataires_ou_proprietaires

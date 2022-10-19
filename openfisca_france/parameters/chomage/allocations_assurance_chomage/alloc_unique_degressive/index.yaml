@@ -3,7 +3,7 @@ metadata:
   ux_name: Allocation unique dégressive
   description_en: UI scheme - degressive schedule
   order:
-  - taux_plein
-  - taux_degressif
-  - duree_totale_en_mois
-  - coefficient_degressivite
+    - taux_plein
+    - taux_degressif
+    - duree_totale_en_mois
+    - coefficient_degressivite

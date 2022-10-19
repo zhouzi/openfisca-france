@@ -64,9 +64,9 @@ metadata:
     2021-04-01: "2021-04-30"
   notes:
     2016-01-01:
-    - title: Création de la Prime pour l'Activité.
+      - title: Création de la Prime pour l'Activité.
     2019-01-01:
-    - title: Revalorisation de la Prime pour l'Activité suite à la loi 2018-1213 du 24/12/2018 portant mesures d'urgence économique et sociale. La Prime pour l'Activité augmente de 90 euros au niveau du Smic, via une augmentation de la bonification individuelle.
+      - title: Revalorisation de la Prime pour l'Activité suite à la loi 2018-1213 du 24/12/2018 portant mesures d'urgence économique et sociale. La Prime pour l'Activité augmente de 90 euros au niveau du Smic, via une augmentation de la bonification individuelle.
     2022-07-01:
-    - title: Revalorisation de 4%
+      - title: Revalorisation de 4%
   last_review: "2022-09-27"

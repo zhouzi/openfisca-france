@@ -127,7 +127,7 @@ metadata:
     2020-04-01: "2020-06-04"
   notes:
     2011-01-01:
-    - title: L'AER est supprimé au 01/01/2011.
+      - title: L'AER est supprimé au 01/01/2011.
 documentation: |-
   Notes :
   Seules les personnes dont les droits à l'AER ont été ouverts avant le 1er janvier 2011 continuent à la percevoir jusqu'à l'expiration de leurs droits. L'AER est remplacée depuis le 1er juillet 2011 par l'allocation transitoire de solidarité (ATS).

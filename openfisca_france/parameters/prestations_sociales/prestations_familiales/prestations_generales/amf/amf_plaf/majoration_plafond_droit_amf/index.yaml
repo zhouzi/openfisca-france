@@ -3,6 +3,6 @@ metadata:
   ux_name: Majoration droit AMF
   description_en: "Allowance for stay-at-home-mother (AMF): Thresholds for means-testing"
   order:
-  - 4_enfants
-  - 5_enfants
-  - 6_enfants
+    - 4_enfants
+    - 5_enfants
+    - 6_enfants

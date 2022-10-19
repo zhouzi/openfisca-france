@@ -3,4 +3,4 @@ metadata:
   ux_name: Branche vieillesse
   description_en: SSCs for old-age insurance (professionals)
   order:
-  - assurance_vieillesse
+    - assurance_vieillesse

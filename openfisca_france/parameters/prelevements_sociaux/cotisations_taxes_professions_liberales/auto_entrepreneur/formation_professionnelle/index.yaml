@@ -3,8 +3,8 @@ metadata:
   ux_name: Formation professionnelle
   description_en: Self-employed specific scheme (auto-entrepreneurs)
   order:
-  - ventecom_chiffre_affaires
-  - servicecom_chiffre_affaires
-  - artisans_hors_alsace_chiffre_affaires
-  - artisans_alsace_chiffre_affaires
-  - professions_liberales_chiffre_affaires
+    - ventecom_chiffre_affaires
+    - servicecom_chiffre_affaires
+    - artisans_hors_alsace_chiffre_affaires
+    - artisans_alsace_chiffre_affaires
+    - professions_liberales_chiffre_affaires

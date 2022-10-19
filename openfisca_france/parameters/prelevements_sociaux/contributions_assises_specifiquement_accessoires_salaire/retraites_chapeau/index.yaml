@@ -3,8 +3,8 @@ metadata:
   ux_name: Retraites Chapeau
   description_en: Special contribution on employer's contribution to defined-benefits (DB) supplementary pension schemes
   order:
-  - taux_1
-  - taux_2
-  - taux_3
-  - majoration
-  - droits_certains
+    - taux_1
+    - taux_2
+    - taux_3
+    - majoration
+    - droits_certains

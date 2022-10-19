@@ -3,6 +3,6 @@ metadata:
   ux_name: AMF
   description_en: Allowance for stay-at-home-mother (AMF)
   order:
-  - amf_plaf
-  - amf_m
-  - amf_maj
+    - amf_plaf
+    - amf_m
+    - amf_maj

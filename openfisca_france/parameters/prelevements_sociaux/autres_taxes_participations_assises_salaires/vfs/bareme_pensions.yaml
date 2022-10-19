@@ -1,15 +1,15 @@
 description: Taux sur les pensions du Versement forfaitaire sur les pensions (1949-1967)
 brackets:
-- threshold:
-    1949-01-01:
-      value: 0
-    1957-01-01:
-      value: null
-  rate:
-    1949-01-01:
-      value: 0.03
-    1957-01-01:
-      value: null
+  - threshold:
+      1949-01-01:
+        value: 0
+      1957-01-01:
+        value: null
+    rate:
+      1949-01-01:
+        value: 0.03
+      1957-01-01:
+        value: null
 metadata:
   ux_name: Taux sur les pensions
   ipp_csv_id: vf_pens
@@ -24,7 +24,7 @@ metadata:
     1957-01-01: "1956-12-30"
   notes:
     1957-01-01:
-    - title: Anciens francs.
+      - title: Anciens francs.
   rate_unit: /1
   threshold_unit: currency
 documentation: |-

@@ -3,10 +3,10 @@ metadata:
   ux_name: Education et présence parentale
   description_en: Education and parental presence
   order:
-  - ars
-  - ape
-  - asf
-  - aes
-  - aeeh
-  - app
-  - ajpp
+    - ars
+    - ape
+    - asf
+    - aes
+    - aeeh
+    - app
+    - ajpp

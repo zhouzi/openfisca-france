@@ -3,4 +3,4 @@ metadata:
   ux_name: Forfait logement
   description_en: "Active solidarity income (RSA): accomodation allowance"
   order:
-  - forfait_logement
+    - forfait_logement

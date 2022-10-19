@@ -3,6 +3,6 @@ metadata:
   ux_name: Cotisations pour prestations sociales
   description_en: Self-employed specific scheme (auto-entrepreneurs)
   order:
-  - vente
-  - servi
-  - cipav
+    - vente
+    - servi
+    - cipav

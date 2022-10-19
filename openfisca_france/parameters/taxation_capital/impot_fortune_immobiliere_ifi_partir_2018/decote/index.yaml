@@ -3,7 +3,7 @@ metadata:
   ux_name: Décote
   description_en: Real estate tax computation
   order:
-  - parametre_calcul_decote
-  - borne_inferieure_decote
-  - borne_superieure_decote
-  - taux_decote
+    - parametre_calcul_decote
+    - borne_inferieure_decote
+    - borne_superieure_decote
+    - taux_decote

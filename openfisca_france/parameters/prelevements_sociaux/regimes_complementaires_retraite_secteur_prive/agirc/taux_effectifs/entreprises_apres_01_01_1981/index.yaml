@@ -3,4 +3,4 @@ metadata:
   ux_name: Entreprises après 01/01/1981
   description_en: Pension contributions for executives (AGIRC)
   order:
-  - agirc
+    - agirc

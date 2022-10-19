@@ -3,6 +3,6 @@ metadata:
   ux_name: Prêt maximum
   description_en: "Loans to young household (PJM): Amount of loans"
   order:
-  - premiers_frais_location
-  - equipement_mobilier_menager
-  - accession_propriete_logement_neuf_ancien
+    - premiers_frais_location
+    - equipement_mobilier_menager
+    - accession_propriete_logement_neuf_ancien

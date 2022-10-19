@@ -3,5 +3,5 @@ metadata:
   ux_name: SMIG
   description_en: Minimum wage - SMIG (1950-1969)
   order:
-  - smig_brut_horaire
-  - smig_brut_mensuel
+    - smig_brut_horaire
+    - smig_brut_mensuel

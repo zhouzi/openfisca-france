@@ -3,5 +3,5 @@ metadata:
   ux_name: Condition d'âge
   description_en: "Back-to-school allowance (ARS): Age conditions of dependants"
   order:
-  - age_entree_primaire
-  - age_sortie_lycee
+    - age_entree_primaire
+    - age_sortie_lycee

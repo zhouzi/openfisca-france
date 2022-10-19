@@ -3,5 +3,5 @@ metadata:
   ux_name: Allègements généraux
   description_en: Reduction in SSCs
   order:
-  - dispositifs_de_reductions_des_cotisations_famille_1993_1996
-  - ristournes_juppe_i_ii_et_iii_1995_2003
+    - dispositifs_de_reductions_des_cotisations_famille_1993_1996
+    - ristournes_juppe_i_ii_et_iii_1995_2003

@@ -37,23 +37,23 @@ metadata:
     2020-01-01: "2017-03-01"
   notes:
     1977-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1979-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1983-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1984-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1985-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1986-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1989-01-01:
-    - title: Référence manquante
+      - title: Référence manquante
     1991-01-01:
-    - title: Cotisation déplafonnée avec réduction des taux.
+      - title: Cotisation déplafonnée avec réduction des taux.
     2020-01-01:
-    - title: Suppression du taux bureau, remplacé par le taux "Fonctions support de nature administrative" pour les entreprises en tarification collective ou mixte. Voir Notes.
+      - title: Suppression du taux bureau, remplacé par le taux "Fonctions support de nature administrative" pour les entreprises en tarification collective ou mixte. Voir Notes.
   last_review: "2021-12-07"
 documentation: |-
   Notes sur la tarification AT-MP :

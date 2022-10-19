@@ -1,11 +1,11 @@
 description: Barème des cotisations employeur au régime de Retraite additionnelle de la fonction publique (RAFP)
 brackets:
-- threshold:
-    2005-01-01:
-      value: 0
-  rate:
-    2005-01-01:
-      value: 0.05
+  - threshold:
+      2005-01-01:
+        value: 0
+    rate:
+      2005-01-01:
+        value: 0.05
 metadata:
   ux_name: Barème
   description_en: Contributions to the scheme of Additional pension of the public sector (RAFP)

@@ -3,6 +3,6 @@ metadata:
   ux_name: Majoration naissance ou adoption
   description_en: "Postnatal allowance (APN): Rate and payment"
   order:
-  - a_partir_2e_enfant
-  - a_partir_3e_enfant
-  - naissances_multiples
+    - a_partir_2e_enfant
+    - a_partir_3e_enfant
+    - naissances_multiples

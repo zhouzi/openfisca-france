@@ -3,5 +3,5 @@ metadata:
   ux_name: Cotisations à la Retraite complémentaire des agents non titulaires de la Fonction publique et des élus locaux (IRCANTEC)
   description_en: Contributions to the complementary pension of non-permanent workers of the public sector and of local representatives (IRCANTEC scheme)
   order:
-  - taux_cotisations_appeles
-  - taux_cotisations_theoriques
+    - taux_cotisations_appeles
+    - taux_cotisations_theoriques

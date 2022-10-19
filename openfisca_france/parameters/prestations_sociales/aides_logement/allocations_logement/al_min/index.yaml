@@ -3,4 +3,4 @@ metadata:
   ux_name: Montant minimum
   description_en: Minimal amount
   order:
-  - montant_min_mensuel
+    - montant_min_mensuel

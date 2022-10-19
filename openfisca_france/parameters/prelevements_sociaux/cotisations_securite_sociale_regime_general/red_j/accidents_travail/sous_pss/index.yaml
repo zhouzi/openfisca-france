@@ -3,5 +3,5 @@ metadata:
   ux_name: Sous
   description_en: SSCs for freelance journalists (1964-1974)
   order:
-  - employeurs_am
-  - employeurs_france_hors_am
+    - employeurs_am
+    - employeurs_france_hors_am

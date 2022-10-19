@@ -3,6 +3,6 @@ metadata:
   ux_name: Branche assurance vieillesse (CNAV)
   description_en: SSCs for old-age benefits (1967-2016)
   order:
-  - salarie
-  - employeur
-  - remise_forfaitaire_mensuelle_cotisation_salariale
+    - salarie
+    - employeur
+    - remise_forfaitaire_mensuelle_cotisation_salariale

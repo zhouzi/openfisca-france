@@ -3,4 +3,4 @@ metadata:
   ux_name: Régime de Garantie des Salaires (AGS)
   description_en: Contributions to the scheme of wage guarantee (AGS)
   order:
-  - employeur
+    - employeur

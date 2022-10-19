@@ -3,4 +3,4 @@ metadata:
   ux_name: COLCA
   description_en: "Early childhood benefit (PAJE): Extra allowance for the choice of pursuing an activity (CLCA)"
   order:
-  - taux_plein_duree_arret_predeterminee
+    - taux_plein_duree_arret_predeterminee

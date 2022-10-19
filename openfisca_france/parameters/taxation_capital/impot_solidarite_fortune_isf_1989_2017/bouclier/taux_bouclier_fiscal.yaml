@@ -27,7 +27,7 @@ metadata:
     2011-01-01: "2011-07-30"
   notes:
     2005-01-01:
-    - title: Création du bouclier fiscal
+      - title: Création du bouclier fiscal
     2011-01-01:
-    - title: Suppression du bouclier fiscal à compter des revenus réalisés en 2011.
-documentation: "Référence dans les codes législatifs : le plafonnement des impôts directs, ou \"bouclier fiscal\", instauré à compter des revenus de 2005, est codifié à l'article 1 du CGI."
+      - title: Suppression du bouclier fiscal à compter des revenus réalisés en 2011.
+documentation: 'Référence dans les codes législatifs : le plafonnement des impôts directs, ou "bouclier fiscal", instauré à compter des revenus de 2005, est codifié à l''article 1 du CGI.'

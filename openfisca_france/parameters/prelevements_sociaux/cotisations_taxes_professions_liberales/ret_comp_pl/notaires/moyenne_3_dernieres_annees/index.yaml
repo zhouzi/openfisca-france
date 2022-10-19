@@ -3,6 +3,6 @@ metadata:
   ux_name: Moyenne 3 dernières années
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - section_a_allocation_variable
-  - section_u_allocation_uniforme
-  - colmar_metz
+    - section_a_allocation_variable
+    - section_u_allocation_uniforme
+    - colmar_metz

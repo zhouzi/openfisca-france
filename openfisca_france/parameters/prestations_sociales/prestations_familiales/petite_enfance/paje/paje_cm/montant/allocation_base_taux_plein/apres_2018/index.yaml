@@ -3,4 +3,4 @@ metadata:
   ux_name: Après 2018
   description_en: "Early childhood benefit (PAJE): CMG thresholds for means-testing"
   order:
-  - taux
+    - taux

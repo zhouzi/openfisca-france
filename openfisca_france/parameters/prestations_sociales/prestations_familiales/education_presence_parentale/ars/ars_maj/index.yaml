@@ -3,5 +3,5 @@ metadata:
   ux_name: Majoration exceptionnelle
   description_en: "Back-to-school allowance (ARS): Amounts"
   order:
-  - montant_majoration_exceptionnelle
-  - taux_majoration_exceptionnelle
+    - montant_majoration_exceptionnelle
+    - taux_majoration_exceptionnelle

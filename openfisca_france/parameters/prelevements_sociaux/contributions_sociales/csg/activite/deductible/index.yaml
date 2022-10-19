@@ -3,5 +3,5 @@ metadata:
   ux_name: CSG déductible
   description_en: Social contributions
   order:
-  - taux
-  - abattement
+    - taux
+    - abattement

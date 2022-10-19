@@ -46,9 +46,9 @@ metadata:
     2020-01-01: "2017-03-01"
   notes:
     1991-01-01:
-    - title: Cotisation déplafonnée avec réduction des taux.
+      - title: Cotisation déplafonnée avec réduction des taux.
     2020-01-01:
-    - title: Suppression du taux bureau, remplacé par le taux "Fonctions support de nature administrative" pour les entreprises en tarification collective ou mixte. Voir Notes.
+      - title: Suppression du taux bureau, remplacé par le taux "Fonctions support de nature administrative" pour les entreprises en tarification collective ou mixte. Voir Notes.
   last_review: "2018-01-01"
 documentation: |-
   Notes sur la tarification AT-MP :

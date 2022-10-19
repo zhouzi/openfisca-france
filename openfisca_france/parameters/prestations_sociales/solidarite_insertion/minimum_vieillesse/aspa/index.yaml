@@ -3,5 +3,5 @@ metadata:
   ux_name: ASPA
   description_en: Solidarity income for elderly (ASPA)
   order:
-  - montant_maximum_annuel
-  - plafond_ressources
+    - montant_maximum_annuel
+    - plafond_ressources

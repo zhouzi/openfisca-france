@@ -3,5 +3,5 @@ metadata:
   ux_name: AEFA
   description_en: "Exceptional end-of-year benefit (AEFA): amount"
   order:
-  - montant_prime
-  - taux_majoration
+    - montant_prime
+    - taux_majoration

@@ -1,33 +1,33 @@
 description: Montant du pass culture en fonction de l'âge
 brackets:
-- threshold:
-    2022-01-01:
-      value: 15
-  amount:
-    2022-01-01:
-      value: 20
-- threshold:
-    2022-01-01:
-      value: 16
-  amount:
-    2022-01-01:
-      value: 30
-- threshold:
-    2022-01-01:
-      value: 17
-  amount:
-    2022-01-01:
-      value: 30
-- threshold:
-    2019-02-01:
-      value: 18
-  amount:
-    2019-02-01:
-      value: 500
-    2021-05-20:
-      value: 300
-    2022-01-01:
-      value: 300
+  - threshold:
+      2022-01-01:
+        value: 15
+    amount:
+      2022-01-01:
+        value: 20
+  - threshold:
+      2022-01-01:
+        value: 16
+    amount:
+      2022-01-01:
+        value: 30
+  - threshold:
+      2022-01-01:
+        value: 17
+    amount:
+      2022-01-01:
+        value: 30
+  - threshold:
+      2019-02-01:
+        value: 18
+    amount:
+      2019-02-01:
+        value: 500
+      2021-05-20:
+        value: 300
+      2022-01-01:
+        value: 300
 metadata:
   ux_name: Montant
   reference:

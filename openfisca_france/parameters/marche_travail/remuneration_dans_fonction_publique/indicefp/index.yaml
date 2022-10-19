@@ -3,5 +3,5 @@ metadata:
   ux_name: Point d'indice
   description_en: Index point of public sector (1970-2017)
   order:
-  - point_indice_en_euros
-  - point_indice_en_nominal
+    - point_indice_en_euros
+    - point_indice_en_nominal

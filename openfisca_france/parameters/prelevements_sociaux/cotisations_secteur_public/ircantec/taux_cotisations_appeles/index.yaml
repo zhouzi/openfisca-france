@@ -3,5 +3,5 @@ metadata:
   ux_name: Taux de cotisation appelés
   description_en: Contributions to the complementary pension of non-permanent workers of the public sector and of local representatives (IRCANTEC scheme)
   order:
-  - employeur
-  - salarie
+    - employeur
+    - salarie

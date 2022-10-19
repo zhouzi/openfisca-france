@@ -3,5 +3,5 @@ metadata:
   ux_name: Majoration du plafond
   description_en: "Family allowances (AF): Thresholds for means-testing"
   order:
-  - couples_biactifs_et_parents_isoles
-  - par_enfant_supplementaire
+    - couples_biactifs_et_parents_isoles
+    - par_enfant_supplementaire

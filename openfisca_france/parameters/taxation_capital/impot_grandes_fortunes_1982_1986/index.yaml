@@ -3,5 +3,5 @@ metadata:
   ux_name: IGF
   description_en: Wealth tax computation
   order:
-  - bareme
-  - forfait_mobilier
+    - bareme
+    - forfait_mobilier

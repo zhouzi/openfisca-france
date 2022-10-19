@@ -3,4 +3,4 @@ metadata:
   ux_name: Barème Employeur
   description_en: Contributions to the scheme of wage guarantee (AGS)
   order:
-  - ags
+    - ags

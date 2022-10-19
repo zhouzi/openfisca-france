@@ -3,6 +3,6 @@ metadata:
   ux_name: ASS
   description_en: Special UI scheme
   order:
-  - montant_plein
-  - montant_maj
-  - plafond_ressources_mensuel
+    - montant_plein
+    - montant_maj
+    - plafond_ressources_mensuel

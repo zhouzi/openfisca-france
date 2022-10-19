@@ -3,4 +3,4 @@ metadata:
   ux_name: Sur tout salaire
   description_en: "SSC for autonomy (CSA: Solidarity Contribution for Autonomy)"
   order:
-  - csa
+    - csa

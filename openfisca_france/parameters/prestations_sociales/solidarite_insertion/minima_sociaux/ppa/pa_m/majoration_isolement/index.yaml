@@ -3,5 +3,5 @@ metadata:
   ux_name: Personnes isolées
   description_en: "Activity prenium (PA) : accomodation allowance"
   order:
-  - femmes_enceintes
-  - par_enfant_charge
+    - femmes_enceintes
+    - par_enfant_charge

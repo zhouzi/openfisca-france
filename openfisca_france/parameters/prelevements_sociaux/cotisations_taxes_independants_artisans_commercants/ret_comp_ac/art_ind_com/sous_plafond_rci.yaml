@@ -15,16 +15,16 @@ metadata:
       title: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000017852012&cidTexte=JORFTEXT000017765870
     2013-01-01:
-    - title: Décret 2012-443 du 03/04/2012
-      href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000025626696
-    - title: Circulaire RSI 2013-004 du 17/01/2013
+      - title: Décret 2012-443 du 03/04/2012
+        href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000025626696
+      - title: Circulaire RSI 2013-004 du 17/01/2013
   official_journal_date:
     2011-01-01: "2007-12-30"
     2012-01-01: "2007-12-30"
     2013-01-01: "2012-04-04"
   notes:
     2013-01-01:
-    - title: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour les différentes catégories d'independants.
+      - title: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour les différentes catégories d'independants.
 documentation: |-
   Notes :
   (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants.

@@ -3,8 +3,8 @@ metadata:
   ux_name: Conditions générales
   description_en: "Active solidarity income (RSA): General conditions"
   order:
-  - age_minimum_allocataire
-  - nombre_minimal_enfants
-  - majoration_isolement
-  - duree_min_titre_sejour
-  - rsa_jeune_en_heure
+    - age_minimum_allocataire
+    - nombre_minimal_enfants
+    - majoration_isolement
+    - duree_min_titre_sejour
+    - rsa_jeune_en_heure

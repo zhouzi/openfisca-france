@@ -3,5 +3,5 @@ metadata:
   ux_name: APL ou AL
   description_en: Minimal amount
   order:
-  - apl
-  - non_apl
+    - apl
+    - non_apl

@@ -57,7 +57,7 @@ metadata:
   unit: currency
   notes:
     1959-11-01:
-    - title: Les montants sont exprimés en anciens Francs de 1950 à 1959.
+      - title: Les montants sont exprimés en anciens Francs de 1950 à 1959.
 documentation: |-
   Sources de la législation:
   Annuaire Statistique de la France 1971 de 1966 à 1970; Annuaire Statistique de la France 1966 de 1950 à 1966

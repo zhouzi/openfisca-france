@@ -33,5 +33,5 @@ values:
 metadata:
   unit: currency
   reference:
-  - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/charg_deduc/
-  - href: https://www.service-public.fr/particuliers/vosdroits/F10259
+    - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/charg_deduc/
+    - href: https://www.service-public.fr/particuliers/vosdroits/F10259

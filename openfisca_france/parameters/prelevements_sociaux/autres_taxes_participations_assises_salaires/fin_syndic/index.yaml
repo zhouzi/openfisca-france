@@ -3,4 +3,4 @@ metadata:
   ux_name: Financement des organisations syndicales
   description_en: Employer's contributions to the funding of trade unions
   order:
-  - financement_organisations_syndicales
+    - financement_organisations_syndicales

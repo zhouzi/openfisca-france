@@ -3,4 +3,4 @@ metadata:
   ux_name: Allocation chômage (1958-1967)
   description_en: UI scheme (1958-1967)
   order:
-  - montant_minimum
+    - montant_minimum

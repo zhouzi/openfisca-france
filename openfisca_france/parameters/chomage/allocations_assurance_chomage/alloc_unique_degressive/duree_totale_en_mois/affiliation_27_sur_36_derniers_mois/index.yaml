@@ -3,5 +3,5 @@ metadata:
   ux_name: Durée d'affiliation de 27 mois au cours des 36 derniers mois
   description_en: UI scheme - degressive schedule
   order:
-  - 50_55_ans
-  - 55_ans_plus
+    - 50_55_ans
+    - 55_ans_plus

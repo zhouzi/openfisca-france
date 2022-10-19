@@ -1,35 +1,35 @@
 description: Cotisations employeur de la structure financière ASF (1984-2001) au régime de l'assurance chômage
 brackets:
-- threshold:
-    1984-01-01:
-      value: 0
-  rate:
-    1984-01-01:
-      value: 0.012
-    1990-10-01:
-      value: 0.0108
-    1994-01-01:
-      value: 0.0116
-    2001-04-01:
-      value: 0
-- threshold:
-    1984-04-01:
-      value: 1
-  rate:
-    1984-01-01:
-      value: 0
-    1984-04-01:
-      value: 0.012
-    1994-01-01:
-      value: 0.0129
-    2001-04-01:
-      value: 0
-- threshold:
-    1984-04-01:
-      value: 4
-  rate:
-    1984-04-01:
-      value: 0
+  - threshold:
+      1984-01-01:
+        value: 0
+    rate:
+      1984-01-01:
+        value: 0.012
+      1990-10-01:
+        value: 0.0108
+      1994-01-01:
+        value: 0.0116
+      2001-04-01:
+        value: 0
+  - threshold:
+      1984-04-01:
+        value: 1
+    rate:
+      1984-01-01:
+        value: 0
+      1984-04-01:
+        value: 0.012
+      1994-01-01:
+        value: 0.0129
+      2001-04-01:
+        value: 0
+  - threshold:
+      1984-04-01:
+        value: 4
+    rate:
+      1984-04-01:
+        value: 0
 metadata:
   ux_name: Barème employeur
   description_en: Contributions to the financial structure ASF (1984-2001)
@@ -50,7 +50,7 @@ metadata:
     1994-01-01: "1994-01-08"
   notes:
     2001-04-01:
-    - title: Le taux AGFF se substitute à l'ASF.
+      - title: Le taux AGFF se substitute à l'ASF.
   last_review: "2021-12-07"
   rate_unit: /1
   threshold_unit: PSS

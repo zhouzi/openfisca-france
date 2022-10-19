@@ -3,6 +3,6 @@ metadata:
   ux_name: Pour les enfants
   description_en: "Family allowances (AF): Extra allowances"
   order:
-  - tranches_d_age
-  - taux_selon_age
-  - allocation_forfaitaire
+    - tranches_d_age
+    - taux_selon_age
+    - allocation_forfaitaire

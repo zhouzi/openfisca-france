@@ -3,5 +3,5 @@ metadata:
   ux_name: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - commissions_remunerations
-  - sous_5_pss
+    - commissions_remunerations
+    - sous_5_pss

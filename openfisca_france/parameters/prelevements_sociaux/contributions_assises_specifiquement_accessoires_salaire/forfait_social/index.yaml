@@ -3,7 +3,7 @@ metadata:
   ux_name: Forfait social
   description_en: Contribution levied on various earnings supplements ("Forfait social")
   order:
-  - taux_plein
-  - taux_reduit_1
-  - taux_reduit_2
-  - taux_reduit_3
+    - taux_plein
+    - taux_reduit_1
+    - taux_reduit_2
+    - taux_reduit_3

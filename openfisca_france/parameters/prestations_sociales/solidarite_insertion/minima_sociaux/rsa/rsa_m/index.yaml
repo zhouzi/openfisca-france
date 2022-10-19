@@ -3,4 +3,4 @@ metadata:
   ux_name: Montant de base
   description_en: "Active solidarity income (RSA): Basic amount"
   order:
-  - montant_de_base_du_rsa
+    - montant_de_base_du_rsa

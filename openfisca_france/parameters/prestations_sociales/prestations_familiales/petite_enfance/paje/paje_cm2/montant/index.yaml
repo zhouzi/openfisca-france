@@ -3,5 +3,5 @@ metadata:
   ux_name: Montants
   description_en: "Early childhood benefit (PAJE) -- Birth and adoption premium : conditions and amounts"
   order:
-  - prime_naissance
-  - prime_adoption
+    - prime_naissance
+    - prime_adoption

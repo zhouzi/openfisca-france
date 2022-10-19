@@ -2,4 +2,4 @@ description: Limite des plafonds de ressources de la Réduction de loyer de soli
 metadata:
   ux_name: Limite des plafonds de ressources
   order:
-  - par_zone
+    - par_zone

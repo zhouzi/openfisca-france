@@ -3,5 +3,5 @@ metadata:
   ux_name: Montant maximum annuel
   description_en: Solidarity income for elderly (ASPA)
   order:
-  - personnes_seules
-  - couples
+    - personnes_seules
+    - couples

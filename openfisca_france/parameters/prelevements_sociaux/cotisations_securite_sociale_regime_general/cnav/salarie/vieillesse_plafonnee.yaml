@@ -1,43 +1,43 @@
 description: Taux salarié plafonné de la Cotisation de sécurité sociale (SS) du régime général pour la branche assurance vieillesse (CNAV) (1967-2016)
 brackets:
-- threshold:
-    1993-07-01:
-      value: 0
-  rate:
-    1967-10-01:
-      value: 0.03
-    1976-01-01:
-      value: 0.0325
-    1976-10-01:
-      value: 0.0345
-    1979-01-01:
-      value: 0.047
-    1984-01-01:
-      value: 0.057
-    1986-08-01:
-      value: 0.064
-    1987-07-01:
-      value: 0.066
-    1989-01-01:
-      value: 0.076
-    1991-02-01:
-      value: 0.0655
-    2006-01-01:
-      value: 0.0665
-    2012-11-01:
-      value: 0.0675
-    2014-01-01:
-      value: 0.068
-    2015-01-01:
-      value: 0.0685
-    2016-01-01:
-      value: 0.069
-- threshold:
-    1993-07-01:
-      value: 1
-  rate:
-    1993-07-01:
-      value: 0
+  - threshold:
+      1993-07-01:
+        value: 0
+    rate:
+      1967-10-01:
+        value: 0.03
+      1976-01-01:
+        value: 0.0325
+      1976-10-01:
+        value: 0.0345
+      1979-01-01:
+        value: 0.047
+      1984-01-01:
+        value: 0.057
+      1986-08-01:
+        value: 0.064
+      1987-07-01:
+        value: 0.066
+      1989-01-01:
+        value: 0.076
+      1991-02-01:
+        value: 0.0655
+      2006-01-01:
+        value: 0.0665
+      2012-11-01:
+        value: 0.0675
+      2014-01-01:
+        value: 0.068
+      2015-01-01:
+        value: 0.0685
+      2016-01-01:
+        value: 0.069
+  - threshold:
+      1993-07-01:
+        value: 1
+    rate:
+      1993-07-01:
+        value: 0
 metadata:
   ux_name: Taux sous plafond
   description_en: SSCs for old-age benefits (1967-2016)
@@ -99,9 +99,9 @@ metadata:
     2016-01-01: "2014-12-19"
   notes:
     1991-02-01:
-    - title: Voir note (i).
+      - title: Voir note (i).
     2004-07-01:
-    - title: La cotisation veuvage est transférée à la Cnav.
+      - title: La cotisation veuvage est transférée à la Cnav.
   last_review: "2021-10-11"
   rate_unit: /1
   threshold_unit: PSS

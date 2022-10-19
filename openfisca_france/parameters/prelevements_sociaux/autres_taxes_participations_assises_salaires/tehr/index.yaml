@@ -3,5 +3,5 @@ metadata:
   ux_name: Taxe exceptionnelle de solidarité sur les hautes rémunérations
   description_en: Exceptional solidarity tax on high wages ("75% tax")
   order:
-  - tehr
-  - plafond_en_chiffre_affaire_entreprises
+    - tehr
+    - plafond_en_chiffre_affaire_entreprises

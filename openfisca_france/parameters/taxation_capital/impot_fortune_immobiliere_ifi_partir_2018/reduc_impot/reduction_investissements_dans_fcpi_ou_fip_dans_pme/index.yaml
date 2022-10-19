@@ -3,5 +3,5 @@ metadata:
   ux_name: Réduction pour investissements dans FCPI ou FIP dans les PME
   description_en: Tax reductions for investment and donations
   order:
-  - plafond
-  - taux_investissement
+    - plafond
+    - taux_investissement

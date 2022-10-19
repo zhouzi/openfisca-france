@@ -4,14 +4,14 @@ values:
     value: []
   2007-03-20:
     value:
-    - CH
+      - CH
   2019-06-18:
     value:
-    - CH
+      - CH
   2020-06-08:
     value:
-    - CH
-    - UK
+      - CH
+      - UK
 metadata:
   ux_name: Nationalités hors EEE
   reference:

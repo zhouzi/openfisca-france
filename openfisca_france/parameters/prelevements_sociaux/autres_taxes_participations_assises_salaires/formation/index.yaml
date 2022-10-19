@@ -3,7 +3,7 @@ metadata:
   ux_name: Formation professionnelle
   description_en: Employer's participation to lifelong professional training
   order:
-  - employeur_tout_salaire
-  - moins_10_salaries
-  - 10_salaries_plus
-  - toute_entreprise
+    - employeur_tout_salaire
+    - moins_10_salaries
+    - 10_salaries_plus
+    - toute_entreprise

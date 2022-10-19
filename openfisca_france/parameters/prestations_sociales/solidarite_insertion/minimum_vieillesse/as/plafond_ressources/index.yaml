@@ -3,5 +3,5 @@ metadata:
   ux_name: Plafonds
   description_en: Extra allowance (AS)
   order:
-  - plafond_seul
-  - plafond_menage
+    - plafond_seul
+    - plafond_menage

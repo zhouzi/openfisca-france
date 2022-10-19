@@ -3,4 +3,4 @@ metadata:
   ux_name: ATA
   description_en: Temporary waiting allowance (ATA)
   order:
-  - montant_journalier
+    - montant_journalier

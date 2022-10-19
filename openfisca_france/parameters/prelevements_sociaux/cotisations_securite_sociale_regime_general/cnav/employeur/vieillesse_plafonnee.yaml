@@ -1,37 +1,37 @@
 description: Taux employeur sous plafond de la Cotisation de sécurité sociale (SS) du régime général pour la branche assurance vieillesse (CNAV) (1967-2016)
 brackets:
-- threshold:
-    1967-10-01:
-      value: 1
-  rate:
-    1967-10-01:
-      value: 0
-- threshold:
-    1967-10-01:
-      value: 0
-  rate:
-    1967-10-01:
-      value: 0.055
-    1970-08-01:
-      value: 0.0575
-    1974-01-01:
-      value: 0.0725
-    1976-01-01:
-      value: 0.075
-    1976-10-01:
-      value: 0.077
-    1979-01-01:
-      value: 0.082
-    2006-01-01:
-      value: 0.083
-    2012-11-01:
-      value: 0.084
-    2014-01-01:
-      value: 0.0845
-    2015-01-01:
-      value: 0.085
-    2016-01-01:
-      value: 0.0855
+  - threshold:
+      1967-10-01:
+        value: 1
+    rate:
+      1967-10-01:
+        value: 0
+  - threshold:
+      1967-10-01:
+        value: 0
+    rate:
+      1967-10-01:
+        value: 0.055
+      1970-08-01:
+        value: 0.0575
+      1974-01-01:
+        value: 0.0725
+      1976-01-01:
+        value: 0.075
+      1976-10-01:
+        value: 0.077
+      1979-01-01:
+        value: 0.082
+      2006-01-01:
+        value: 0.083
+      2012-11-01:
+        value: 0.084
+      2014-01-01:
+        value: 0.0845
+      2015-01-01:
+        value: 0.085
+      2016-01-01:
+        value: 0.0855
 metadata:
   ux_name: Taux sous plafond
   description_en: SSCs for old-age benefits (1967-2016)
@@ -111,9 +111,9 @@ metadata:
     2017-01-01: "2014-12-19"
   notes:
     1991-02-01:
-    - title: Voir note (i).
+      - title: Voir note (i).
     2004-07-01:
-    - title: La cotisation veuvage est transférée à la Cnav.
+      - title: La cotisation veuvage est transférée à la Cnav.
   last_review: "2021-10-11"
   rate_unit: /1
   threshold_unit: PSS

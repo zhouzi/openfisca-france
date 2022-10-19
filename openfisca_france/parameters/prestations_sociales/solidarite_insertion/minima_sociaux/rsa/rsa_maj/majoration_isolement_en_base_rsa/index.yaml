@@ -3,6 +3,6 @@ metadata:
   ux_name: Montant pour les personnes isolées
   description_en: "Active solidarity income (RSA): Extra allowance and minimal amount"
   order:
-  - femmes_enceintes
-  - par_enfant_a_charge
-  - age_limite_enfant
+    - femmes_enceintes
+    - par_enfant_a_charge
+    - age_limite_enfant

@@ -3,4 +3,4 @@ metadata:
   ux_name: Sous 5 PSS
   description_en: Contribution for complementary pension scheme (professionals)
   order:
-  - reg_supp_oblig_pour_conventionnes_asv
+    - reg_supp_oblig_pour_conventionnes_asv

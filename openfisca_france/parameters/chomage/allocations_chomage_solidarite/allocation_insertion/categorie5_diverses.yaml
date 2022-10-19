@@ -124,9 +124,9 @@ metadata:
     2006-11-16: "2005-12-31"
   notes:
     1992-01-01:
-    - title: "Allocation d'insertion abrogée pour femmes et jeunes: valable pour détenus libérés, apatrides, salariés expatriés…etc"
+      - title: "Allocation d'insertion abrogée pour femmes et jeunes: valable pour détenus libérés, apatrides, salariés expatriés…etc"
     2006-11-16:
-    - title: Remplacée par allocation temporaire d'attente (ATA).
+      - title: Remplacée par allocation temporaire d'attente (ATA).
 documentation: |-
   Notes :
   L'Allocation d'insertion (AI) était appelée allocation forfaitaire journalière jusqu'en 1984, pour ceux qui ne peuvent prétendre ni à l'allocation de base, ni à l'allocation spécifique.

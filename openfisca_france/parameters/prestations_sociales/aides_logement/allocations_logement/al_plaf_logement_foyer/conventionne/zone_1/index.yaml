@@ -2,10 +2,10 @@ description: Zone 1 - Plafonds d'équivalence de loyer et de charges locatives p
 metadata:
   ux_name: Zone 1
   order:
-  - personne_isolee_sans_enfant
-  - menage_seul
-  - menage_ou_isole_avec_1_enfant
-  - menage_ou_isole_avec_2_enfants
-  - menage_ou_isole_avec_3_enfants
-  - menage_ou_isole_avec_4_enfants
-  - menage_ou_isole_par_enfant_en_plus
+    - personne_isolee_sans_enfant
+    - menage_seul
+    - menage_ou_isole_avec_1_enfant
+    - menage_ou_isole_avec_2_enfants
+    - menage_ou_isole_avec_3_enfants
+    - menage_ou_isole_avec_4_enfants
+    - menage_ou_isole_par_enfant_en_plus

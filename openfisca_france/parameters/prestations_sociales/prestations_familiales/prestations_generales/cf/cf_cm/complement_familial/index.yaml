@@ -3,5 +3,5 @@ metadata:
   ux_name: Montants
   description_en: "Family complement (CF): General conditions and amounts"
   order:
-  - taux_cf_base
-  - taux_cf_majore
+    - taux_cf_base
+    - taux_cf_majore

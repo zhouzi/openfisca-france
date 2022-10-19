@@ -3,4 +3,4 @@ metadata:
   ux_name: Non-Cadre
   description_en: Pension contributions for non-executives (ARRCO)
   order:
-  - arrco
+    - arrco

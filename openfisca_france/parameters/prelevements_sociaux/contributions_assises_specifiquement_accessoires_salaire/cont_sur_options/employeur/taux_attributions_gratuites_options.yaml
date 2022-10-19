@@ -31,9 +31,9 @@ metadata:
     2018-01-01: "2017-12-31"
   notes:
     2015-08-08:
-    - title: Distingue les taux pour les stock-options et les attributions gratuites d'options acquises postérieurement à la loi dite "loi Macron"
+      - title: Distingue les taux pour les stock-options et les attributions gratuites d'options acquises postérieurement à la loi dite "loi Macron"
     2017-01-01:
-    - title: Alignement du taux pour les options attribuées gratuitement sur celui des stock-options
+      - title: Alignement du taux pour les options attribuées gratuitement sur celui des stock-options
 documentation: |-
   Principe de la contribution sur les actions gratuites et stock-options :
   L'attribution d'actions gratuites et de stock-options donne lieu à prélèvement de CSG et de CRDS, mais est exonérée de cotisations sociales (du moment que les périodes d'indisponibilité fiscale des fonds sont respectées)

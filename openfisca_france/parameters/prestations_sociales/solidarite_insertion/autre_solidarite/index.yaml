@@ -3,8 +3,8 @@ metadata:
   ux_name: Autre solidarité
   description_en: Other solidarity
   order:
-  - ata
-  - ada
-  - aefa
-  - cheque_energie
-  - covid19
+    - ata
+    - ada
+    - aefa
+    - cheque_energie
+    - covid19

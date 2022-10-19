@@ -1,43 +1,43 @@
 description: Cotisations salarié au régime de Retraite de la fonction publique
 brackets:
-- threshold:
-    1925-01-01:
-      value: 0
-  rate:
-    1925-01-01:
-      value: 0.06
-    1984-01-01:
-      value: 0.07
-    1986-08-01:
-      value: 0.077
-    1987-07-01:
-      value: 0.079
-    1989-01-01:
-      value: 0.089
-    1991-02-01:
-      value: 0.0785
-    2011-01-01:
-      value: 0.0812
-    2012-01-01:
-      value: 0.0839
-    2012-11-01:
-      value: 0.0849
-    2013-01-01:
-      value: 0.0876
-    2014-01-01:
-      value: 0.0914
-    2015-01-01:
-      value: 0.0954
-    2016-01-01:
-      value: 0.0994
-    2017-01-01:
-      value: 0.1029
-    2018-01-01:
-      value: 0.1056
-    2019-01-01:
-      value: 0.1083
-    2020-01-01:
-      value: 0.111
+  - threshold:
+      1925-01-01:
+        value: 0
+    rate:
+      1925-01-01:
+        value: 0.06
+      1984-01-01:
+        value: 0.07
+      1986-08-01:
+        value: 0.077
+      1987-07-01:
+        value: 0.079
+      1989-01-01:
+        value: 0.089
+      1991-02-01:
+        value: 0.0785
+      2011-01-01:
+        value: 0.0812
+      2012-01-01:
+        value: 0.0839
+      2012-11-01:
+        value: 0.0849
+      2013-01-01:
+        value: 0.0876
+      2014-01-01:
+        value: 0.0914
+      2015-01-01:
+        value: 0.0954
+      2016-01-01:
+        value: 0.0994
+      2017-01-01:
+        value: 0.1029
+      2018-01-01:
+        value: 0.1056
+      2019-01-01:
+        value: 0.1083
+      2020-01-01:
+        value: 0.111
 metadata:
   ux_name: Pension
   description_en: Contributions for pensions - central government (employee contribution)
@@ -112,11 +112,11 @@ metadata:
     2020-01-01: "2014-12-19"
   notes:
     2012-11-01:
-    - title: Version consolidée du décret, du 04/07/2012, et non version originale de décembre 2010 (les taux à compter du 01/11/2012 ont été augmentés)
+      - title: Version consolidée du décret, du 04/07/2012, et non version originale de décembre 2010 (les taux à compter du 01/11/2012 ont été augmentés)
     2014-01-01:
-    - title: Modifie le décret 2010-1749 du 30/12/2010
+      - title: Modifie le décret 2010-1749 du 30/12/2010
     2015-01-01:
-    - title: Modifie le décret 2010-1749 du 30/12/2010
+      - title: Modifie le décret 2010-1749 du 30/12/2010
   last_review: "2021-08-24"
   rate_unit: /1
   threshold_unit: PSS

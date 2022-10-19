@@ -3,4 +3,4 @@ metadata:
   ux_name: Prévoyance
   description_en: Special tax on employer's contributions to life-insurance contracts (1996-2012)
   order:
-  - taux
+    - taux

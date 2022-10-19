@@ -3,9 +3,9 @@ metadata:
   ux_name: Abattement sur la rémunération garantie nette perçue
   description_en: Disability
   order:
-  - esat_5_10
-  - esat_10_15
-  - esat_15_20
-  - esat_20_25
-  - esat_25_50
-  - esat_20_50
+    - esat_5_10
+    - esat_10_15
+    - esat_15_20
+    - esat_20_25
+    - esat_25_50
+    - esat_20_50

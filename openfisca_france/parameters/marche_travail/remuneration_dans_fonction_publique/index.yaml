@@ -3,6 +3,6 @@ metadata:
   ux_name: Rémunération Fonction publique
   description_en: Pays in the public sector
   order:
-  - sft
-  - indicefp
-  - gipa
+    - sft
+    - indicefp
+    - gipa

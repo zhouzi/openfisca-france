@@ -3,5 +3,5 @@ metadata:
   ux_name: PPA
   description_en: "Activity prenium (PA) : accomodation allowance"
   order:
-  - pa_m
-  - pa_fl
+    - pa_m
+    - pa_fl

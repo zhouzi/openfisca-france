@@ -2,7 +2,7 @@ description: Contribution Sociale Généralisée (CSG) sur les pensions de retra
 metadata:
   ux_name: Pensions de retraite et d'invalidité
   order:
-  - taux_plein
-  - taux_reduit
-  - taux_median
-  - deductible
+    - taux_plein
+    - taux_reduit
+    - taux_median
+    - deductible
