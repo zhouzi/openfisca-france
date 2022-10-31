@@ -1,6 +1,8 @@
-from os import getcwd
+from os import getenv, getcwd
 
-GITHUB_WORKSPACE=".../openfisca-france"
+# chemin vers le dépôt openfisca-france/
+GITHUB_WORKSPACE=getenv("GITHUB_WORKSPACE", default=getcwd())
+
 
 
 # CAS 1) le répertoire a-t-il changé ?
@@ -14,4 +16,4 @@ parameters = {
 # CAS 2) y a-t-il eu un ajout de répertoire ?
 
 if __name__ == '__main__':
-    print(getcwd())
+    print(getenv("HOME", default=getcwd()))
