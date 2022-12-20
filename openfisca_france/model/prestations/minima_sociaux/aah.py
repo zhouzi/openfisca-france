@@ -57,7 +57,7 @@ class aah_base_ressources(Variable):
             return (1 - aah.travail_ordinaire.abattement_30) * tranche1 + (1 - aah.travail_ordinaire.abattement_sup) * tranche2
 
         def base_ressource_eval_trim():
-            three_previous_months = Period('month', period.first_month.start, 3).offset(-3)
+            three_previous_months = Period(('month', period.first_month.start, 3)).offset(-3)
             base_ressource_activite = individu('aah_base_ressources_activite_eval_trimestrielle', period) - individu('aah_base_ressources_activite_milieu_protege', three_previous_months, options = [ADD])
             base_ressource_hors_activite = individu('aah_base_ressources_hors_activite_eval_trimestrielle', period) + individu('aah_base_ressources_activite_milieu_protege', three_previous_months, options = [ADD])
 
@@ -102,7 +102,7 @@ class aah_base_ressources(Variable):
             return (1 - aah.travail_ordinaire.abattement_30) * tranche1 + (1 - aah.travail_ordinaire.abattement_sup) * tranche2
 
         def base_ressource_eval_trim():
-            three_previous_months = Period('month', period.first_month.start, 3).offset(-3)
+            three_previous_months = Period(('month', period.first_month.start, 3)).offset(-3)
             base_ressource_activite = individu('aah_base_ressources_activite_eval_trimestrielle', period) - individu('aah_base_ressources_activite_milieu_protege', three_previous_months, options = [ADD])
             base_ressource_hors_activite = individu('aah_base_ressources_hors_activite_eval_trimestrielle', period) + individu('aah_base_ressources_activite_milieu_protege', three_previous_months, options = [ADD])
 
@@ -158,7 +158,7 @@ class aah_base_ressources_activite_eval_trimestrielle(Variable):
 
     def formula(individu, period):
         period = period.first_month
-        three_previous_months = Period('month', period.start, 3).offset(-3)
+        three_previous_months = Period(('month', period.start, 3)).offset(-3)
         last_year = period.last_year
 
         ressources_a_inclure = [
@@ -218,7 +218,7 @@ class aah_base_ressources_hors_activite_eval_trimestrielle(Variable):
 
     def formula(individu, period):
         period = period.first_month
-        three_previous_months = Period('month', period.start, 3).offset(-3)
+        three_previous_months = Period(('month', period.start, 3)).offset(-3)
 
         ressources_a_inclure = [
             'asi',
