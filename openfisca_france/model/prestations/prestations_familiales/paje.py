@@ -418,7 +418,7 @@ class paje_cmg(Variable):
         inactif = famille('inactif', period)
         partiel1 = famille('partiel1', period)
         nombre_enfants = famille('af_nbenf', period)
-        base_ressources = famille('prestations_familiales_base_ressources', period.first_month )
+        base_ressources = famille('prestations_familiales_base_ressources', period.first_month)
         emploi_direct = famille('empl_dir', period)
         assistant_maternel = famille('ass_mat', period)
         garde_a_domicile = famille('gar_dom', period)
