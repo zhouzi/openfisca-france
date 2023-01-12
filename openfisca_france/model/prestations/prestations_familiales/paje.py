@@ -410,13 +410,13 @@ class paje_cmg(Variable):
             votre Caf, et inscrit dans une démarche d'insertion
             - étudiant (si vous vivez en couple, vous devez être tous les deux étudiants).
 
-        Autres conditions à remplir : Assistante maternelle agréée  / Garde à domicile 
+        Autres conditions à remplir : Assistante maternelle agréée  / Garde à domicile
         Son salaire brut ne doit pas dépasser par jour de garde et par enfant un certain nombre de fois le montant du Smic horaire brut.
         Vous ne devez pas bénéficier de l'exonération des cotisations sociales dues pour la personne employée.
-        
+
         En cas de travail à temps partiel, le CMG peut être cumulé avec la PreParE.
         Si le parent à temps partiel a un temps de travail inférieur ou égal à 50 % de son temps de travail habituel, le montant du CMG est divisé par 2.
-        
+
         '''
         # Récupération des données
         inactif = famille('inactif', period)
