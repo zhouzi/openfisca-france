@@ -542,7 +542,7 @@ class paje_cmg(Variable):
         paje_cmg = eligible * condition_remuneration * montant_cmg
 
         #  Un minimum de 15 % des frais reste à votre charge.
-        paje_cmg_ = max(0.15 * paje_cmg, paje_cmg)
+        paje_cmg_ = min(paje_cmg, 0.85 * paje_cmg)
 
         # La CMG rentre dans la liste des prestations (comme les Allocations Familiales) qui sont partagées entre les 2 parents en cas de garde alternée
         coeff_garde_alternee = famille('af_coeff_garde_alternee', period)
