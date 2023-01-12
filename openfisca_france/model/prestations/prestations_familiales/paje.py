@@ -542,10 +542,9 @@ class paje_cmg(Variable):
 
         paje_cmg = eligible * condition_remuneration * montant_cmg
 
-        
         # La CMG rentre dans la liste des prestations (comme les Allocations Familiales) qui sont partagées entre les 2 parents en cas de garde alternée
         coeff_garde_alternee = famille('af_coeff_garde_alternee', period)
-        paje_cmg_montant = paje_cmg_ * coeff_garde_alternee
+        paje_cmg_montant = paje_cmg * coeff_garde_alternee
 
         return paje_cmg_montant
 
