@@ -47,7 +47,7 @@ class eligibilite_per_etudiant(Variable):
     def formula_2022(individu, period):
         juin_2022 = periods.period('2022-06')
         eligibilite_etudiant = where(
-            not_(or_(individu('bourse_criteres_sociaux', juin_2022) > 0, individu('bourse_enseignement_sup', juin_2022) > 0)),
+            not_(individu('bourse_criteres_sociaux', juin_2022) > 0),
             False,
             where(
                 and_(individu.has_role(Famille.PARENT), individu.famille('eligibilite_per', period)),
