@@ -1,6 +1,6 @@
 from openfisca_france.model.base import *
 from openfisca_core import periods
-from numpy import logical_and as and_, logical_not as not_, logical_or as or_
+from numpy import logical_and as and_, logical_not as not_
 
 
 class eligibilite_per(Variable):
