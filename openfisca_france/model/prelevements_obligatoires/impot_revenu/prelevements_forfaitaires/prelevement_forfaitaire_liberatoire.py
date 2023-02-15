@@ -119,16 +119,16 @@ class prelevement_forfaitaire_liberatoire(Variable):
         '''
         Prelèvement forfaitaire libératoire (PFL) sur les revenus du capital
         '''
-        assurance_vie_pl_non_anonyme_plus8ans_depuis1990 = foyer_fiscal('assurance_vie_pl_non_anonyme_plus8ans_depuis1990', period)
+
         assurance_vie_pl_non_anonyme_plus6ans_avant1990 = foyer_fiscal('assurance_vie_pl_non_anonyme_plus6ans_avant1990', period)
-        assurance_vie_pl_non_anonyme_moins4ans_depuis1990 = foyer_fiscal('assurance_vie_pl_non_anonyme_moins4ans_depuis1990', period)
-        assurance_vie_pl_non_anonyme_4_8_ans_depuis1990 = foyer_fiscal('assurance_vie_pl_non_anonyme_4_8_ans_depuis1990', period)
+        assurance_vie_pl_non_anonyme_plus8ans_depuis1990 = foyer_fiscal('assurance_vie_pfu_ir_plus8ans_19970926_primes_avant_20170927', period)
+        assurance_vie_pl_non_anonyme_4_8_ans_depuis1990 = foyer_fiscal('assurance_vie_pfu_ir_4_8_ans_19970926_primes_avant_20170927', period)
+        assurance_vie_pl_non_anonyme_moins4ans_depuis1990 = foyer_fiscal('assurance_vie_pfu_ir_moins4ans_19970926_primes_avant_20170927', period)
         assurance_vie_pl_anonyme = foyer_fiscal('assurance_vie_pl_anonyme', period)
         produit_epargne_solidaire = foyer_fiscal('produit_epargne_solidaire', period)
         produit_etats_non_cooperatif = foyer_fiscal('produit_etats_non_cooperatif', period)
 
-        period_avant_pfu = periods.period(2017)
-        prelevement_forfaitaire = parameters(period_avant_pfu).taxation_capital.prelevement_forfaitaire
+        prelevement_forfaitaire = parameters(period).taxation_capital.prelevement_forfaitaire
         param_pfl_av = prelevement_forfaitaire.liberatoire_assurance_vie.bons_contrats_placements
         param_pfl = prelevement_forfaitaire.liberatoire_taux_fixe
 
