@@ -2,8 +2,6 @@ description: Prélèvements libératoires sur les revenus des valeurs mobilière
 values:
   2008-01-01:
     value: 0.05
-  2018-01-01:
-    value: null
 metadata:
   ux_name: Produits d'épargne solidaire de partage
   description_en: Levy in discharge on capital income (1965 - 2012)
@@ -16,8 +14,7 @@ metadata:
   notes:
     2008-01-01:
     - title: Création du prélèvement libératoire sur les placements à revenus variables, notamment sur les dividendes (crée art. 117 quater du CGI)
-    2018-01-01:
-    - title: Le prélèvement libératoire est remplacé par un prélèvement forfaitaire unique non-libératoire, dont la valeur est telle que la somme du taux de ce prélèvement et des prélèvements sociaux est de 30%.
 documentation: |-
   Notes :
+  L'"épargne solidaire" renvoie ici au partage automatique de tout ou partie des produits liés à un placement d'épargne au profit d'un organisme mentionné à l'article 200 CGI (intérêt général, utilité publique, etc).
   Références du Code général des impôts : l'article 125 A du CGI régit le prélèvement sur les produits de placements à revenu fixe tandis que l'article 117 quater régit le prélèvement sur les dividendes.
