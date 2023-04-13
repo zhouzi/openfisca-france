@@ -3,7 +3,7 @@ metadata:
   short_label: Régime agricole
   label_en: "Agricultural schemes"
   order:
-  - un_enfant_et_plus_de moins_de_2_ans
+  - un_enfant_et_plus_de_moins_de_2_ans
   - au_plus_un_enfant_sans_moins_de_2_ans
   - deux_enfants_de_plus_de_2_ans
   - 3_enfants_et_de_plus_de_2_ans
