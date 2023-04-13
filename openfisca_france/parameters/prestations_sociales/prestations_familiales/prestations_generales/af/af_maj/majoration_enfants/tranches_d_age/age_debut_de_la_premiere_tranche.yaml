@@ -14,7 +14,7 @@ metadata:
   unit: year
   reference:
     1999-01-01:
-      title: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
+    - title: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006772373&cidTexte=JORFTEXT000000209409
     2008-05-01:
     - title: Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du CSS)
@@ -31,4 +31,3 @@ metadata:
     - title: Modification des conditions d'âge pour les majorations
     2008-05-01:
     - title: Mise en place d'une majoration unique à partir de 14 ans. Mais, la transition est progressive (chaque année, la majoration dépendra à la fois de l'âge et de la date de naissance des enfants ; cf. plus bas)
-

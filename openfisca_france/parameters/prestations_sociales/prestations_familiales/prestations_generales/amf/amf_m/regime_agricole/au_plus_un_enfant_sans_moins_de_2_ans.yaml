@@ -8,7 +8,7 @@ values:
     value: null
 metadata:
   short_label: Max 1 enfant sans moins de 2 ans
-  label_en: "Max 1 child under 2 years old"
+  label_en: Max 1 child under 2 years old
   ipp_csv_id: tx_agri_2ans
   unit: BMAF
   reference:
