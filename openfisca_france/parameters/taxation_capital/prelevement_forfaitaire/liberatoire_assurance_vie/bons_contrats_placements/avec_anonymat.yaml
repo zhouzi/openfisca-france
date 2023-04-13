@@ -5,7 +5,7 @@ values:
   1999-04-01:
     value: 0.6
 metadata:
-  short_label: Taux pour les contrats et placements sous anonymat effectués avant le 27.09.2017
+  short_label: Taux pour les contrats et placements sous anonymat
   label_en: Levy in discharge on life insurance (1983 - 2017)
   ipp_csv_id: tx_pl_av_anonym
   unit: /1
