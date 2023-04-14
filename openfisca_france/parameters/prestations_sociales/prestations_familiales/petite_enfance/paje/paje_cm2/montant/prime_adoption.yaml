@@ -6,7 +6,7 @@ values:
     value: 4.595
 metadata:
   short_label: Montant prime adoption
-  label_en:Adoption premium amount
+  label_en: Adoption premium amount
   ipp_csv_id: tx_paje_adopt
   unit: BMAF
   reference:
