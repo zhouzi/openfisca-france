@@ -8,7 +8,7 @@ values:
     value: null
 metadata:
   short_label: Montant
-  label_en:Amount
+  label_en: Amount
   ipp_csv_id: majo_montant
   unit: currency
   reference:
@@ -17,7 +17,7 @@ metadata:
     - title: Décret 72-530 du 29/06/1972 (S.U.)
     - title: Décret 76-767 du 16/08/1976 ("Majoration")
     1978-01-01:
-      title: Loi 77-765 du 12/07/1977
+    - title: Loi 77-765 du 12/07/1977
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886344
   official_journal_date:
     1976-07-01: 1972-01-05; 1972-06-30; 1976-08-17
@@ -25,4 +25,3 @@ metadata:
   notes:
     1976-07-01:
     - title: Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
-
