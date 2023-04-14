@@ -5,7 +5,7 @@ values:
 metadata:
   short_label: Majoration, par enfant, en % de la base du plafond de ressources, pour les deux premiers enfants
   last_value_still_valid_on: "2023-02-06"
-  label_en: "Early childhood benefit (PAJE): Thresholds for means-testing"
+  label_en: Increase, per child, in % of the resource ceiling base, for the first two children
   ipp_csv_id: maj_plaf_paje_enf1et2_a_partir_20180401
   unit: /1
   reference:
