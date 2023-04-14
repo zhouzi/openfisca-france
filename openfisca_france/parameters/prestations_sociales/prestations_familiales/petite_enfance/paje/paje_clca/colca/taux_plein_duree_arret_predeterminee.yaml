@@ -6,7 +6,7 @@ values:
     value: null
 metadata:
   short_label: Taux partiel <50%
-  label_en: "Early childhood benefit (PAJE): Extra allowance for the choice of pursuing an activity (CLCA)"
+  label_en: Partial rate <50%
   ipp_csv_id: colca_tx_plein
   unit: /1
   reference:
@@ -31,4 +31,4 @@ metadata:
     - title: Cf. http://circulaires.legifrance.gouv.fr/pdf/2009/04/cir_10648.pdf & http://circulaires.legifrance.gouv.fr/pdf/2009/04/cir_6840.pdf pour les taux
     2015-01-01:
     - title: La CLCA est remplacée par la PreParE mais elle continue d'être effective tant que l'enfant est né ou adopté avant le 1er janvier 2015
-documentation: Taux de la prestation en cas de perception de l'allocation de base de la PAJE
+
