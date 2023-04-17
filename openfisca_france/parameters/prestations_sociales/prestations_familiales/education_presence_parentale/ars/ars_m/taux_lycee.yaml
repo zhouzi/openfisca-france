@@ -1,4 +1,4 @@
-description: Montant pour la 3ème tranche d'âge (lycéens de 6-10 ans), en % de la BMAF, de l'Allocation de rentrée scolaire (ARS)
+description: Montant pour la 3ème tranche d'âge (lycéens 15 ans), en % de la BMAF, de l'Allocation de rentrée scolaire (ARS)
 values:
   1978-01-01:
     value: 0.2
