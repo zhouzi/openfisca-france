@@ -41,7 +41,7 @@ metadata:
     1999-11-17: "1999-11-16"
     2009-06-01: "2008-12-28"
   notes:
-    - 1970-12-26:
+    1970-12-26:
     - title: Création de l'allocation d'orphelin
     1971-07-01:
     - title: Appelé "Allocation d'orphelin"
@@ -51,4 +51,3 @@ metadata:
     - title: Allocation de Soutien Familial
     2009-06-01:
     - title: Le RSA intègre dans son calcul l'ASF mais avec des taux différents
-
