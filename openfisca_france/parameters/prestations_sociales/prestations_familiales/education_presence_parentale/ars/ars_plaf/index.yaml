@@ -8,4 +8,4 @@ metadata:
   order:
   - plafond_ressources
   - majoration_par_enf_supp
-documentation: "L'ARS a un plafond (dependant du nombre d'enfants) dès sa création en 1976."
+documentation: L'ARS a un plafond (dependant du nombre d'enfants) dès sa création en 1976.
