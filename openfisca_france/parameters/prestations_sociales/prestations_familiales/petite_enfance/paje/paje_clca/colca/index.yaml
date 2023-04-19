@@ -4,3 +4,5 @@ metadata:
   label_en: COLCA
   order:
   - taux_plein_duree_arret_predeterminee
+  - sansab
+  - age

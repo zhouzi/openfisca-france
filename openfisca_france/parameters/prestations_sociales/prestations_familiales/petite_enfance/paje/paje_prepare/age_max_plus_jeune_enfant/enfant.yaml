@@ -4,7 +4,7 @@ values:
     value: 1
 metadata:
   short_label: Un enfant
-  label_en: One child 
+  label_en: One child
   unit: year
   reference:
     2015-01-01:
@@ -17,4 +17,3 @@ metadata:
   notes:
     2015-01-01:
     - title: Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
-

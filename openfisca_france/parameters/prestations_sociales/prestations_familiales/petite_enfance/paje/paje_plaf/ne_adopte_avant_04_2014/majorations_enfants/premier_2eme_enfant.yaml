@@ -6,7 +6,7 @@ values:
     value: null
 metadata:
   short_label: 1er et 2ème enfants
-  label_en: 1st and 2nd children 
+  label_en: 1st and 2nd children
   ipp_csv_id: maj_plaf_paje_enf1et2_avant_20140401
   unit: /1
   reference:
@@ -23,5 +23,7 @@ metadata:
   notes:
     2004-01-01:
     - title: "Création de la PAJE. Mais entrée en vigueur progressive : de janvier 2004 à décembre 2006 inclus (cf. art. 60, VIII de la loi 2003-1199)"
+    2018-01-01:
+    - title: Revalorisation des plafonds de 0,2%. Les plafonds pour les enfants nés avant le 01/04/2014 sont supprimés, car ces enfants ont désormais plus de 3 ans.
     2021-04-01:
     - title: Les dispositions de la PAJE pour les enfants nés ou adoptés avant le 01/04/2018 ne s'appliquent plus (naissance ou adoption depuis plus de 3 ans).
