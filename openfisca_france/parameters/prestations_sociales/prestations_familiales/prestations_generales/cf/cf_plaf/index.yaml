@@ -7,6 +7,7 @@ metadata:
   - plafond_ressources_0_enfant
   - majoration
   - plafond_ressources_majoration
+  - plafond_cf_majore
 documentation: |-
   Les articles L522-1 et R522-1 du CSS prévoient la revalorisation des plafonds par Arrêté Ministériel, au rythme de l'évolution des prix hors tabac
   Dans les DOM, les plafonds de ressources applicables pour l’APJE, l’allocation d’adoption, le complément familial et l’allocation de rentrée scolaire sont ceux fixés pour l’allocation de rentrée scolaire en métropole

@@ -1,7 +1,7 @@
 description: Taux du Régime agricole (en % de la BMAF) pour deux enfants de plus de 2 ans, de l'Allocation de la mère au foyer (AMF, 1955-1977)
 values:
-  1956-10-01:
-    value: 0.4
+  1955-06-01:
+    value: null
   1974-07-01:
     value: 0.25
   1978-01-01:
