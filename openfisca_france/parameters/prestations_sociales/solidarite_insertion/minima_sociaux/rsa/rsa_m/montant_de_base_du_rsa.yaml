@@ -1,4 +1,4 @@
-description: Montant mensuel forfaitaire, base de calcul du revenu de solidarité active (RSA)
+description: Montant mensuel forfaitaire maximal pour un foyer d'une seule personne, base de calcul du revenu de solidarité active (RSA)
 values:
   2009-06-01:
     value: 454.63

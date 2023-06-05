@@ -1,14 +1,19 @@
-description: Montant pour les parents isolés ou les femmes enceintes (en % de la base) du revenu de solidarité active (RSA)
+description: Majoration par enfant à charge pour les parents isolés (en % de la base) du revenu de solidarité active (RSA)
 values:
   2009-06-01:
-    value: 1.284
+    value: 0.428
   2016-01-01:
-    value: 1.28412
+    value: 0.42804
 metadata:
-  short_label: Parents isolés ou femmes enceintes
+<<<<<<< HEAD:openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_maj/majoration_isolement_en_base_rsa/par_enfant_a_charge.yaml
+  short_label: Majoration par enfant à charge
   last_value_still_valid_on: "2024-04-26"
+=======
+  short_label: Supplément par enfant en % du montant de base
+  last_value_still_valid_on: "2022-03-29"
+>>>>>>> Déplace les majorations du montant dans le dossier montant:openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_m/majoration_isolement_en_base_rsa/par_enfant_a_charge.yaml
   label_en: "Active solidarity income (RSA): Extra allowance and minimal amount"
-  ipp_csv_id: rsa_isole_enceinte
+  ipp_csv_id: rsa_isole_enf
   unit: /1
   reference:
     2009-06-01:

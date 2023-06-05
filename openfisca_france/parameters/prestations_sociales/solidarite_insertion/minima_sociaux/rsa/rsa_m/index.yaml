@@ -1,7 +1,9 @@
-description: Montant de base du revenu de solidarité active (RSA)
+description: Montant minimal et maximal du revenu de solidarité active (RSA)
 metadata:
-  short_label: Montant de base
+  short_label: Montant minimal et maximal du RSA
   label_en: "Active solidarity income (RSA): Basic amount"
   order:
+  - montant_minimum_verse
   - montant_de_base_du_rsa
-  - pente
+  - maj_montant_max
+  - majorations_isolement_en_base_rsa
