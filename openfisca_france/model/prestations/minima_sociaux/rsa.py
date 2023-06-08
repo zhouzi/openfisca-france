@@ -333,7 +333,7 @@ class rsa_enfant_a_charge(Variable):
             age_pac = P_rsa.rsa_cond.age_pac
             majo_rsa_femmes_enceintes = P_rsa.rsa_maj.majoration_isolement_en_base_rsa.femmes_enceintes
             majo_rsa_par_enfant_a_charge = P_rsa.rsa_maj.majoration_isolement_en_base_rsa.par_enfant_a_charge
-            montant_base_rsa = P_rsa.rsa_m.montant_forfaitaire_rsa
+            montant_base_rsa = P_rsa.rsa_m.montant_de_base_du_rsa
             taux_personne_supp = P_rsa.rsa_maj.maj_montant_max.par_enfant_supplementaire
         else:
             age_pac = P_rmi.rmi_cond.age_pac
@@ -795,7 +795,7 @@ class rsa_forfait_logement(Variable):
         # Il faudrait uniformiser, mais les taux légaux pour le RMI commencent par "1", et ne passent pas en python
         if period.start.date >= date(2009, 6, 1):
             params = parameters(period).prestations_sociales.solidarite_insertion.minima_sociaux.rsa
-            montant_base = params.rsa_m.montant_forfaitaire_rsa
+            montant_base = params.rsa_m.montant_de_base_du_rsa
             taux_2p = 1 + params.rsa_maj.maj_montant_max.couples_celibataire_avec_enfant
             taux_3p = taux_2p + params.rsa_maj.maj_montant_max.couple_1_enfant_ou_2e_enfant
             forf_logement_taux_1p = params.rsa_forfait_logement.taux_1_personne
@@ -934,7 +934,7 @@ class rsa_socle(Variable):
             + max_(nb_personnes - 4, 0) * rsa.rsa_maj.maj_montant_max.par_enfant_supplementaire
             )
 
-        socle = rsa.rsa_m.montant_forfaitaire_rsa
+        socle = rsa.rsa_m.montant_de_base_du_rsa
 
         return eligib * socle * taux
 
@@ -973,7 +973,7 @@ class rsa_socle_majore(Variable):
 
         rsa = parameters(period).prestations_sociales.solidarite_insertion.minima_sociaux.rsa
         taux = rsa.rsa_maj.majoration_isolement_en_base_rsa.femmes_enceintes + rsa.rsa_maj.majoration_isolement_en_base_rsa.par_enfant_a_charge * nbenf
-        socle = rsa.rsa_m.montant_forfaitaire_rsa
+        socle = rsa.rsa_m.montant_de_base_du_rsa
 
         return eligib * socle * taux
 
