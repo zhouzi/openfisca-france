@@ -6,5 +6,5 @@ metadata:
   - rsa_cond
   - rsa_m
   - rsa_maj
-  - rsa_forfait_logement
+  - rsa_fl
   - exploitant_agricole
