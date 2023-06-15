@@ -9,7 +9,7 @@ metadata:
   last_value_still_valid_on: "2024-04-26"
   label_en: "Active solidarity income (RSA): Extra allowance and minimal amount"
   ipp_csv_id: rsa_isole_enceinte
-  unit: /1
+  unit: pourcentage_montant_de_base
   reference:
     2009-06-01:
       title: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
