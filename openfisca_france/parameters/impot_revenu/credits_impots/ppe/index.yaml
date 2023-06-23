@@ -3,10 +3,10 @@ metadata:
   short_label: PPE
   label_en: Employment Allowance (2001 - 2015)
   order:
-  - seuil_rfr_eligibilite
+  - seuils_rfr_eligibilite
   - taux
   - coefficient_majoration_ppe_temps_partiel
   - supplements
-  - minimun_ppe
+  - montant_minimum
 documentation: |-
   Art. 200 sexies du CGI
