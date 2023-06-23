@@ -1,5 +1,7 @@
 description: Plafond du crédit d'impôt pour frais de garde d'enfants
 values:
+  1977-01-01:
+    value: null
   1978-01-01:
     value: 3000
   1983-01-01:

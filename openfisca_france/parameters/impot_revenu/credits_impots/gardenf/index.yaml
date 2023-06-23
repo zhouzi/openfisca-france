@@ -1,1 +1,6 @@
-description: Frais de garde des enfants à l'extérieur du domicile
+description: Crédit d'impôt pour frais de garde des enfants à l'extérieur du domicile
+metadata:
+  short_label: Frais de garde des enfants à l'extérieur du domicile
+  order:
+  - taux
+  - plafond
