@@ -1,7 +1,8 @@
-description: Minorations exceptionnelles d'impôt (1965-1992)
+description: Minorations exceptionnelles d'impôt
 metadata:
   label_en: Exceptional tax cuts (1965-1992)
   order:
+  - date_entree_en_vigueur
   - taux_1
   - taux_3
   - taux_5
