@@ -2128,7 +2128,7 @@ class iai(Variable):
         indemnite_compensatrice_agents_assurance = foyer_fiscal('indemnite_compensatrice_agents_assurance', period)
         prelevement_forfaitaire_liberatoire = foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
 
-        return iaidrdi + taxation_plus_values_hors_bareme + cont_rev_loc + indemnite_compensatrice_agents_assurance + prelevement_forfaitaire_liberatoire
+        return iaidrdi + taxation_plus_values_hors_bareme + cont_rev_loc + indemnite_compensatrice_agents_assurance - prelevement_forfaitaire_liberatoire
 
     def formula_2013_01_01(foyer_fiscal, period):
         '''
@@ -2147,8 +2147,8 @@ class iai(Variable):
             + taxation_plus_values_hors_bareme
             + cont_rev_loc + tax_rvcm_forfaitaire
             + indemnite_compensatrice_agents_assurance
-            + prelevement_forfaitaire_liberatoire
-            + prelevement_forfaitaire_unique_ir
+            - prelevement_forfaitaire_liberatoire
+            - prelevement_forfaitaire_unique_ir
             )
 
 
