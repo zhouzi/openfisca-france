@@ -2142,13 +2142,14 @@ class iai(Variable):
         prelevement_forfaitaire_liberatoire = foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
         prelevement_forfaitaire_unique_ir = foyer_fiscal('prelevement_forfaitaire_unique_ir', period)
 
-        return (iaidrdi
-                + taxation_plus_values_hors_bareme
-                + cont_rev_loc + tax_rvcm_forfaitaire
-                + indemnite_compensatrice_agents_assurance
-                + prelevement_forfaitaire_liberatoire
-                + prelevement_forfaitaire_unique_ir
-        )
+        return (
+            iaidrdi
+            + taxation_plus_values_hors_bareme
+            + cont_rev_loc + tax_rvcm_forfaitaire
+            + indemnite_compensatrice_agents_assurance
+            + prelevement_forfaitaire_liberatoire
+            + prelevement_forfaitaire_unique_ir
+            )
 
 
 class contribution_exceptionnelle_hauts_revenus(Variable):
