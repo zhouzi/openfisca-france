@@ -627,12 +627,6 @@ class impots_directs(Variable):
         irpp_economique_i = menage.members.foyer_fiscal('irpp_economique', period)
         irpp_economique = menage.sum(irpp_economique_i, role = FoyerFiscal.DECLARANT_PRINCIPAL)
 
-        prelevement_forfaitaire_liberatoire_i = menage.members.foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
-        prelevement_forfaitaire_liberatoire = menage.sum(prelevement_forfaitaire_liberatoire_i, role = FoyerFiscal.DECLARANT_PRINCIPAL)
-
-        prelevement_forfaitaire_unique_ir_i = menage.members.foyer_fiscal('prelevement_forfaitaire_unique_ir', period)
-        prelevement_forfaitaire_unique_ir = menage.sum(prelevement_forfaitaire_unique_ir_i, role = FoyerFiscal.DECLARANT_PRINCIPAL)
-
         # On comptabilise ir_pv_immo ici directement, et non pas dans la variable 'irpp', car administrativement, cet impôt n'est pas dans l'irpp, et n'est déclaré dans le formulaire 2042C que pour calculer le revenu fiscal de référence. On colle à la définition administrative, afin d'avoir une variable 'irpp' qui soit comparable à l'IR du simulateur en ligne de la DGFiP
         ir_pv_immo_i = menage.members.foyer_fiscal('ir_pv_immo', period)
         ir_pv_immo = menage.sum(ir_pv_immo_i, role = FoyerFiscal.DECLARANT_PRINCIPAL)
@@ -646,8 +640,6 @@ class impots_directs(Variable):
         return (
             taxe_habitation
             + irpp_economique
-            + prelevement_forfaitaire_liberatoire
-            + prelevement_forfaitaire_unique_ir
             + ir_pv_immo
             + isf_ifi
             + prelevement_liberatoire_autoentrepreneur

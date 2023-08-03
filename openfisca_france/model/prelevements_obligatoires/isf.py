@@ -575,8 +575,6 @@ class total_impots_plafonnement_isf_ifi(Variable):
         '''
         isf_ifi_avant_plaf = foyer_fiscal('isf_ifi_avant_plaf', period)
         irpp_economique = foyer_fiscal('irpp_economique', period)
-        prelevement_forfaitaire_liberatoire = foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
-        prelevement_forfaitaire_unique_ir = foyer_fiscal('prelevement_forfaitaire_unique_ir', period)
         ir_pv_immo = foyer_fiscal('ir_pv_immo', period)
         crds_i = foyer_fiscal.members('crds', period)
         csg_i = foyer_fiscal.members('csg', period)
@@ -587,8 +585,6 @@ class total_impots_plafonnement_isf_ifi(Variable):
         return (
             isf_ifi_avant_plaf
             - irpp_economique
-            - prelevement_forfaitaire_liberatoire
-            - prelevement_forfaitaire_unique_ir
             - ir_pv_immo
             - crds
             - csg
@@ -882,7 +878,6 @@ class bouclier_imp_gen(Variable):  # # ajouter CSG- CRDS
         csg_deductible_chomage_i = foyer_fiscal.members('csg_deductible_chomage', period)
         csg_deductible_retraite_i = foyer_fiscal.members('csg_deductible_retraite', period)
         csg_imposable_retraite_i = foyer_fiscal.members('csg_imposable_retraite', period)
-        prelevement_forfaitaire_liberatoire = foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
 
         prelevements_sociaux_revenus_capital = foyer_fiscal('prelevements_sociaux_revenus_capital', period)
         crds_salaire = foyer_fiscal.sum(crds_salaire_i)
@@ -899,7 +894,7 @@ class bouclier_imp_gen(Variable):  # # ajouter CSG- CRDS
         # # ajouter Prelèvements sources/ libé
         # # ajouter crds rstd
         # # impôt sur les plus-values immo et cession de fonds de commerce
-        imp1 = prelevements_sociaux_revenus_capital + csg_deductible_salaire + csg_deductible_chomage + crds_salaire + csg_deductible_retraite + prelevement_forfaitaire_liberatoire
+        imp1 = prelevements_sociaux_revenus_capital + csg_deductible_salaire + csg_deductible_chomage + crds_salaire + csg_deductible_retraite
         '''
         Impôts payés en l'année 'n' au titre des revenus réalisés sur l'année 'n'
         '''

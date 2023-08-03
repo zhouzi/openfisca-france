@@ -2118,7 +2118,7 @@ class iai(Variable):
     reference = 'http://forum-juridique.net-iris.fr/finances-fiscalite-assurance/43963-declaration-impots.html'
     definition_period = YEAR
 
-    def formula(foyer_fiscal, period, parameters):
+    def formula(foyer_fiscal, period):
         '''
         impôt avant imputation de l'irpp
         '''
@@ -2126,10 +2126,11 @@ class iai(Variable):
         taxation_plus_values_hors_bareme = foyer_fiscal('taxation_plus_values_hors_bareme', period)
         cont_rev_loc = foyer_fiscal('cont_rev_loc', period)
         indemnite_compensatrice_agents_assurance = foyer_fiscal('indemnite_compensatrice_agents_assurance', period)
+        prelevement_forfaitaire_liberatoire = foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
 
-        return iaidrdi + taxation_plus_values_hors_bareme + cont_rev_loc + indemnite_compensatrice_agents_assurance
+        return iaidrdi + taxation_plus_values_hors_bareme + cont_rev_loc + indemnite_compensatrice_agents_assurance + prelevement_forfaitaire_liberatoire
 
-    def formula_2013_01_01(foyer_fiscal, period, parameters):
+    def formula_2013_01_01(foyer_fiscal, period):
         '''
         impôt avant imputation de l'irpp
         '''
@@ -2138,8 +2139,16 @@ class iai(Variable):
         cont_rev_loc = foyer_fiscal('cont_rev_loc', period)
         tax_rvcm_forfaitaire = foyer_fiscal('tax_rvcm_forfaitaire', period)
         indemnite_compensatrice_agents_assurance = foyer_fiscal('indemnite_compensatrice_agents_assurance', period)
+        prelevement_forfaitaire_liberatoire = foyer_fiscal('prelevement_forfaitaire_liberatoire', period)
+        prelevement_forfaitaire_unique_ir = foyer_fiscal('prelevement_forfaitaire_unique_ir', period)
 
-        return iaidrdi + taxation_plus_values_hors_bareme + cont_rev_loc + tax_rvcm_forfaitaire + indemnite_compensatrice_agents_assurance
+        return (iaidrdi
+                + taxation_plus_values_hors_bareme
+                + cont_rev_loc + tax_rvcm_forfaitaire
+                + indemnite_compensatrice_agents_assurance
+                + prelevement_forfaitaire_liberatoire
+                + prelevement_forfaitaire_unique_ir
+        )
 
 
 class contribution_exceptionnelle_hauts_revenus(Variable):
