@@ -1,5 +1,13 @@
 # Changelog
 
+## 153.1.0 [#2180](https://github.com/openfisca/openfisca-france/pull/2180)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : toutes.
+* Zones impactées : `openfisca_france/model/prestations/jeunes/service_civique.py`.
+* Détails :
+  - Ajoute une variable pour modéliser le service civique
+  
 # 153.0.0 [#2177](https://github.com/openfisca/openfisca-france/pull/2177)
 
 * Tri de programmes.
