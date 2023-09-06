@@ -326,3 +326,15 @@
       2018: 5100.28
     aides_logement:
       2018: 68.45
+
+- name: Revenus deisponibles avec indemnité service civique
+  period: 2023
+  input:
+    prestations_sociales: [0, 0]
+    revenus_nets_du_travail: [0, 0]
+    rsa: [0, 0]
+    service_civique:
+      2023-09: [true, true]
+      2023-10: [false, true]
+  output:
+    revenu_disponible: [609.95, 1219.9]

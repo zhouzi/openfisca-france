@@ -54,9 +54,11 @@ class revenu_disponible(Variable):
         pensions_nettes_i = menage.members('pensions_nettes', period)
         revenus_nets_du_capital_i = menage.members('revenus_nets_du_capital', period)
         revenus_nets_du_travail_i = menage.members('revenus_nets_du_travail', period)
+        indemnite_service_civique_i = menage.members('montant_indemnite_service_civique', period, options = [ADD])
         pensions_nettes = menage.sum(pensions_nettes_i)
         revenus_nets_du_capital = menage.sum(revenus_nets_du_capital_i)
         revenus_nets_du_travail = menage.sum(revenus_nets_du_travail_i)
+        indemnite_service_civique = menage.sum(indemnite_service_civique_i)
 
         impots_directs = menage('impots_directs', period)
 
@@ -75,6 +77,7 @@ class revenu_disponible(Variable):
             + ppe
             + prestations_sociales
             + revenus_nets_du_capital
+            + indemnite_service_civique
             )
 
 
