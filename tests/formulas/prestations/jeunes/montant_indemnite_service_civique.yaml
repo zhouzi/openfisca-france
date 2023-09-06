@@ -1,10 +1,9 @@
 - name: Montant de la rémunération du service civique
-  period: 2023-06
+  period: 2023-08
   input:
-    service_civique:
-      2023-06: [true, false]
-      2023-08: [true, false]
+    service_civique: [true, false, true, true]
+    bourse_criteres_sociaux: [false, false, true, false]
+    rsa: [0, 0, 0, 100]
   output:
     montant_indemnite_service_civique:
-      2023-06: [600.94, 0]
-      2023-08: [609.95, 0]
+      2023-08: [609.95, 0, 723.08, 723.08]

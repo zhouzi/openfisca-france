@@ -1,0 +1,15 @@
+description: Montant de la majoration de l'indemnité mensuel du Service Civique pour les étudiants boursiers et les bénéficiaires du RSA
+values:
+  2000-01-01:
+    value: 0
+  2022-07-01:
+    value: 111.45
+  2023-07-01:
+    value: 113.13
+metadata:
+  unit: currency
+  reference:
+    2022-07-01:
+    - href: https://www.service-civique.gouv.fr/agence-du-service-civique/le-mag/actualites/lindemnite-de-service-civique-majoree-au-1er-juillet-2022
+    2023-07-01:
+    - href: https://www.service-civique.gouv.fr/agence-du-service-civique/le-mag/actualites/lindemnite-de-service-civique-majoree-au-1-juillet-2023
