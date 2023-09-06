@@ -1,0 +1,13 @@
+description: Indemnité mensuel du Service Civique
+values:
+  2022-07-01:
+    value: 600.94
+  2023-07-01:
+    value: 609.95
+metadata:
+  unit: currency
+  reference:
+    2022-07-01:
+    - href: https://www.service-civique.gouv.fr/agence-du-service-civique/le-mag/actualites/lindemnite-de-service-civique-majoree-au-1er-juillet-2022
+    2023-07-01:
+    - href: https://www.service-civique.gouv.fr/agence-du-service-civique/le-mag/actualites/lindemnite-de-service-civique-majoree-au-1-juillet-2023
