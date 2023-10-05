@@ -69,7 +69,7 @@ class reduction_loyer_solidarite_montant(Variable):
         couple = famille('al_couple', period)
         zone_apl = famille.demandeur.menage('zone_apl', period)
 
-        montant = rls.montant.par_zone[zone_apl]
+        montant = rls.montant[zone_apl]
 
         montant_personne_seule = montant.personnes_seules
         montant_couple = montant.couples
