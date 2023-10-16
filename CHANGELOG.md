@@ -1,5 +1,14 @@
 # Changelog
 
+## 154.1.0
+
+* Résolution de bug et améliorations mineures.
+* Périodes concernées : toutes.
+* Zones impactées :
+    - `setup.py`: La version de la dépendance OpenFisca-Core a été mise à jour.
+* Détails :
+  - La dépendance OpenFisca-Core a été mise à jour de la version `>=40.0.1` à la version `>=41.2` pour résoudre des problèmes connus et améliorer la stabilité du package.
+
 ### 154.0.1 [21914](https://github.com/openfisca/openfisca-france/pull/2194)
 
 * Changement mineur.
