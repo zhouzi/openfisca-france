@@ -1,4 +1,4 @@
-description: Taux (en % de la BMAF) de Modulation (tranche 3), en fonction des ressources, des Allocations Familiales (AF)
+description: Taux (en % de la BMAF) de Modulation (tranche 3), en fonction des ressources, des allocations familiales (AF)
 values:
   1946-09-01:
     value: null

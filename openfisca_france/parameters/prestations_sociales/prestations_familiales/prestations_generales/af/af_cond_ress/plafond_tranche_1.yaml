@@ -1,4 +1,4 @@
-description: Plafond annuel de ressources n°1 précalculé à partir de 2 enfants, Plafond de ressources des Allocations Familiales (AF)
+description: Plafond annuel de ressources n°1 précalculé à partir de 2 enfants, Plafond de ressources des allocations familiales (AF)
 values:
   2015-07-01:
     value: 67140

@@ -1,4 +1,4 @@
-description: Nombre d'enfants à partir duquel l'aîné donne droit à majoration, pour les DOM des Allocations Familiales (AF)
+description: Nombre d'enfants à partir duquel l'aîné donne droit à majoration, pour les DOM des allocations familiales (AF)
 values:
   1991-08-06:
     value: 3
