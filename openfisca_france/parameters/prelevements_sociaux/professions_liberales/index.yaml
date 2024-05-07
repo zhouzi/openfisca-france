@@ -8,7 +8,6 @@ metadata:
   - ret_pl
   - ret_comp_pl
   - formation_pl
-  - auto_entrepreneur
 documentation: |-
   (1) La Caisse nationale d'assurance vieillesse des professions libérales (CNAVPL) comprend 10 sections professionnelles gérant différents régimes:
   Agents généraux d'assurance (CAVAMAC) : Assiette limitée par une valeur plancher (fixée chaque année) et une valeur plafond (égale à 10*plancher de janvier 1998 à décembre 2001, puis 12*plancher de janvier 2002 à 2012, puis fixée annuellement. Exemple : égale à 437634€ en 2013.)

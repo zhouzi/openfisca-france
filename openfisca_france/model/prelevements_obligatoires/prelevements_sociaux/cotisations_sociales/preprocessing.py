@@ -252,7 +252,7 @@ def build_sal(parameters):
     regime_general = parameters.prelevements_sociaux.cotisations_securite_sociale_regime_general
     public = parameters.prelevements_sociaux.cotisations_secteur_public
     indep = parameters.prelevements_sociaux.cotisations_taxes_independants_artisans_commercants
-    liberal = parameters.prelevements_sociaux.professions_liberales
+    auto_entrepreneurs = parameters.prelevements_sociaux.auto_entrepreneur
 
     # Création de commun
     commun.children.update(chomage.chomage.salarie.children)
@@ -396,7 +396,7 @@ def build_sal(parameters):
     sal.children['comind'].children.update(indep.mmid.comind.children)
     # Microsocial
     sal.add_child('microsocial', ParameterNode('microsocial', data=dict(description='Cotisations sociales salariales des professions libérales')))
-    sal.children['microsocial'].children.update(liberal.auto_entrepreneur.children)  # À harmoniser ! + Créer params depuis IPP
+    sal.children['microsocial'].children.update(auto_entrepreneurs.children)  # À harmoniser ! + Créer params depuis IPP
 
     return sal
 

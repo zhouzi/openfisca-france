@@ -3,6 +3,5 @@ metadata:
   short_label: Indépendants
   label_en: SSCs for family benefits (independent workers)
   order:
-  - avant_1983
-  - 1983_2015
-  - apres_2015
+  - revenu_professionnel_total
+  - sous_pss
