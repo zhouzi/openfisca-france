@@ -147,7 +147,7 @@ class credit_impot_competitivite_emploi(Variable):
         # Taux de CICE
         taux_cice = np.where(dep_drom, cice.taux_om, cice.taux)
         # Calcul du taux applicable
-        taux_applicable_cice = ((assiette_allegement/(smic_proratise + 1e-16)) <= cice.plafond_smic) * taux_cice
+        taux_applicable_cice = ((assiette_allegement / (smic_proratise + 1e-16)) <= cice.plafond_smic) * taux_cice
         # Calcul du montant du crédit d'impôt
         credit_impot_competitivite_emploi = taux_applicable_cice * assiette_allegement
 
