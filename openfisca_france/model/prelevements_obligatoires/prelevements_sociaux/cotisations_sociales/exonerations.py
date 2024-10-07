@@ -456,7 +456,7 @@ class exoneration_cotisations_employeur_zrd(Variable):
         entreprise_creation = individu('entreprise_creation', period)
         smic_proratise = individu('smic_proratise', period)
         zone_restructuration_defense = individu('zone_restructuration_defense', period)
-        seuils = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.zrd
+        seuils = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.zrd
         t_max_parameters = parameters(period).prelevements_sociaux
 
         eligible = zone_restructuration_defense
@@ -519,7 +519,7 @@ class exoneration_cotisations_employeur_zrr(Variable):
         effectif_entreprise = individu('effectif_entreprise', period)
         smic_proratise = individu('smic_proratise', period)
         zone_revitalisation_rurale = individu('zone_revitalisation_rurale', period)
-        seuils = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.zrr
+        seuils = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.zrr
 
         duree_cdd_eligible = contrat_de_travail_fin > contrat_de_travail_debut + timedelta64(365, 'D')
         # TODO: move to parameters file
@@ -557,7 +557,7 @@ class exoneration_cotisations_employeur_zrr(Variable):
         effectif_entreprise = individu('effectif_entreprise', period)
         smic_proratise = individu('smic_proratise', period)
         zone_revitalisation_rurale = individu('zone_revitalisation_rurale', period)
-        seuils = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.zrr
+        seuils = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.zrr
         t_max_parameters = parameters(period).prelevements_sociaux
 
         duree_cdd_eligible = contrat_de_travail_fin > contrat_de_travail_debut + timedelta64(365, 'D')
@@ -929,7 +929,7 @@ class exoneration_lodeom_competitivite(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite
+        lodeom_competitivite = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite
 
         # Définition de la petite entreprise
         petite_entreprise = (effectif_entreprise_drom < 11)
@@ -974,7 +974,7 @@ class exoneration_lodeom_competitivite(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite
+        lodeom_competitivite = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite
 
         # Extraction des variables d'intérêt
         # Ratio smic/salaire
@@ -983,7 +983,7 @@ class exoneration_lodeom_competitivite(Variable):
         # Valorisation des paramètres d'intérêt
         # Moins de 11 salariés
         seuil_moins_de_11_salaries = lodeom_competitivite.seuil_entreprises_de_moins_de_11_salaries
-        seuil_intermediaire_moins_de_11_salaries = lodeom_competitivite.seuil_intermediaire_entreprises_de_moins_de_11_salaries
+        seuil_intermediaire_moins_de_11_salaries = lodeom_competitivite.seuil_median_entreprises_de_moins_de_11_salaries
         pente_moins_de_11_salaries = lodeom_competitivite.pente_entreprises_de_moins_de_11_salaries
         plafond_moins_de_11_salaries = lodeom_competitivite.plafond_entreprises_de_moins_de_11_salaries
         # Plus de 11 salariés
@@ -1018,7 +1018,7 @@ class exoneration_lodeom_competitivite(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite
+        lodeom_competitivite = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite
 
         # A partir du 1er janvier 2019
         # Définition de la petite entreprise
@@ -1116,7 +1116,7 @@ class eligibilite_199undeciesBCGI(Variable):
         # Extraction de la variable d'intérêt
         entreprise_chiffre_affaire = individu('entreprise_chiffre_affaire', period)
         # Extraction des paramètres d'intérêt
-        seuil = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.reduction_impot_199undeciesBCGI.seuil
+        seuil = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.reduction_impot_199undeciesBCGI.seuil
         # Critère sur le chiffre d'affaires
         chiffre_affaires_inferieur_seuil = entreprise_chiffre_affaire < seuil
         # Eligibilité
@@ -1272,7 +1272,7 @@ class exoneration_lodeom_competitivite_renforcee(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite_renforcee
+        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite_renforcee
 
         # Valorisation des paramètres d'intérêt
         seuil = lodeom_competitivite_renforcee.seuil
@@ -1294,7 +1294,7 @@ class exoneration_lodeom_competitivite_renforcee(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite_renforcee
+        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite_renforcee
 
         # Ratio smic/salaire
         ratio_smic_salaire = smic_proratise / (assiette_allegement + 1e-16)
@@ -1317,7 +1317,7 @@ class exoneration_lodeom_competitivite_renforcee(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite_renforcee
+        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite_renforcee
 
         # Ratio smic/salaire
         ratio_smic_salaire = smic_proratise / (assiette_allegement + 1e-16)
@@ -1340,7 +1340,7 @@ class exoneration_lodeom_competitivite_renforcee(Variable):
         smic_proratise = individu('smic_proratise', period)
         assiette_allegement = individu('assiette_allegement', period)
         # Extraction des paramètres d'intérêt
-        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_competitivite_renforcee
+        lodeom_competitivite_renforcee = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_competitivite_renforcee
         # Extraction des variables d'intérêt
         effectif_entreprise_drom = individu('effectif_entreprise_drom', period)
         # Définition de la petite entreprise
@@ -1439,7 +1439,7 @@ class exoneration_lodeom_innovation_croissance(Variable):
         # Définition de la petite entreprise
         petite_entreprise = (effectif_entreprise_drom < 50)
         # Extraction des paramètres d'intérêt
-        lodeom_innovation_croissance = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geographiques_cotis.lodeom_innovation_croissance
+        lodeom_innovation_croissance = parameters(period).prelevements_sociaux.reductions_cotisations_sociales.exonerations_geo_cotis.lodeom_innovation_croissance
         seuil = lodeom_innovation_croissance.seuil
         seuil_intermediaire = lodeom_innovation_croissance.seuil_intermediaire
         plafond = lodeom_innovation_croissance.plafond

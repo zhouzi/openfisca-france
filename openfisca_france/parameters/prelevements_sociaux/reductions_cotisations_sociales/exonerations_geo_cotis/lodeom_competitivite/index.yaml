@@ -10,7 +10,7 @@ metadata:
   - entreprises_de_moins_de_50_salaries
   - seuil_entreprises_de_11_salaries_et_plus
   - seuil_entreprises_de_moins_de_11_salaries
-  - seuil_intermediaire_entreprises_de_moins_de_11_salaries
+  - seuil_median_entreprises_de_moins_de_11_salaries
   - plafond_entreprises_de_11_salaries_et_plus
   - plafond_entreprises_de_moins_de_11_salaries
   - pente_entreprises_de_11_salaries_et_plus
