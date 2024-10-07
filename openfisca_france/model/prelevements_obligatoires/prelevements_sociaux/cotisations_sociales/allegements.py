@@ -147,12 +147,12 @@ class credit_impot_competitivite_emploi(Variable):
         # Taux de CICE
         taux_cice = np.where(dep_drom, cice.taux_om, cice.taux)
         # Calcul du taux applicable
-        taux_applicable_cice = ((assiette_allegement/(smic_proratise+1e-16)) <= cice.plafond_smic) * taux_cice
+        taux_applicable_cice = ((assiette_allegement/(smic_proratise + 1e-16)) <= cice.plafond_smic) * taux_cice
         # Calcul du montant du crédit d'impôt
         credit_impot_competitivite_emploi = taux_applicable_cice * assiette_allegement
 
         return credit_impot_competitivite_emploi * not_(stagiaire) * not_(association)
-        
+
 
 class aide_premier_salarie(Variable):
     value_type = float
@@ -338,7 +338,7 @@ class allegement_general(Variable):
         exoneration_cotisations_employeur_jei = individu('exoneration_cotisations_employeur_jei', period)
         exoneration_cotisations_employeur_tode = individu('exoneration_cotisations_employeur_tode', period)
         exoneration_lodeom = individu('exoneration_lodeom', period)
-        non_cumulee = not_(exoneration_cotisations_employeur_jei+exoneration_cotisations_employeur_tode+exoneration_lodeom)
+        non_cumulee = not_(exoneration_cotisations_employeur_jei + exoneration_cotisations_employeur_tode + exoneration_lodeom)
 
         # switch on 3 possible payment options
         allegement = switch_on_allegement_mode(
