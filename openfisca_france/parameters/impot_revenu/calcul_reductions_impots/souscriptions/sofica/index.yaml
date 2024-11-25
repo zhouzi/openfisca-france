@@ -1,7 +1,7 @@
-description: Réduction d'impôt sur la souscription de parts au capital d'oeuvres cinématographiques ou audiovisuelles (SOFICA)
+description: Réduction d'impôt sur le revenu (IR) sur la souscription de parts au capital de sociétés de financement d'oeuvres cinématographiques ou audiovisuelles (SOFICA)
 metadata:
   documentation_start: true
-  short_label: Au capital d'oeuvres cinématographiques ou audiovisuelles (SOFICA)
+  short_label: Souscriptions au capital de sociétés de financement d'oeuvres cinématographiques ou audiovisuelles (SOFICA)
   label_en: Capital Subscription in SOFICA society (cinema)
   order:
   - plafond_revenu_net_global

@@ -1,4 +1,4 @@
-description: Premier taux de réduction d'impôt sur les souscriptions de parts de fonds communs de placement dans l'innovation
+description: Taux de réduction d'impôt sur le revenu (IR) sur les souscriptions de parts de fonds communs de placement dans l'innovation
 values:
   1997-01-01:
     value: 0.25
@@ -8,6 +8,8 @@ values:
     value: 0.18
   2020-08-10:
     value: 0.25
+  2024-01-01:
+    value: 0.18
 metadata:
   short_label: 1er Taux
   ipp_csv_id: txfcp_1
@@ -25,3 +27,5 @@ metadata:
   notes:
     2020-08-10:
     - title: Le taux de 25 % (30 %) s'applique aux versements effectués entre le 10 août et le 31 décembre 2020. Avant le 10 août c'est le taux de 18 % (38 %) qui s'applique. La loi de finances pour 2021 proroge le taux majoré de 25 % pour les versements effectués au titre d'une souscription aux parts de FCPI et FIP, jusqu'au 31 décembre 2021. Ce taux majoré a été de nouveau prorogé jusqu'au 31 décembre 2022.
+    2024-01-01:
+    - title: Le taux de la réduction d'impôt est fixé à 18 % pour les versements effectués du 1er janvier au 11 mars 2023 (cases 7GQ et 7FQ) et à 25 % pour les versements du 12 mars au 31 décembre 2023 (cases 7GR et 7FT). (cf. Notice 2041-NOT https://www.impots.gouv.fr/sites/default/files/formulaires/2042/2024/2042_4757.pdf)

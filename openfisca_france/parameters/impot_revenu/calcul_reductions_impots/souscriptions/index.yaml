@@ -1,6 +1,6 @@
 description: Réduction d'impôt sur le revenu (IR) pour souscription au capital
 metadata:
-  short_label: Souscription au capital
+  short_label: Souscriptions au capital
   order:
   - pme
   - sofica

@@ -1,4 +1,4 @@
-description: Taux 2 de la réduction d'impôt sur la souscription de parts au capital de SOFICA
+description: Taux de la réduction d'impôt sur la souscription de parts au capital de SOFICA (cas général)
 values:
   1984-01-01:
     value: null
@@ -9,7 +9,7 @@ values:
   2012-01-01:
     value: 0.3
 metadata:
-  short_label: Taux 2
+  short_label: Taux de la réduction d'impôt (cas général, case 7FN)
   ipp_csv_id: tx_sofica_2
   unit: /1
   reference:
