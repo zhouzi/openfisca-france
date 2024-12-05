@@ -1,11 +1,12 @@
-description: Taux de la réductions d'impôt pour dépenses d'accueil dans établissement pour les personnes âgées
+description: Taux de la réduction d'impôt sur le revenu (IR) pour les dépenses d'accueil dans établissement pour les personnes dépendantes
 values:
   1988-01-01:
     value: null
   1989-01-01:
     value: 0.25
 metadata:
-  short_label: Taux
+  short_label: Taux de la réduction d'impôt
+  last_value_still_valid_on: "2024-12-05"
   ipp_csv_id: tx_hebergante
   unit: /1
   reference:

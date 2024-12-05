@@ -1,4 +1,4 @@
-description: Plafond de la réductions d'impôt pour dépenses d'accueil dans établissement pour les personnes âgées
+description: Plafond de la réductions d'impôt sur le revenu (IR) pour dépenses d'accueil dans établissement pour les personnes âgées
 values:
   1988-01-01:
     value: null
@@ -13,7 +13,8 @@ values:
   2006-01-01:
     value: 10000
 metadata:
-  short_label: Plafond
+  short_label: Plafond des dépenses par personne hébergée
+  last_value_still_valid_on: "2024-12-05"
   ipp_csv_id: plaf_hebergante
   unit: currency_next_year
   reference:
