@@ -1923,7 +1923,7 @@ class taxation_plus_values_hors_bareme(Variable):
         rpns_pvce = foyer_fiscal.sum(rpns_pvce_i)
 
         return round_(
-            pv.pvce.taux * rpns_pvce
+            pv.pvce * rpns_pvce
             + pv.pv_cession_valeurs_mobilieres_pv_professionnelles.taux * max_(0, f3vg - f3vh)
             + pv.actions_gratuites.cession_plus_2.taux_tranche_inferieure * glo_taxation_ir_forfaitaire_taux2
             + pv.pv_cession_valeurs_mobilieres_pv_professionnelles.taux * f3vl
@@ -2015,7 +2015,7 @@ class taxation_plus_values_hors_bareme(Variable):
         pv = parameters(period).impot_revenu.calcul_impot_revenu.pv
 
         return round_(
-            pv.pvce.taux * rpns_pvce
+            pv.pvce * rpns_pvce
             + pv.actions_gratuites.cession_plus_2.taux_tranche_inferieure * glo_taxation_ir_forfaitaire_taux2
             + pv.actions_gratuites.cession_moins_2.taux_tranche_inferieure * glo_taxation_ir_forfaitaire_taux3
             + pv.actions_gratuites.cession_moins_2.taux_tranche_superieure * glo_taxation_ir_forfaitaire_taux4
