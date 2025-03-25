@@ -1,17 +1,371 @@
 # Changelog
 
-### 169.19.4 [2418](https://github.com/openfisca/openfisca-france/pull/2418)
+### 169.19.0 [2418](https://github.com/openfisca/openfisca-france/pull/2466/)
 
 * Évolution du système socio-fiscal.
 * Périodes concernées : à partir du 01/01/2015.
 * Zones impactées : 
-  - 'openfisca_france/model/prelevements_obligatoires/droits_de_donation.py'
-  - 'openfisca_france/parameters/taxation_capital/donation/*'
-  - 'openfisca_france/tests/formulas/donation.yaml'
+  - `openfisca_france/model/prelevements_obligatoires/droits_de_donation.py`
+  - `openfisca_france/parameters/taxation_capital/donation/*`
+  - `openfisca_france/tests/formulas/donation.yaml`
 * Détails :
   - Ajout du calcul de droit de mutation à titre gratuit
 
-### 169.15.7 [2418](https://github.com/openfisca/openfisca-france/pull/2418)
+### 169.18.5 [2443](https://github.com/openfisca/openfisca-france/pull/2443)
+
+* Changement mineur.
+* Périodes concernées : depuis 2024.
+* Zones impactées :
+  - `openfisca_france/model/prestations/jeunes/pass_colo.py`
+  - ` openfisca_france/parameters/prestations_sociales/education/pass_colo/age_enfant.yaml`
+* Détails :
+  - Transforme le critère d'année de naissance en critère d'âge au premier janvier pour le pass colo.
+
+### 169.18.4 [2465](https://github.com/openfisca/openfisca-france/pull/2465)
+
+* Changement mineur.
+* Périodes concernées : toutes.
+* Zones impactées :
+  - `parameters/prelevements_sociaux/reductions_cotisations_sociales/allegement_general/ensemble_des_entreprises/entreprises_de_50_salaries_et_plus.yaml`
+  - `parameters/prelevements_sociaux/reductions_cotisations_sociales/allegement_general/ensemble_des_entreprises/entreprises_de_moins_de_50_salaries.yaml`
+* Détails :
+  - Rollback, car la loi de financement de la sécurité sociale pour 2025 a décallé l'application de ces paramètres à 2026.
+
+### 169.18.3 [2463](https://github.com/openfisca/openfisca-france/pull/2463)
+
+* Changement mineur.
+* Périodes concernées : toutes.
+* Zones impactées :
+  - `parameters/impot_revenu/calcul_revenus_imposables/abat_rni/contribuable_age_invalide.yaml`
+  - `parameters/impot_revenu/calcul_revenus_imposables/charges_deductibles/accueil_personne_agee/plafond.yaml`
+  - `parameters/prelevements_sociaux/reductions_cotisations_sociales/agricole/tode/plafond_exoneration_integrale.yaml`
+  - `parameters/prelevements_sociaux/reductions_cotisations_sociales/allegement_general/ensemble_des_entreprises/entreprises_de_50_salaries_et_plus.yaml`
+  - `parameters/prelevements_sociaux/reductions_cotisations_sociales/allegement_general/ensemble_des_entreprises/entreprises_de_moins_de_50_salaries.yaml`
+* Détails :
+  - Revalorisations 2025.
+  - Mets à jour des `last_value_still_valid_on` pour certains paramètres de la prime d'activité
+
+### 169.18.2 [2464](https://github.com/openfisca/openfisca-france/pull/2464)
+
+* Changement mineur.
+* Périodes concernées : toutes.
+* Zones impactées : `parameters/prestations_sociales/solidarite_insertion/minima_sociaux/ppa`
+* Détails :
+  - Corrige et ajoute des références pour certains paramètres de la prime d'activité
+  - Mets à jour des `last_value_still_valid_on` pour certains paramètres de la prime d'activité
+
+### 169.18.1 [2445](https://github.com/openfisca/openfisca-france/pull/2445)
+
+* Changement mineur.
+* Périodes concernées : à partir du 01/01/2024.
+* Zones impactées :
+  - `parameters/impot_revenu/calcul_revenus_imposables/deductions/abatpro/*`
+  - `parameters/impot_revenu/calcul_revenus_imposables/deductions/abatpen/*`
+* Détails :
+  - Mise à jour des montants de la déduction forfaitaire pour frais professionnels sur les revenus 2024.
+
+## 169.18.0 [2444](https://github.com/openfisca/openfisca-france/pull/2444)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2025.
+* Zones impactées :
+  - `parameters/impot_revenu/contributions_exceptionnelles/contribution_differentielle_hauts_revenus/*`
+  - `model/prelevements_obligatoires/impot_revenu/contribution_differentielle_hauts_revenus.py`
+* Détails :
+  - Ajout de la [Contribution différentielle applicable à certains contribuables titulaires de hauts revenus (Article 224)](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069577/LEGISCTA000051177942/#LEGISCTA000051177942).
+  - Mise à jour de la CI qui ne fonctionnait plus le 4 mars 2025 en raison de Ubuntu 20.04. Passe à Ubuntu 24.04, ce qui entraine le passage de Python 3.9.9 à 3.9.12 et de 3.10.6 à 3.10.11.
+  - Documente la façon de debugger les tests YAML.
+
+### 169.17.1 [2449](https://github.com/openfisca/openfisca-france/pull/2449)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - `openfisca_france/parameters/prestations_sociales/prestations_familiales/*`
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la nouvelle valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+## 169.17.0 [2451](https://github.com/openfisca/openfisca-france/pull/2451)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/*`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/ppa/*`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/cs/*`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/api/api_cond/age_pac.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/autre_solidarite/covid19/indemnite_ap/plafond_smic.yaml`
+* Détails :
+  - Mise à jour des last_value_still_valid_on, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvée avec un bon niveau de fiabilité.
+  - Ajout de l'appel d'un paramètre dans une variable
+
+### 169.16.20 [2459](https://github.com/openfisca/openfisca-france/pull/2459)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/impot_revenu/calcul_reductions_impots/*
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+  - Ajout d'un dispositif de réduction concernant les dons dédiés à la préservation du patrimoine religieux.
+
+### 169.16.19 [2455](https://github.com/openfisca/openfisca-france/pull/2455)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - openfisca_france/parameters/prelevements_sociaux/professions_liberales/*
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.18 [2447](https://github.com/openfisca/openfisca-france/pull/2447)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - openfisca_france/parameters/prestations_sociales/aides_logement/allocations_logement/*
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.17 [2460](https://github.com/openfisca/openfisca-france/pull/2460)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - openfisca_france/parameters/impot_revenu/calcul_revenus_imposables/*
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.16 [2450](https://github.com/openfisca/openfisca-france/pull/2450)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - openfisca_france/parameters/prestations_sociales/prestations_familiales/prestations_generales/*
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.15 [2428](https://github.com/openfisca/openfisca-france/pull/2428)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - openfisca_france/parameters/impot_revenu/*
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.14 [2452](https://github.com/openfisca/openfisca-france/pull/2452)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/reduc_impot/reduction_dons_certains_organismes_interet_general/taux.yaml
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/reduc_impot/reduction_dons_certains_organismes_interet_general/limite_reduction.yaml
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/forfait_mobilier/non_bati/seuil.yaml
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/forfait_mobilier/majoration_forfaitaire.yaml
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/forfait_mobilier/non_bati/taux_bois_forets.yaml
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/forfait_mobilier/non_bati/taux_biens_ruraux.yaml
+  - openfisca_france/parameters/taxation_capital/impot_fortune_immobiliere_ifi_partir_2018/decote/parametre_calcul_decote.yaml
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.13 [2453](https://github.com/openfisca/openfisca-france/pull/2453)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/chomage/allocations_assurance_chomage/complement_are/taux_remuneration_retenue.yaml
+  - openfisca_france/parameters/chomage/allocations_assurance_chomage/alloc_base_taux/pourcentage_sjr.yaml
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvé avec un bon niveau de fiabilité.
+
+### 169.16.12 [2454](https://github.com/openfisca/openfisca-france/pull/2454)
+
+* Changement mineur.
+* Périodes concernées : 2025.
+* Zones impactées :
+  - openfisca_france/parameters/prelevements_sociaux/contributions_assises_specifiquement_accessoires_salaire/forfait_social/taux_reduit_1.yaml
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvé avec un bon niveau de fiabilité.
+
+### 169.16.11 [2456](https://github.com/openfisca/openfisca-france/pull/2456)
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/prestations_sociales/prestations_etat_de_sante/invalidite/caah/majoration_vie_autonome.yaml
+  - openfisca_france/parameters/prestations_sociales/prestations_etat_de_sante/invalidite/aah/majoration_plafond/majoration_par_enfant_supplementaire.yaml
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvé avec un bon niveau de fiabilité.
+
+### 169.16.10 [2457](https://github.com/openfisca/openfisca-france/pull/2457)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/prelevements_sociaux/contributions_sociales/csg/remplacement/indemnites_journalieres/deductible/taux.yaml
+  - openfisca_france/parameters/prelevements_sociaux/contributions_sociales/csg/remplacement/indemnites_journalieres/taux_global.yaml
+
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.9 [2458](https://github.com/openfisca/openfisca-france/pull/2458)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/prelevements_sociaux/reductions_cotisations_sociales/allegement_general/ensemble_des_entreprises/plafond.yaml
+  - openfisca_france/parameters/prelevements_sociaux/reductions_cotisations_sociales/allegement_cotisation_allocations_familiales/reduction.yaml
+  - openfisca_france/parameters/prelevements_sociaux/reductions_cotisations_sociales/alleg_gen/mmid/taux.yaml
+  - openfisca_france/parameters/prelevements_sociaux/reductions_cotisations_sociales/agricole/tode/plafond.yaml
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être retrouvée avec un bon niveau de fiabilité.
+
+### 169.16.8 [2448](https://github.com/openfisca/openfisca-france/pull/2448)
+
+* Changement mineur.
+* Périodes concernées : toutes.
+* Zones impactées :
+  - `openfisca_france/model/prelevements_obligatoires/impot_revenu/prelevements_forfaitaires/ir_prelevement_forfaitaire_unique.py`
+  - `openfisca_france/model/prelevements_obligatoires/prelevements_sociaux/cotisations_sociales/travail_prive.py`
+  - `openfisca_france/model/prestations/aides_logement.py`
+  - `openfisca_france/model/prestations/prestations_familiales/base_ressource.py`
+* Détails :
+  - Supprime des set_input
+  - Ajoute des units pour certaines variables
+
+### 169.16.7 [2425](https://github.com/openfisca/openfisca-france/pull/2425)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2018.
+* Zones impactées : parameters/.
+* Détails :
+  - Met à jour et documente les paramètres relatifs aux aides à l'alimentation des jeunes + des calcul de l'IR dans une perspective d'harmonisation.
+
+### 169.16.6 [2421](https://github.com/openfisca/openfisca-france/pull/2421)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2018.
+* Zones impactées : parameters/prestations_sociales/education.
+* Détails :
+  - Met à jour et documente les paramètres relatifs à l'aide à la mobilité internationale, au pass colo et au départ1825.
+
+### 169.16.5 [2441](https://github.com/openfisca/openfisca-france/pull/2441)
+
+- Correction d'un crash.
+- Périodes concernées : toutes.
+- Zones impactées : `openfisca_france/parameters/prestations_sociales/bail_reel_solidaire`.
+- Détails :
+  - Corrige la structure des paramètres du bail réél solidaire
+
+### 169.16.4 [2439](https://github.com/openfisca/openfisca-france/pull/2439)
+
+* Changement mineur.
+* Périodes concernées : toutes
+* Zones impactées :
+  - `openfisca_france/model/prestations/prestations_familiales/af.py`
+* Détails :
+  - Ajoute un calculate_output à crds_af
+
+### 169.16.3 [2434](https://github.com/openfisca/openfisca-france/pull/2434)
+
+* Changement mineur.
+* Périodes concernées : à partir du 10/02/2025.
+* Zones impactées :
+  - openfisca_france/parameters/prestations_sociales/prestations_familiales/prestations_generales/af/af_cm/modulation
+* Détails :
+  - Mise à jour des `last_value_still_valid_on` des modulateurs des allocations familiales
+
+### 169.16.2 [2430](https://github.com/openfisca/openfisca-france/pull/2430)
+
+* Changement mineur.
+* Périodes concernées : 2024.
+* Zones impactées :
+  - openfisca_france/parameters/prelevements_sociaux/autres_taxes_participations_assises_salaires/contribution_unique_formation/contrib_formation_pro/onze_et_plus_salaries.yaml
+  - openfisca_france/parameters/prelevements_sociaux/autres_taxes_participations_assises_salaires/versement_transport/zones/val_d_oise.yaml
+  - openfisca_france/parameters/prelevements_sociaux/autres_taxes_participations_assises_salaires/versement_transport/zones/paris.yaml
+  - openfisca_france/parameters/prelevements_sociaux/autres_taxes_participations_assises_salaires/versement_transport/zones/hauts_de_seine.yaml
+  - openfisca_france/parameters/prelevements_sociaux/autres_taxes_participations_assises_salaires/versement_transport/zones/essonne.yaml
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, des valeurs et des références sur les paramètres qui n'étaient plus à jour et dont la nouvelle valeur a pu être trouvée avec un bon niveau de fiabilité.
+
+### 169.16.1 [2429](https://github.com/openfisca/openfisca-france/pull/2429)
+
+- Évolution du système socio-fiscal.
+- Périodes concernées : à partir du 01/07/2024.
+- Zones impactées :
+  - `openfisca_france/model/prestations/bail_reel_solidaire.py`
+- Détails :
+  - Modification de la récupération du fichier csv des zones pour le BRS
+  - Amélioration de la lisibilité du code
+
+### 169.16.0 [2427](https://github.com/openfisca/openfisca-france/pull/2427)
+
+- Changement mineur.
+- Périodes concernées : toutes.
+- Zones impactées :
+  - `openfisca_france/model/prestations/minima_sociaux/rsa.py`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_cond/age_pac.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_maj/majoration_isolement_en_base_rsa/age_limite_enfant.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_fl/forfait_logement/taux_3_personnes_ou_plus.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_fl/forfait_logement/taux_2_personnes.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_fl/forfait_logement/taux_1_personne.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_maj/forfait_asf/taux1.yaml`
+  - `openfisca_france/parameters/prestations_sociales/solidarite_insertion/minima_sociaux/rsa/rsa_maj/forfait_asf/taux2.yaml`
+- Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres qui n'étaient plus à jour et dont la valeur a pu être trouvée avec un bon niveau de fiabilité.
+  - Inversion de `taux1` et `taux2` pour coller à la loi.
+  - Effacement de `taux_1` et `taux_2` qui était un doublon de `taux1` et `taux2`.
+  - Mise à jour de la référence de `taux1` et `taux2` qui pointait sur un article qui ne correspondait pas.
+
+### 169.15.0 [2404](https://github.com/openfisca/openfisca-france/pull/2404)
+
+- Évolution du système socio-fiscal.
+- Périodes concernées : à partir du 01/07/2024.
+- Zones impactées :
+  - `openfisca_france/parameters/prestations_sociales/bail_reel_solidaire/plafonds_par_zones`
+  - `openfisca_france/model/prestations/bail_reel_solidaire.py`
+  - `tests/formulas/bail_reel_solidaire.yaml`
+- Détails :
+  - Ajout du dispositif Bail Réel Solidaire
+  - Ajout des plafonds de ressources selon la zone et le nombre de personnes du foyer
+  - Ajout du fichier csv de zones pour le BRS
+
+### 169.14.10 [2426](https://github.com/openfisca/openfisca-france/pull/2426)
+
+* Changement mineur.
+* Périodes concernées : à partir du 01/01/2025.
+* Zones impactées :
+  - `openfisca_france/parameters/taxation_societes/impot_societe/seuil_superieur_benefices_taux_reduit.yaml`
+  - `openfisca_france/parameters/taxation_societes/impot_societe/seuil_superieur_benefices_taux_reduit.yaml`
+* Détails :
+  - Mise à jour des `last_value_still_valid_on`, sur les paramètres qui où elle était périmée et dont la valeur a pu être vérifiée avec un bon niveau de fiabilité.
+
+### 169.14.9 [2424](https://github.com/openfisca/openfisca-france/pull/2424)
+
+* Amélioration technique.
+* Périodes concernées : toutes.
+* Zones impactées :
+  - `openfisca_france/parameters/prestations_sociales/prestations_familiales/petite_enfance/paje/paje_cmg/`
+  - `openfisca_france/model/prestations/prestations_familiales/paje.py`
+  - `openfisca_france/parameters/prestations_sociales/prestations_familiales/petite_enfance/paje/plaf_cmg/`
+  - `openfisca_france/parameters/prestations_sociales/prestations_familiales/prestations_generales/af/af_cond_ress/`
+* Détails :
+  - Mets à jour des paramètres pour des années manquantes pour la paje et aeeh
+  - Modifie les labels de certains paramètres de la paje
+
+### 169.14.8 [2420](https://github.com/openfisca/openfisca-france/pull/2420)
+
+* Évolution du système socio-fiscal.
+* Périodes concernées : à partir du 01/01/2025.
+* Zones impactées :
+  * `openfisca_france/parameters/prestations_sociales/aides_logement/allocations_logement/ressources`
+  * `openfisca_france/parameters/prestations_sociales/prestations_familiales/petite_enfance/paje/plaf_cmg`
+  * `openfisca_france/parameters/prestations_sociales/prestations_familiales/prestations_generales/af/af_cond_ress`
+  * `openfisca_france/parameters/prestations_sociales/prestations_familiales/prestations_generales/cf/cf_plaf`
+* Détails :
+  - Revalorisations de plusieurs paramètres pour l'aide au logement et les prestations familiales.
+
+### 169.14.7 [2418](https://github.com/openfisca/openfisca-france/pull/2418)
 
 * Amélioration technique.
 * Périodes concernées : toutes.
