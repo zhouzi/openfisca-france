@@ -178,7 +178,7 @@ jobs:
           echo "TEST_FILES_SUBLIST=$(python "${GITHUB_WORKSPACE}/.github/split_tests.py" ${CI_NODE_TOTAL} ${CI_NODE_INDEX})" >> $GITHUB_ENV
       - name: Run YAML test
         run: |
-          echo ${TEST_FILES_SUBLIST} | tr ' ' '\n' | xargs -0 -P $(nproc) -I {} sh -c 'openfisca test -c openfisca_france "{}" 2>&1'
+          echo "${TEST_FILES_SUBLIST}" | tr ' ' '\n' | xargs -0 -P $(nproc) -I {} sh -c 'openfisca test -c openfisca_france "{}" 2>&1'
 
   test-api:
     runs-on: ubuntu-24.04
