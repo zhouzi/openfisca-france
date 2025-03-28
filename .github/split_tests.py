@@ -10,7 +10,7 @@ def split_tests(number_of_files, CI_NODE_TOTAL, CI_NODE_INDEX, test_files_list):
         if file_number == CI_NODE_INDEX:
             test_files_sublist.append(test_files_list[file_index])
 
-    tests_to_run_string = ' '.join(test_files_sublist)
+    tests_to_run_string = '\n'.join(test_files_sublist)
 
     return tests_to_run_string
 
